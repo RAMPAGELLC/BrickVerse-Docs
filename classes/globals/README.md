@@ -1,0 +1,6 @@
+---
+description: BrickVerse Globals
+---
+
+# Globals
+
