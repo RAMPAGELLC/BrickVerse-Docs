@@ -44,8 +44,12 @@ API used to modify account settings.
 
 ## Setting Types
 
-| Name                         | About                                                                             |
-| ---------------------------- | --------------------------------------------------------------------------------- |
-| info\_blurb                  | Profile blurb                                                                     |
-| info\_gender                 | Profile Gender. (Valid types: Male, Female, and Other)                            |
-| info\_social\_(social\_name) | Update social username. Valid socials are: YouTube, Twitch, Twitter, and Discord. |
+| Name                     | About                                                                             |
+| ------------------------ | --------------------------------------------------------------------------------- |
+| Blurb                    | -                                                                                 |
+| Gender                   | Profile Gender. (Valid types: Male and Female)                                    |
+| Social\_{SocialPlatform} | Update social username. Valid socials are: YouTube, Twitch, Twitter, and Discord. |
+| Phone                    | -                                                                                 |
+| Username                 | -                                                                                 |
+| Email                    | -                                                                                 |
+| DOB                      | -                                                                                 |

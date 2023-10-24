@@ -1,13 +1,13 @@
-# email-available
+# phone-available
 
 ## API Example
 
-{% swagger method="get" path="/email-available" baseUrl="https://api.brickverse.co/v2/user" summary="Information" %}
+{% swagger method="get" path="/phone-available/{number}" baseUrl="https://api.brickverse.co/v2/user" summary="Information" %}
 {% swagger-description %}
-API used to check avaliablity of a username on registration & username changes.
+API used to check if a phone number is available for linking.
 {% endswagger-description %}
 
-{% swagger-parameter in="path" name="username" type="String" required="true" %}
+{% swagger-parameter in="path" name="number" type="Int" required="true" %}
 
 {% endswagger-parameter %}
 
@@ -36,8 +36,8 @@ API used to check avaliablity of a username on registration & username changes.
 
 ## Bad Reference ID (bad\_ref\_id)
 
-| bad\_ref\_id | reason                   |
-| ------------ | ------------------------ |
-| 1            | Invalid email.           |
-| 2            | Email taken              |
-| 3            | Email domain blacklisted |
+| bad\_ref\_id | reason             |
+| ------------ | ------------------ |
+| 1            | Invalid Number.    |
+| 2            | Number taken       |
+| 3            | Number blacklisted |

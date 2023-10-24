@@ -20,10 +20,6 @@
   * [Guild Endpoint](npm-module/web-api/guild-endpoint/README.md)
     * [JoinGuild](npm-module/web-api/guild-endpoint/joinguild.md)
 
-***
-
-* [Page 1](page-1.md)
-
 ## Legacy API <a href="#api" id="api"></a>
 
 * [Test The API](api/test-the-api.md)
@@ -68,6 +64,9 @@
   * [unread](v2-api/notifications/unread.md)
   * [all](v2-api/notifications/all.md)
 * [Auth](v2-api/auth/README.md)
+  * [send-beta-key](v2-api/auth/send-beta-key.md)
+  * [get-active-sessions](v2-api/auth/get-active-sessions.md)
+  * [terminate-session](v2-api/auth/terminate-session.md)
   * [get-token](v2-api/auth/get-token.md)
   * [session](v2-api/auth/session.md)
   * [is-authed](v2-api/auth/is-authed.md)
@@ -79,6 +78,7 @@
   * [login](v2-api/user/login.md)
   * [username-available](v2-api/user/username-available.md)
   * [email-available](v2-api/user/email-available.md)
+  * [phone-available](v2-api/user/phone-available.md)
   * [validate-beta-key](v2-api/user/validate-beta-key.md)
   * [id](v2-api/user/id.md)
   * [username](v2-api/user/username.md)
