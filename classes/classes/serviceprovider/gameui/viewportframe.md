@@ -1,6 +1,6 @@
 # ViewportFrame
 
-A **ViewportFrame** is a type of [`UI`](../../../dymanic/uiobject.md) that can render 3D objects inside its bounds. This is a great way to display 3D objects/models in a 2D GUI space like a [`ScreenUI`](screenui.md). At the moment, no shadow or post effects are available. Neon and Glass `materials` will be rendered on lowest quality.
+A **ViewportFrame** is a type of [`UI`](../../dymanic/uiobject.md) that can render 3D objects inside its bounds. This is a great way to display 3D objects/models in a 2D GUI space like a [`ScreenUI`](screenui.md). At the moment, no shadow or post effects are available. Neon and Glass `materials` will be rendered on lowest quality.
 
 ### Properties <a href="#properties-1" id="properties-1"></a>
 
@@ -24,4 +24,4 @@ A **ViewportFrame** is a type of [`UI`](../../../dymanic/uiobject.md) that can r
 
 Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manual/dymanic) Set
 
-Inherited from [UIObject ](../../../dymanic/uiobject.md)Set
+Inherited from [UIObject ](../../dymanic/uiobject.md)Set

@@ -92,8 +92,6 @@
 ## BrickLua - Coding With Lua
 
 * [Warning](bricklua-coding-with-lua/warning.md)
-* [Get Started with Lua](bricklua-coding-with-lua/get-started-with-lua.md)
-* [Style Your Code](bricklua-coding-with-lua/untitled.md)
 * [Player Event](bricklua-coding-with-lua/player-event.md)
 
 ## Developer Guide <a href="#classes" id="classes"></a>
@@ -101,7 +99,6 @@
 * [What's Authority?](classes/whats-authority.md)
 * [Roblox Vs BrickVerse Classes](classes/roblox-vs-brickverses-classes.md)
 * [BrickVerse Game API Reference Manual](classes/brickverse-game-api-reference-manual.md)
-* [Game API FaQ](classes/game-api-faq.md)
 * [Globals](classes/globals/README.md)
   * [debug](classes/globals/debug.md)
   * [coroutine](classes/globals/coroutine.md)
@@ -114,18 +111,21 @@
   * [Opeartors](classes/learn-lua/opeartors.md)
   * [bit32](classes/learn-lua/bit32.md)
   * [Numbers](classes/learn-lua/numbers.md)
-* [Dynamic](classes/dymanic/README.md)
-  * [UIObject](classes/dymanic/uiobject.md)
-  * [Script](classes/dymanic/script.md)
-  * [BasePart](classes/dymanic/basepart.md)
 * [Classes](classes/classes/README.md)
   * [Enum Class](classes/classes/enum.md)
   * [ServiceProvider](classes/classes/serviceprovider/README.md)
+    * [SharedStorage](classes/classes/serviceprovider/sharedstorage.md)
+    * [WebService](classes/classes/serviceprovider/webservice.md)
+    * [RunService](classes/classes/serviceprovider/runservice.md)
+    * [NetworkService](classes/classes/serviceprovider/networkservice.md)
     * [AdService](classes/classes/serviceprovider/adservice.md)
     * [UserInputService](classes/classes/serviceprovider/userinputservice.md)
-    * [Workplace](classes/classes/serviceprovider/workplace-1.md)
+    * [Scene](classes/classes/serviceprovider/workplace-1.md)
     * [Chat](classes/classes/serviceprovider/chat.md)
     * [GameUI](classes/classes/serviceprovider/gameui/README.md)
+      * [ScrollFrame](classes/classes/serviceprovider/gameui/scrollframe.md)
+      * [ImageButton](classes/classes/serviceprovider/gameui/imagebutton.md)
+      * [TextButton](classes/classes/serviceprovider/gameui/textbutton.md)
       * [ImageLabel](classes/classes/serviceprovider/gameui/imagelabel.md)
       * [TextLabel](classes/classes/serviceprovider/gameui/textlabel.md)
       * [Frame](classes/classes/serviceprovider/gameui/frame.md)
@@ -154,6 +154,10 @@
     * [Vector2](classes/classes/datatype/vector2.md)
     * [Vector3](classes/classes/datatype/vector3.md)
     * [Color](classes/classes/datatype/color.md)
+  * [Dynamic](classes/classes/dymanic/README.md)
+    * [UIObject](classes/classes/dymanic/uiobject.md)
+    * [Script](classes/classes/dymanic/script.md)
+    * [BasePart](classes/classes/dymanic/basepart.md)
 
 ## Employment
 

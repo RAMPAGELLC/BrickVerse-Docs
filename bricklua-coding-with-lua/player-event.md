@@ -8,8 +8,6 @@ description: >-
 
 ## Creating the event
 
-{% embed url="https://docs.brickverse.co/bricklua-lua-references-manual/workplace/players" %}
-
 We will use the PlayerConnected Event to listen when a player connects.
 
 ```lua
@@ -24,11 +22,10 @@ Here this code will now execute when a player connects and prints.
 
 ```lua
 {
-Name =  "BrickVerse", -- Username
-UserId = 1, -- UserId
-Character = Universe.Players:GetPlayerCharacterByUserId(self.UserId) -- Returns in-game character model
-Avatar = Universe.Players:RenderPlayer(self.UserId) -- Returns render of player
-Age = "13+" -- Returns if 13+ or <13.
+    Name =  "BrickVerse", -- Username
+    UserId = 1, -- UserId
+    Character = -- Character
+    Avatar = -- BrickThumb render
 }
 ```
 

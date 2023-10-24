@@ -1,9 +1,5 @@
----
-description: >-
-  Holder for game ui, when a player connects this is all UI that will be copied
-  and placed into a new class called PlayerUI Visible to the player only under
-  Players.
----
-
 # GameUI
 
+{% hint style="info" %}
+Some classes are missing additional documentation, BrickVerse.GG Developer Relations is actively working to get them documented.
+{% endhint %}
