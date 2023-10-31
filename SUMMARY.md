@@ -63,6 +63,7 @@
 * [Notifications](v2-api/notifications/README.md)
   * [unread](v2-api/notifications/unread.md)
   * [all](v2-api/notifications/all.md)
+  * [erase](v2-api/notifications/erase.md)
 * [Auth](v2-api/auth/README.md)
   * [send-beta-key](v2-api/auth/send-beta-key.md)
   * [get-active-sessions](v2-api/auth/get-active-sessions.md)
