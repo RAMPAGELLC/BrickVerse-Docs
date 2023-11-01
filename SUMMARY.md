@@ -3,23 +3,6 @@
 * [Welcome](README.md)
 * [Frequently Asked Questions (FAQ)](frequently-asked-questions-faq.md)
 
-## NPM Module
-
-* [Introduction](npm-module/introduction.md)
-* [Bot Account](npm-module/bot-account.md)
-* [Web API](npm-module/web-api/README.md)
-  * [Client](npm-module/web-api/client.md)
-  * [login](npm-module/web-api/login.md)
-  * [quit](npm-module/web-api/quit.md)
-  * [Friends Endpoint](npm-module/web-api/friends-endpoint/README.md)
-    * [SendFriendRequest](npm-module/web-api/friends-endpoint/sendfriendrequest.md)
-    * [GetFriends](npm-module/web-api/friends-endpoint/getfriends.md)
-  * [User Endpoint](npm-module/web-api/user-endpoint/README.md)
-    * [GetAvatar](npm-module/web-api/user-endpoint/getavatar.md)
-    * [GetPlayerByUsername](npm-module/web-api/user-endpoint/getplayerbyusername.md)
-  * [Guild Endpoint](npm-module/web-api/guild-endpoint/README.md)
-    * [JoinGuild](npm-module/web-api/guild-endpoint/joinguild.md)
-
 ## Legacy API <a href="#api" id="api"></a>
 
 * [Test The API](api/test-the-api.md)
@@ -55,6 +38,22 @@
 
 ## OPEN CLOUD
 
+* [NPM Package](open-cloud/npm-package/README.md)
+  * [Introduction](open-cloud/npm-package/introduction.md)
+  * [Bot Account](open-cloud/npm-package/bot-account.md)
+  * [OpenCloudClient](open-cloud/npm-package/opencloudclient.md)
+  * [WebAPICliet](open-cloud/npm-package/webapicliet/README.md)
+    * [Client](open-cloud/npm-package/webapicliet/client.md)
+    * [login](open-cloud/npm-package/webapicliet/login.md)
+    * [quit](open-cloud/npm-package/webapicliet/quit.md)
+    * [Friends Endpoint](open-cloud/npm-package/webapicliet/friends-endpoint/README.md)
+      * [SendFriendRequest](open-cloud/npm-package/webapicliet/friends-endpoint/sendfriendrequest.md)
+      * [GetFriends](open-cloud/npm-package/webapicliet/friends-endpoint/getfriends.md)
+    * [User Endpoint](open-cloud/npm-package/webapicliet/user-endpoint/README.md)
+      * [GetAvatar](open-cloud/npm-package/webapicliet/user-endpoint/getavatar.md)
+      * [GetPlayerByUsername](open-cloud/npm-package/webapicliet/user-endpoint/getplayerbyusername.md)
+    * [Guild Endpoint](open-cloud/npm-package/webapicliet/guild-endpoint/README.md)
+      * [JoinGuild](open-cloud/npm-package/webapicliet/guild-endpoint/joinguild.md)
 * [Webhooks](open-cloud/webhooks.md)
 * [V2 API](open-cloud/v2-api/README.md)
   * [User](open-cloud/v2-api/user/README.md)
