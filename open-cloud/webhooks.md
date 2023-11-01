@@ -15,9 +15,9 @@ Before implementing BrickVerse.gg Webhooks for the "RightToErasure", or other ev
 3. Node.js and NPM: Ensure you have Node.js and NPM installed on your development environment.
 4. NPM Package: Install the "**brickverse**" NPM package to work with BrickVerse.gg webhooks.
 
-### RightToErasure Event
+### RightToErasure Event Example
 
-The "RightToErasure" event is a specific webhook event provided by BrickVerse.gg. This event is designed to help you set up an automated process for erasing user-related data from your database. When this event is triggered, BrickVerse.gg will send a payload containing relevant information about the erasure request. Here is an example of the "RightToErasure" event payload:
+The "**RightToErasure**" event is a specific webhook event provided by BrickVerse.gg. This event is designed to help you set up an automated process for erasing user-related data from your database. When this event is triggered, BrickVerse.gg will send a payload containing relevant information about the erasure request. Here is an example of the "**RightToErasure**" event payload:
 
 ```json
 {
@@ -38,14 +38,14 @@ The "RightToErasure" event is a specific webhook event provided by BrickVerse.gg
 
 ### Using BrickVerse.gg Webhooks with NPM Package "brickverse"
 
-To receive and handle "RightToErasure" events from BrickVerse.gg, you can use the NPM package "**brickverse**." Here's an example of how to set up a webhook handler in JavaScript using this package:
+To receive and handle "**RightToErasure**" events from BrickVerse.gg, you can use the NPM package "**brickverse**." Here's an example of how to set up a webhook handler in JavaScript using this package:
 
 #### Installation
 
 First, install the "brickverse" package using NPM:
 
 ```bash
-bashCopy codenpm install brickverse
+npm install brickverse
 ```
 
 #### Example Code
