@@ -57,6 +57,8 @@
 * [Webhooks](open-cloud/webhooks.md)
 * [V2 API](open-cloud/v2-api/README.md)
   * [User](open-cloud/v2-api/user/README.md)
+    * [feed](open-cloud/v2-api/user/feed/README.md)
+      * [send](open-cloud/v2-api/user/feed/send.md)
     * [search](open-cloud/v2-api/user/search.md)
     * [register](open-cloud/v2-api/user/register.md)
     * [login](open-cloud/v2-api/user/login.md)

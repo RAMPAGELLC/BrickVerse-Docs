@@ -17,12 +17,8 @@ API used to log into accounts.
 
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="two_step_id" type="Int" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="two_step_response" type="String" %}
-
+{% swagger-parameter in="body" name="login_method" type="String" required="true" %}
+Default: **Password**. Options: **SMS, Password, Email**
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Response" %}
@@ -38,9 +34,11 @@ API used to log into accounts.
 {% endswagger-response %}
 
 {% swagger-response status="403: Forbidden" description="" %}
-```json
-{"status": "error", "message": 403}
-```
+<pre class="language-json"><code class="lang-json"><strong>{"status": "error", "message": 403}
+</strong>
+// You will recieve a 403 response if a user requires two-step authentication.
+{"status": "error", "message": "Two Step verification required", "vsid": "{vsid}"}
+</code></pre>
 {% endswagger-response %}
 
 {% swagger-response status="429: Too Many Requests" description="" %}
