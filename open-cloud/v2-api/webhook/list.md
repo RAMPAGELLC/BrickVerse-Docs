@@ -1,6 +1,6 @@
 # list
 
-{% swagger method="post" path="/list" baseUrl="https://api.brickverse.co/v2/webhook" summary="Information" %}
+{% swagger method="get" path="/list" baseUrl="https://api.brickverse.co/v2/webhook" summary="Information" %}
 {% swagger-description %}
 API used to list webhooks you have created.
 {% endswagger-description %}
