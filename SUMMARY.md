@@ -57,6 +57,7 @@
 * [Webhooks](open-cloud/webhooks.md)
 * [V2 API](open-cloud/v2-api/README.md)
   * [Webhook](open-cloud/v2-api/webhook/README.md)
+    * [delete](open-cloud/v2-api/webhook/delete.md)
     * [create](open-cloud/v2-api/webhook/create.md)
     * [list](open-cloud/v2-api/webhook/list.md)
   * [User](open-cloud/v2-api/user/README.md)
