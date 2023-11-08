@@ -54,6 +54,7 @@
       * [GetPlayerByUsername](open-cloud/npm-package/webapicliet/user-endpoint/getplayerbyusername.md)
     * [Guild Endpoint](open-cloud/npm-package/webapicliet/guild-endpoint/README.md)
       * [JoinGuild](open-cloud/npm-package/webapicliet/guild-endpoint/joinguild.md)
+* [Open Cloud](open-cloud/open-cloud.md)
 * [Webhooks](open-cloud/webhooks.md)
 * [V2 API](open-cloud/v2-api/README.md)
   * [Cloud](open-cloud/v2-api/cloud/README.md)
