@@ -1,12 +1,12 @@
 # create
 
-{% swagger method="post" path="/create" baseUrl="https://api.brickverse.co/v2/cloud/credentials" summary="Information" %}
+{% swagger method="post" path="/create" baseUrl="https://api.brickverse.co/v2/cloud/bricklinks" summary="Information" %}
 {% swagger-description %}
 
 {% endswagger-description %}
 
-{% swagger-parameter in="body" name="ownerId" type="Int" required="true" %}
-0 for authenticated user, anything above 0 will be taken as a Guild.
+{% swagger-parameter in="body" name="url" type="String" required="true" %}
+Valid URL
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" type="Int" name="expire" required="true" %}
@@ -16,10 +16,7 @@ UNIX Timestamp expiration. Enter 0 for no expiry.
 {% swagger-response status="200: OK" description="Response" %}
 ```json
 {
-    "status": "ok",
-    "apiKey": "XXXXXXXXXXXXXXXXXXXXXXXXXX",
-    "apiSecret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-    "apiId": 99999999999
+    "message" => "Brickl.ink URL created!",
 }
 ```
 {% endswagger-response %}

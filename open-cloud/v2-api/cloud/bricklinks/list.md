@@ -1,25 +1,21 @@
-# create
+# list
 
-{% swagger method="post" path="/create" baseUrl="https://api.brickverse.co/v2/cloud/credentials" summary="Information" %}
+{% swagger method="get" path="/list" baseUrl="https://api.brickverse.co/v2/cloud/bricklinks" summary="Information" %}
 {% swagger-description %}
 
 {% endswagger-description %}
-
-{% swagger-parameter in="body" name="ownerId" type="Int" required="true" %}
-0 for authenticated user, anything above 0 will be taken as a Guild.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" type="Int" name="expire" required="true" %}
-UNIX Timestamp expiration. Enter 0 for no expiry.
-{% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Response" %}
 ```json
 {
     "status": "ok",
-    "apiKey": "XXXXXXXXXXXXXXXXXXXXXXXXXX",
-    "apiSecret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-    "apiId": 99999999999
+    "list": [
+        "id": 1,
+        "expire": unix epoch timestamp,
+        "redirect": "https://togosite.com",
+        "token": "urlshortid",
+        "owner": 1
+    ]
 }
 ```
 {% endswagger-response %}
