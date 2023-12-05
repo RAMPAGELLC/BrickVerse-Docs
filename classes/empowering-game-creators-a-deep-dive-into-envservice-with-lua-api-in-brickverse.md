@@ -33,7 +33,8 @@ By default with BrickVerse game bundles sent to clients (players) when they conn
 In BrickVerse, managing permissions for ENV variables is a critical aspect of ensuring data security. The ENV panel on our website allows you to create variables with specific permissions, controlling access on both the client and server sides.
 
 * **Read Permission:** Script can read the variable's value.
-* **Write Permission:** Script can modify the variable's value. Exercise caution, as this is a powerful permission.
+* **Write Permission:** Script can modify a existing variable's value. Exercise caution, as this is a powerful permission. **Its highly recommended to not give clients this permission.**
+* **Create Permission:** Script can create a new variable. Exercise caution, as this is a powerful permission. **Its highly recommended to not give clients this permission.**
 
 It's essential to note that granting write permission to clients is potentially risky, as any client can abuse it. Therefore, it's recommended to limit such permissions to trusted entities.
 
