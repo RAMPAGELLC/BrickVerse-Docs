@@ -15,7 +15,7 @@ For privacy reasons we will not display HWID, IP addresses, etc. to game develop
 Integrating ModerationService into your scripts is straightforward, thanks to the user-friendly design of BrickVerse's API. Here are some basic examples of how you can utilize ModerationService:
 
 ```lua
-luaCopy code-- Temporary ban ArkInfinity for 10 hours with a reason
+-- Temporary ban ArkInfinity for 10 hours with a reason
 game.ModerationService:TemporaryBanAsync(game.Universe.Players.ArkInfinity, "Reason", 10)
 
 -- Permanently ban ArkInfinity with a reason

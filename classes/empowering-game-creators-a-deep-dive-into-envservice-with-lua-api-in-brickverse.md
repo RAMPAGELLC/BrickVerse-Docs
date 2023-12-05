@@ -13,7 +13,7 @@ The ENVService in BrickVerse provides a secure and efficient method for handling
 Utilizing ENVService in your scripts is straightforward with the Lua API. The two primary functions are `game.env.get("variable")` and `game.env.set("variable", any..value)`. These functions allow you to read and modify environment variables seamlessly.
 
 ```lua
-luaCopy code-- Reading a variable
+-- Reading a variable
 local myVariable = game.env.get("variable")
 
 -- Setting a variable
@@ -30,7 +30,7 @@ By default with BrickVerse game bundles sent to clients (players) when they conn
 
 ### Permissions Management
 
-In BrickVerse, managing permissions for ENV variables is a critical aspect of ensuring data security. The ENV panel on our website allows you to create variables with specific permissions, controlling access on both the client and server sides.
+In BrickVerse, managing permissions for ENV variables is a critical aspect of ensuring data security. The ENV panel on our website allows you to create variables with specific permissions, controlling access on both the client and server sides. You set permissions manually for each variable.
 
 * **Read Permission:** Script can read the variable's value.
 * **Write Permission:** Script can modify a existing variable's value. Exercise caution, as this is a powerful permission. **Its highly recommended to not give clients this permission.**

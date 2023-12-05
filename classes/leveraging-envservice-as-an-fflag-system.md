@@ -13,7 +13,7 @@ A Feature Flag is a toggle or switch that allows developers to enable or disable
 In BrickVerse, ENVService seamlessly doubles as a Feature Flag management system, providing an efficient way to control feature availability dynamically. Here's a simple example of using ENVService as an FFlag system:
 
 ```lua
-luaCopy code-- Reading an FFlag
+-- Reading an FFlag
 local myFeatureFlag = game.env.get("MyFeatureFlag")
 
 -- Checking if the feature is enabled
