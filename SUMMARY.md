@@ -117,6 +117,7 @@
 
 ## Developer Guide <a href="#classes" id="classes"></a>
 
+* [Empowering Responsible Gameplay: A Guide to ModerationService in BrickVerse](classes/empowering-responsible-gameplay-a-guide-to-moderationservice-in-brickverse.md)
 * [Empowering Game Creators: A Deep Dive into ENVService with Lua API in BrickVerse](classes/empowering-game-creators-a-deep-dive-into-envservice-with-lua-api-in-brickverse.md)
 * [Leveraging ENVService as an FFlag System](classes/leveraging-envservice-as-an-fflag-system.md)
 * [What's Authority?](classes/whats-authority.md)
