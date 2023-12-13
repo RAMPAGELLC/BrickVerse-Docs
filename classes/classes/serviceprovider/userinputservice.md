@@ -1,24 +1,27 @@
 # UserInputService
 
+
+
+{% hint style="warning" %}
+OnUserInput may act non-functional due to service revamp.
+{% endhint %}
+
 ## Properties
 
-Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manual/dymanic) Set. This Class uses [Enum](https://docs.brickverse.co/bricklua-lua-references-manual/classes/enum).
+Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manual/dymanic) Set.
 
 ## Functions
 
-| Name       | Type | Description             |
-| ---------- | ---- | ----------------------- |
-| InputBegan | Void | Fires when input begins |
-| InputEnded | Void | Fires when input ended  |
+| Name         | Type    | Description                 |
+| ------------ | ------- | --------------------------- |
+| OnUserInput  | Void    | Fires when input is pressed |
+| IsKeyDown    | Boolean | Is current key down         |
 
 ## Example
 
 ```lua
-Universe:GetService("UserInputService").InputBegan(function(input)
-    if input.UserInputType == Enum.UserInputType.Keyboard then
-        if input.KeyCode == Enum.KeyCode.A then
-            print(input.Player.Name.." has pressed 'A'");
-        end
+game.Universe.UserInputService.OnUserInput(function(Input)
+    if input == Enum.UserInput.A then
     end
 end)
 ```

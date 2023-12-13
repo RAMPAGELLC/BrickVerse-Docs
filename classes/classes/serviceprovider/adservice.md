@@ -1,6 +1,10 @@
 # AdService
 
-This AdService class was historically a service used to display mobile video ads as a form of game monetization. This service requires approval of videos ads through our system.\
+{% hint style="danger" %}
+This service does not exist for live worlds. This is non-functional.
+{% endhint %}
+
+This AdService class was a service used to display mobile video ads as a form of game monetization. This service requires approval of videos ads through our system.\
 \
 AdService is strictly only allowed usage for Android & iOS players.\
 \
