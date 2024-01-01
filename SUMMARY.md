@@ -56,6 +56,7 @@
       * [JoinGuild](open-cloud/npm-package/webapicliet/guild-endpoint/joinguild.md)
 * [Open Cloud](open-cloud/open-cloud.md)
 * [Webhooks](open-cloud/webhooks.md)
+* [Beautiful JSON Display](open-cloud/beautiful-json-display.md)
 * [V2 API](open-cloud/v2-api/README.md)
   * [Cloud](open-cloud/v2-api/cloud/README.md)
     * [git/{channel}](open-cloud/v2-api/cloud/git-channel.md)
