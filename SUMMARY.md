@@ -58,6 +58,8 @@
 * [Webhooks](open-cloud/webhooks.md)
 * [V2 API](open-cloud/v2-api/README.md)
   * [Cloud](open-cloud/v2-api/cloud/README.md)
+    * [git/{channel}](open-cloud/v2-api/cloud/git-channel.md)
+    * [version](open-cloud/v2-api/cloud/version.md)
     * [database](open-cloud/v2-api/cloud/database/README.md)
       * [get](open-cloud/v2-api/cloud/database/get.md)
       * [set](open-cloud/v2-api/cloud/database/set.md)
