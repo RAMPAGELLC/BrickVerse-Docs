@@ -1,13 +1,21 @@
-# ping
+# /{universe}/join/server/{server\_id}
 
-{% swagger method="post" path="/ping/{world_id}/{server_id}/{host_token}" baseUrl="https://api.brickverse.co/v2/worlds/{universe_id}" summary="Information" expanded="false" %}
+{% swagger method="get" path="/join/server/{server_id}" baseUrl="https://api.brickverse.co/v2/worlds/{universe_id}" summary="Information" expanded="false" %}
 {% swagger-description %}
-Internal ping to let us know the server is awake still.
+
 {% endswagger-description %}
+
+{% swagger-parameter in="query" name="launch_client" type="Bool" %}
+Launch brickverse client or not.
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="return_url" type="String" %}
+Redirect a user after launching the client. launch\_client query param is required.
+{% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Response" %}
 ```json
-{"status": "ok", "success": true, "connection": "49152.group.vanex.brickverse.co", "port": 3000}
+{"status": "ok", "success": true, "client_join_token": "XXXXXXXXXXXXXXX"}
 ```
 {% endswagger-response %}
 

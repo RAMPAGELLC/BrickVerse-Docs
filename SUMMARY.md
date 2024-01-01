@@ -101,10 +101,16 @@
     * [all](open-cloud/v2-api/notifications/all.md)
     * [erase](open-cloud/v2-api/notifications/erase.md)
   * [Worlds](open-cloud/v2-api/worlds/README.md)
-    * [vanex-details](open-cloud/v2-api/worlds/vanex-details.md)
-    * [ping](open-cloud/v2-api/worlds/ping.md)
-    * [shutdown/all](open-cloud/v2-api/worlds/shutdown-all.md)
-    * [shutdown/server](open-cloud/v2-api/worlds/shutdown-server.md)
+    * [/{universe}/{server}/server/metadata/update/{token}](open-cloud/v2-api/worlds/universe-server-server-metadata-update-token.md)
+    * [/{universe}/shutdown/all/{token}](open-cloud/v2-api/worlds/universe-shutdown-all-token.md)
+    * [/{universe}/shutdown/server/{server}/{token}](open-cloud/v2-api/worlds/universe-shutdown-server-server-token.md)
+    * [/{universe}/join/server/{server\_id}](open-cloud/v2-api/worlds/universe-join-server-server\_id.md)
+    * [/{universe}/join/random](open-cloud/v2-api/worlds/universe-join-random.md)
+    * [/{universe}/join/user/{user\_id}](open-cloud/v2-api/worlds/universe-join-user-user\_id.md)
+    * [/client/{join\_key}](open-cloud/v2-api/worlds/client-join\_key.md)
+    * [/create-universe/{ownerId}/{ownerType}](open-cloud/v2-api/worlds/create-universe-ownerid-ownertype.md)
+    * [/create-world/{universeId}](open-cloud/v2-api/worlds/create-world-universeid.md)
+    * [/worldtree/{worldId}](open-cloud/v2-api/worlds/worldtree-worldid.md)
 
 ## Getting Started
 
