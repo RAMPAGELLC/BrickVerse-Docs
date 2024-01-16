@@ -132,6 +132,7 @@
 * [What's Authority?](classes/whats-authority.md)
 * [Roblox Vs BrickVerse Classes](classes/roblox-vs-brickverses-classes.md)
 * [BrickVerse Game API Reference Manual](classes/brickverse-game-api-reference-manual.md)
+* [Page](classes/page.md)
 * [Globals](classes/globals/README.md)
   * [debug](classes/globals/debug.md)
   * [coroutine](classes/globals/coroutine.md)
@@ -192,6 +193,7 @@
     * [UIObject](classes/classes/dymanic/uiobject.md)
     * [Script](classes/classes/dymanic/script.md)
     * [BasePart](classes/classes/dymanic/basepart.md)
+* [DRM - Digital Rights Management](classes/drm-digital-rights-management.md)
 
 ## Employment
 
