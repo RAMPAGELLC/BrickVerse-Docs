@@ -40,6 +40,8 @@
 
 * [NPM Package](open-cloud/npm-package/README.md)
   * [Introduction](open-cloud/npm-package/introduction.md)
+  * [Tutorials](open-cloud/npm-package/tutorials/README.md)
+    * [Webhook Configuration](open-cloud/npm-package/tutorials/webhook-configuration.md)
   * [Bot Account](open-cloud/npm-package/bot-account.md)
   * [OpenCloudClient](open-cloud/npm-package/opencloudclient.md)
   * [WebAPICliet](open-cloud/npm-package/webapicliet/README.md)
