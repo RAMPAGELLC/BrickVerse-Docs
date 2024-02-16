@@ -5,27 +5,27 @@
 Publish a new asset, or o new version of a existing asset.
 {% endswagger-description %}
 
-{% swagger-parameter in="body" name="assetId" required="false" type="BigInt" %}
+{% swagger-parameter in="query" name="assetId" required="false" type="BigInt" %}
 Require to publish a new version of an existing asset.
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="assetType" required="true" type="String" %}
+{% swagger-parameter in="query" name="assetType" required="true" type="String" %}
 Asset Type
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="assetName" type="String (1-32)" %}
+{% swagger-parameter in="query" name="assetName" type="String (1-32)" %}
 Asset Name. Default to: Asset {uuid}
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="assetDescription" type="String (1-500)" %}
+{% swagger-parameter in="query" name="assetDescription" type="String (1-500)" %}
 Asset Description. Defaults to: No asset description.
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" type="BigInt" required="true" name="assetOwner" %}
+{% swagger-parameter in="query" type="BigInt" required="true" name="assetOwner" %}
 Asset Owner ID
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" type="String" name="assetOwnerType" required="true" %}
+{% swagger-parameter in="query" type="String" name="assetOwnerType" required="true" %}
 USER or GUILD
 {% endswagger-parameter %}
 
