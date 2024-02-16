@@ -29,12 +29,12 @@ Asset Owner ID
 USER or GUILD
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="files" type="Array" required="true" %}
-File
+{% swagger-parameter in="query" name="textureId" type="BigInt" %}
+Required for 3D Assets & Clothing.   This reduces repetitive assets on the CDN.
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="textureId" type="BigInt" %}
-Required for 3D Assets & Clothing.   This reduces repetitive assets on the CDN.
+{% swagger-parameter in="body" name="files" type="Array" required="true" %}
+File
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Response" %}
