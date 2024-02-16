@@ -13,12 +13,12 @@ Require to publish a new version of an existing asset.
 Asset Type
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="assetName" type="String (1-60)" %}
-Asset Name
+{% swagger-parameter in="body" name="assetName" type="String (1-32)" %}
+Asset Name. Default to: Asset {uuid}
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="assetDescription" type="String (1-500)" %}
-Asset Description
+Asset Description. Defaults to: No asset description.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" type="BigInt" required="true" name="assetOwner" %}
@@ -31,6 +31,10 @@ USER or GUILD
 
 {% swagger-parameter in="body" name="files" type="Array" required="true" %}
 File
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="textureId" type="BigInt" %}
+Required for 3D Assets & Clothing.   This reduces repetitive assets on the CDN.
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Response" %}
@@ -70,4 +74,12 @@ Files undergo automatic moderation by Artificial Intelligence. Based on the AI's
 
 
 Support Staff can manually upload the file for human moderation upon request, or you can include the query string "HUMAN\_MODERATE" in your API request on publish.brickverse.gg to trigger human moderation. Human Moderation can take up to 78 hours, or more depending on load of the moderation queue.
+{% endhint %}
+
+{% hint style="warning" %}
+UGC Permissions Role is required to upload asset types:
+
+* ACCESSORY
+* FACE
+* TOOL.
 {% endhint %}
