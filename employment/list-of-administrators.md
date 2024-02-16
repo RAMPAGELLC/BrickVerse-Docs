@@ -1,5 +1,9 @@
 # List Of Administrators
 
+{% hint style="danger" %}
+Outdated document from 2018, subjected to archival.
+{% endhint %}
+
 This is a general list of BrickVerse Administrators, this list is updated occasionally. The Official staff has a badge on their profile.
 
 ## Town Hall Leads

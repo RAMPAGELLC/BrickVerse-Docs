@@ -13,8 +13,8 @@ A **ViewportFrame** is a type of [`UI`](../../dymanic/uiobject.md) that can rend
 | [`Color`](https://developer.roblox.com/en-us/api-reference/datatype/Color3) ImageColor | Determines how a rendered image will be colorized |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------- |
 
-| [`float`](../../../learn-lua/numbers.md) ImageTransparency | Determines the transparency of the rendered image |
-| ---------------------------------------------------------- | ------------------------------------------------- |
+| [`float`](../../../../bricklua-coding-with-lua/learn-lua/numbers.md) ImageTransparency | Determines the transparency of the rendered image |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------- |
 
 | [`Color`](../../datatype/color.md) LightColor | The color of the emitted light |
 | --------------------------------------------- | ------------------------------ |

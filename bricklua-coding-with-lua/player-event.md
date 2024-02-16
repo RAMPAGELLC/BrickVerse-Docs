@@ -6,13 +6,15 @@ description: >-
 
 # Player Event
 
+<figure><img src="../.gitbook/assets/dust.jpg" alt=""><figcaption></figcaption></figure>
+
 ## Creating the event
 
 We will use the PlayerConnected Event to listen when a player connects.
 
 ```lua
-Universe.Players.PlayerConnected:Connect(function(Player)
-    print(Player.Name.." says Hello World");
+game.Universe.Players.PlayerConnected:Connect(function(Player)
+    print(Player.Name.." says Hello to the World!");
 end)
 ```
 
@@ -28,4 +30,3 @@ Here this code will now execute when a player connects and prints.
     Avatar = -- BrickThumb render
 }
 ```
-
