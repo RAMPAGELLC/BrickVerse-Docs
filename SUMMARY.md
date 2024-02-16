@@ -38,6 +38,7 @@
 
 ## OPEN CLOUD
 
+* [READ ME](open-cloud/read-me.md)
 * [NPM Package](open-cloud/npm-package/README.md)
   * [Introduction](open-cloud/npm-package/introduction.md)
   * [Tutorials](open-cloud/npm-package/tutorials/README.md)
@@ -58,8 +59,14 @@
       * [JoinGuild](open-cloud/npm-package/webapicliet/guild-endpoint/joinguild.md)
 * [Open Cloud](open-cloud/open-cloud.md)
 * [Webhooks](open-cloud/webhooks.md)
+* [Asset Types](open-cloud/asset-types.md)
 * [Beautiful JSON Display](open-cloud/beautiful-json-display.md)
 * [V2 API](open-cloud/v2-api/README.md)
+  * [Asset](open-cloud/v2-api/asset/README.md)
+    * [Edit](open-cloud/v2-api/asset/edit.md)
+  * [Publish](open-cloud/v2-api/publish/README.md)
+    * [Asset](open-cloud/v2-api/publish/asset.md)
+    * [World](open-cloud/v2-api/publish/world.md)
   * [Feed](open-cloud/v2-api/feed/README.md)
     * [reply](open-cloud/v2-api/feed/reply.md)
     * [all/{page\_cursor/{feed\_cursor}](open-cloud/v2-api/feed/all-page\_cursor-feed\_cursor.md)
