@@ -1,14 +1,14 @@
 # ViewportFrame
 
-A **ViewportFrame** is a type of [`UI`](../../dymanic/uiobject.md) that can render 3D objects inside its bounds. This is a great way to display 3D objects/models in a 2D GUI space like a [`ScreenUI`](screenui.md). At the moment, no shadow or post effects are available. Neon and Glass `materials` will be rendered on lowest quality.
+A **ViewportFrame** is a type of [`UI`](broken-reference) that can render 3D objects inside its bounds. This is a great way to display 3D objects/models in a 2D GUI space like a [`ScreenUI`](screenui.md). At the moment, no shadow or post effects are available. Neon and Glass `materials` will be rendered on lowest quality.
 
 ### Properties <a href="#properties-1" id="properties-1"></a>
 
 | [`Color`](https://developer.roblox.com/en-us/api-reference/datatype/Color3) Ambient | The lighting hue applied to the area within the [`ViewportFrame`](viewportframe.md) |
 | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 
-| [`Camera`](../../construction/camera.md)  CurrentCamera | [`Camera`](../../construction/camera.md) that is used to render children objects |
-| ------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| [`Camera`](broken-reference)  CurrentCamera | [`Camera`](broken-reference) that is used to render children objects |
+| ------------------------------------------- | -------------------------------------------------------------------- |
 
 | [`Color`](https://developer.roblox.com/en-us/api-reference/datatype/Color3) ImageColor | Determines how a rendered image will be colorized |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------- |
@@ -24,4 +24,4 @@ A **ViewportFrame** is a type of [`UI`](../../dymanic/uiobject.md) that can rend
 
 Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manual/dymanic) Set
 
-Inherited from [UIObject ](../../dymanic/uiobject.md)Set
+Inherited from [UIObject ](broken-reference)Set

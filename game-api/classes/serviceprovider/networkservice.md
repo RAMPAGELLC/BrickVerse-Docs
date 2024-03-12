@@ -8,7 +8,7 @@ Inherited from [Dynamic](https://docs.brickverse.co/bricklua-lua-references-manu
 
 ## Functions
 
-<table data-header-hidden data-full-width="false"><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>Name</td><td>Description</td></tr><tr><td>JoinServer</td><td>Called every frame.</td></tr></tbody></table>
+<table data-header-hidden data-full-width="false"><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>Name</td><td>Description</td></tr><tr><td>JoinServer</td><td></td></tr></tbody></table>
 
 ## Usage Example
 

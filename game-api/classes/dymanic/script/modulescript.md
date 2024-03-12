@@ -1,6 +1,6 @@
 # ScriptModule
 
-<figure><img src="../../../.gitbook/assets/dust (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/dust (1).jpg" alt=""><figcaption></figcaption></figure>
 
 A ScriptModule is a type of Lua source container that runs once and must return exactly one value. This value is then returned by a call to `require` given the ScriptModule as the only argument. ModuleScripts run once and only once per Lua environment and return the exact same value for subsequent calls to `require`.
 
@@ -16,4 +16,4 @@ If a ScriptModule object is has its Name property set to ‘MainModule’ and is
 
 Inherited from [Dynamic ](https://docs.brickverse.co/bricklua-lua-references-manual/dymanic)Set
 
-Inherited from [Script Dynamics ](../dymanic/script.md)Set
+Inherited from [Script Dynamics ](./)Set
