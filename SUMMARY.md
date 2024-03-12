@@ -154,6 +154,7 @@
 
 * [API](game-api/api.md)
 * [Globals](game-api/globals/README.md)
+  * [math](game-api/globals/math.md)
   * [debug](game-api/globals/debug.md)
   * [coroutine](game-api/globals/coroutine.md)
 * [Classes](game-api/classes/README.md)

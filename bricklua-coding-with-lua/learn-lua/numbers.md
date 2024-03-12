@@ -14,7 +14,7 @@ The sign of the number indicates whether it’s positive or negative. A signed n
 
 ### Notation <a href="#notation" id="notation"></a>
 
-Numbers are notated with the most significant digits first (big-endian). There are multiple ways to notate number literals in Roblox Lua:
+Numbers are notated with the most significant digits first (big-endian). There are multiple ways to notate number literals in Lua:
 
 * [Decimal (base-10)](https://en.wikipedia.org/wiki/Decimal) — Write the digits of the number normally using digits 0–9 with a single optional decimal point, for example `7`, `1.25`, or `-22.5`.
 * [Scientific notation](https://en.wikipedia.org/wiki/Scientific\_notation) — Write a decimal number followed by `e` or `e+`, then an integer to raise the decimal number to a power of 10. For instance, `12e3` is 12 × 10^3 (12,000).
@@ -27,11 +27,11 @@ To aid in the readability of long numbers, underscores can be included anywhere 
 
 ### Operations <a href="#operations" id="operations"></a>
 
-Lua math and relational [operators](https://developer.roblox.com/en-us/articles/Operators) can be used on numbers to manipulate and compare them. Mathematical functions such as `math.sqrt()` and `math.exp()` can be found in the [math](https://developer.roblox.com/en-us/api-reference/lua-docs/math) library and, for bitwise operations, the [bit32](bit32.md) library has been back-ported.
+Lua math and relational [operators](opeartors.md) can be used on numbers to manipulate and compare them. Mathematical functions such as `math.sqrt()` and `math.exp()` can be found in the [math](../../game-api/globals/math.md) library and, for bitwise operations, the [bit32](bit32.md) library has been back-ported.
 
 ### Number Classifications <a href="#number-classifications" id="number-classifications"></a>
 
-In Roblox Lua, there is no technical difference between the following types of numbers. However, number classifications are used in documentation to indicate which kind of number is involved with an API member.
+In BrickLua, there is no technical difference between the following types of numbers. However, number classifications are used in documentation to indicate which kind of number is involved with an API member.
 
 #### int <a href="#int" id="int"></a>
 
@@ -45,7 +45,7 @@ When working with integers in Lua, note the following:
 
 #### int64 <a href="#int64" id="int64"></a>
 
-The `int64` number type refers to a signed 64-bit integer. This type is often used for methods which use ID numbers from the Roblox website, such as [`MarketplaceService:PromptPurchase()`](https://developer.roblox.com/en-us/api-reference/function/MarketplaceService/PromptPurchase) — in these cases, a signed 64-bit integer is expected (-263 to 263 - 1).
+The `int64` number type refers to a signed 64-bit integer, a signed 64-bit integer is expected (-263 to 263 - 1).
 
 #### float <a href="#float" id="float"></a>
 

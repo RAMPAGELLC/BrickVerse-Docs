@@ -14,7 +14,7 @@ The logical operators for [conditional statements](conditional-structures.md) ar
 
 ### Relational <a href="#relational" id="relational"></a>
 
-Relational operators compare two parameters and return a [boolean](https://developer.roblox.com/en-us/articles/Boolean) `true` or `false`.
+Relational operators compare two parameters and return a [boolean](boolean.md) `true` or `false`.
 
 | Operator | Description              | Associated metamethod |
 | -------- | ------------------------ | --------------------- |

@@ -118,5 +118,6 @@ assert(product == 360, "Oh dear, multiplication is broken")-- The line above doe
 
 ## Lua Globals
 
-* [corountine](globals/coroutine.md)
-* [debug](globals/debug.md)
+{% content-ref url="globals/" %}
+[globals](globals/)
+{% endcontent-ref %}

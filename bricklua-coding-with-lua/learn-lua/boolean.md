@@ -10,4 +10,8 @@ if testBoolean == true then
 else
 	-- If value of 'testBoolean' is false, this condition is executed
 end
+
+if testBoolean then
+	-- Same output as if testBoolean == true then condition.
+end
 ```
