@@ -27,7 +27,7 @@ To aid in the readability of long numbers, underscores can be included anywhere 
 
 ### Operations <a href="#operations" id="operations"></a>
 
-Lua math and relational [operators](opeartors.md) can be used on numbers to manipulate and compare them. Mathematical functions such as `math.sqrt()` and `math.exp()` can be found in the [math](../../game-api/globals/math.md) library and, for bitwise operations, the [bit32](bit32.md) library has been back-ported.
+Lua math and relational [operators](opeartors.md) can be used on numbers to manipulate and compare them. Mathematical functions such as `math.sqrt()` and `math.exp()` can be found in the [math](../../game-api/api/math.md) library and, for bitwise operations, the [bit32](bit32.md) library has been back-ported.
 
 ### Number Classifications <a href="#number-classifications" id="number-classifications"></a>
 

@@ -152,14 +152,14 @@
 
 ## GAME API
 
-* [API](game-api/api.md)
-* [Globals](game-api/globals/README.md)
-  * [math](game-api/globals/math.md)
-  * [debug](game-api/globals/debug.md)
-  * [coroutine](game-api/globals/coroutine.md)
-  * [Enum](game-api/globals/enum/README.md)
-    * [UserInput](game-api/globals/enum/userinput.md)
-    * [Humanoid](game-api/globals/enum/userinput-1.md)
+* [API](game-api/api/README.md)
+  * [Intro](game-api/api/intro.md)
+  * [math](game-api/api/math.md)
+  * [debug](game-api/api/debug.md)
+  * [coroutine](game-api/api/coroutine.md)
+  * [Enum](game-api/api/enum/README.md)
+    * [UserInput](game-api/api/enum/userinput.md)
+    * [Humanoid](game-api/api/enum/userinput-1.md)
 * [Classes](game-api/classes/README.md)
   * [ServiceProvider](game-api/classes/serviceprovider/README.md)
     * [Enum](game-api/classes/serviceprovider/enum.md)
