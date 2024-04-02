@@ -2,20 +2,19 @@
 
 ## Information
 
-<mark style="color:green;">`POST`</mark> `https://api.brickverse.co/v2/cloud/credentials/create`
+<mark style="color:green;">`POST`</mark> `https://api.brickverse.co/v2/cloud/oauth/create`
 
 #### Request Body
 
-<table><thead><tr><th width="193">Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>ownerId<mark style="color:red;">*</mark></td><td>Int</td><td>0 for authenticated user, anything above 0 will be taken as a Guild.</td></tr><tr><td>expire<mark style="color:red;">*</mark></td><td>Int</td><td>UNIX Timestamp expiration. Enter 0 for no expiry.</td></tr></tbody></table>
+EMPTY
 
 {% tabs %}
 {% tab title="200: OK Response" %}
 ```json
 {
     "status": "ok",
-    "apiKey": "XXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "appId": "XXXXXXXXXXXXXXXXXXXXXXXXXX",
     "apiSecret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-    "apiId": 99999999999
 }
 ```
 {% endtab %}
@@ -42,3 +41,5 @@
 ```
 {% endtab %}
 {% endtabs %}
+
+Create a new OAuth Application.

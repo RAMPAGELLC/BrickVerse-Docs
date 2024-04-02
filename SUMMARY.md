@@ -71,6 +71,8 @@
     * [reply](open-cloud/v2-api/feed/reply.md)
     * [all/{page\_cursor/{feed\_cursor}](open-cloud/v2-api/feed/all-page\_cursor-feed\_cursor.md)
   * [Cloud](open-cloud/v2-api/cloud/README.md)
+    * [oauth](open-cloud/v2-api/cloud/oauth/README.md)
+      * [create](open-cloud/v2-api/cloud/oauth/create.md)
     * [git/{channel}](open-cloud/v2-api/cloud/git-channel.md)
     * [version](open-cloud/v2-api/cloud/version.md)
     * [database](open-cloud/v2-api/cloud/database/README.md)
