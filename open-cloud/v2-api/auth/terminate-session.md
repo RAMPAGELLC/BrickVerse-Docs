@@ -1,34 +1,36 @@
 # terminate-session
 
-{% swagger method="post" path="/terminate-session/{session-id}" baseUrl="https://api.brickverse.co/v2/auth" summary="Information" expanded="false" %}
-{% swagger-description %}
+## Information
+
+<mark style="color:green;">`POST`</mark> `https://api.brickverse.co/v2/auth/terminate-session/{session-id}`
+
 Terminate a session by Session ID. You cannot terminate another user's session id as its tied to user-id requirement.
 
 \
 Upon termination of the session they will be logged out.
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="Response" %}
+{% tabs %}
+{% tab title="200: OK Response" %}
 ```json
 {"status": "ok", "success": true}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="" %}
-```json
-{"status": "error", "message": "reason_string"}
-```
-{% endswagger-response %}
-
-{% swagger-response status="403: Forbidden" description="" %}
+{% tab title="403: Forbidden " %}
 ```json
 {"status": "error", "message": 403}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="429: Too Many Requests" description="" %}
+{% tab title="429: Too Many Requests " %}
 ```json
 {"status": "error", "message": "Rate limited", "ratelimited": true, "time": "seconds_string"}
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+
+{% tab title="400: Bad Request " %}
+```json
+{"status": "error", "message": "reason_string"}
+```
+{% endtab %}
+{% endtabs %}

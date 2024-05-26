@@ -4,12 +4,14 @@
 **DANGEROUS ENDPOINT!** SHARING YOUR **JOIN KEY** WILL ALLOW ANYONE WHO HAS IT TO ACCESS YOUR **BRICKVERSE.CO ACCOUNT**!
 {% endhint %}
 
-{% swagger method="get" path="/join-game/{join_key}" baseUrl="https://api.brickverse.co/v2/auth" summary="Information" expanded="false" %}
-{% swagger-description %}
-Data for internal engine to login as you for internal services within the client. This will NOT launch a connection to a game. To connect to a game use URL Protocol brickverse://join@{join\_key}
-{% endswagger-description %}
+## Information
 
-{% swagger-response status="200: OK" description="Response" %}
+<mark style="color:blue;">`GET`</mark> `https://api.brickverse.co/v2/auth/join-game/{join_key}`
+
+Data for internal engine to login as you for internal services within the client. This will NOT launch a connection to a game. To connect to a game use URL Protocol brickverse://join@{join\_key}
+
+{% tabs %}
+{% tab title="200: OK Response" %}
 ```json
 {
     "status": "ok",
@@ -79,23 +81,23 @@ Data for internal engine to login as you for internal services within the client
     }
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="" %}
-```json
-{"status": "error", "message": "reason_string"}
-```
-{% endswagger-response %}
-
-{% swagger-response status="403: Forbidden" description="" %}
+{% tab title="403: Forbidden " %}
 ```json
 {"status": "error", "message": 403}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="429: Too Many Requests" description="" %}
+{% tab title="429: Too Many Requests " %}
 ```json
 {"status": "error", "message": "Rate limited", "ratelimited": true, "time": "seconds_string"}
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+
+{% tab title="400: Bad Request " %}
+```json
+{"status": "error", "message": "reason_string"}
+```
+{% endtab %}
+{% endtabs %}

@@ -1,15 +1,19 @@
 # unread
 
-{% swagger method="get" path="/unread" baseUrl="https://api.brickverse.co/v2/notifications" summary="Information" %}
-{% swagger-description %}
+## Information
+
+<mark style="color:blue;">`GET`</mark> `https://api.brickverse.co/v2/notifications/unread`
+
 API used to fetch all notifications.
-{% endswagger-description %}
 
-{% swagger-parameter in="query" name="mark_read" type="Boolean" %}
-Marks all notifications read if true.
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-response status="200: OK" description="Response" %}
+| Name       | Type    | Description                           |
+| ---------- | ------- | ------------------------------------- |
+| mark\_read | Boolean | Marks all notifications read if true. |
+
+{% tabs %}
+{% tab title="200: OK Response" %}
 ```json
 {
     "status": "ok",
@@ -25,26 +29,26 @@ Marks all notifications read if true.
     ]
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="" %}
+{% tab title="403: Forbidden " %}
+```json
+{"status": "error", "message": "No authorized BrickVerse account detected. Please login."}
+```
+{% endtab %}
+
+{% tab title="429: Too Many Requests " %}
+```json
+{"status": "error", "message": "Rate limited", "ratelimited": true, "time": "seconds_string"}
+```
+{% endtab %}
+
+{% tab title="400: Bad Request " %}
 ```json
 {
     "status": "error",
     "message": reason
 }
 ```
-{% endswagger-response %}
-
-{% swagger-response status="403: Forbidden" description="" %}
-```json
-{"status": "error", "message": "No authorized BrickVerse account detected. Please login."}
-```
-{% endswagger-response %}
-
-{% swagger-response status="429: Too Many Requests" description="" %}
-```json
-{"status": "error", "message": "Rate limited", "ratelimited": true, "time": "seconds_string"}
-```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}

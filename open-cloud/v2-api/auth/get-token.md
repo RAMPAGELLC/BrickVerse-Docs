@@ -1,33 +1,35 @@
 # get-token
 
-{% swagger method="get" path="/get-token" baseUrl="https://api.brickverse.co/v2/auth" summary="Information" expanded="false" %}
-{% swagger-description %}
+## Information
+
+<mark style="color:blue;">`GET`</mark> `https://api.brickverse.co/v2/auth/get-token`
+
 Fetch active session's BrickVerse Security token.
 
 Sharing this token allows anyone to login as you.
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="Response" %}
+{% tabs %}
+{% tab title="200: OK Response" %}
 ```json
 {"status": "ok", "success": true, "token": "token"}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="" %}
-```json
-{"status": "error", "message": "reason_string"}
-```
-{% endswagger-response %}
-
-{% swagger-response status="403: Forbidden" description="" %}
+{% tab title="403: Forbidden " %}
 ```json
 {"status": "error", "message": 403}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="429: Too Many Requests" description="" %}
+{% tab title="429: Too Many Requests " %}
 ```json
 {"status": "error", "message": "Rate limited", "ratelimited": true, "time": "seconds_string"}
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+
+{% tab title="400: Bad Request " %}
+```json
+{"status": "error", "message": "reason_string"}
+```
+{% endtab %}
+{% endtabs %}

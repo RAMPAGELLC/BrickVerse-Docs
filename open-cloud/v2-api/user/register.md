@@ -1,63 +1,46 @@
 # register
 
-{% swagger method="post" path="/register" baseUrl="https://api.brickverse.co/v2/user" summary="Information" %}
-{% swagger-description %}
+## Information
+
+<mark style="color:green;">`POST`</mark> `https://api.brickverse.co/v2/user/register`
+
 API used to register accounts.
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="username" type="String" required="true" %}
+#### Request Body
 
-{% endswagger-parameter %}
+| Name                                             | Type   | Description                         |
+| ------------------------------------------------ | ------ | ----------------------------------- |
+| username<mark style="color:red;">\*</mark>       | String |                                     |
+| password<mark style="color:red;">\*</mark>       | String |                                     |
+| email<mark style="color:red;">\*</mark>          | String |                                     |
+| gender<mark style="color:red;">\*</mark>         | String |                                     |
+| tos\_agree<mark style="color:red;">\*</mark>     | Bool   |                                     |
+| child\_account<mark style="color:red;">\*</mark> | Bool   | If registered as a minor account.   |
+| parent\_email                                    | String | Required if child\_account is true. |
+| captcha<mark style="color:red;">\*</mark>        | String |                                     |
 
-{% swagger-parameter in="body" type="String" required="true" name="password" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="captcha" type="String" required="true" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" type="String" required="true" name="email" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" type="String" required="true" name="gender" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" type="Bool" required="true" name="tos_agree" %}
-
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="child_account" type="Bool" required="true" %}
-If registered as a minor account.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="parent_email" type="String" %}
-Required if child\_account is true.
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="Response" %}
+{% tabs %}
+{% tab title="200: OK Response" %}
 ```json
 {"status": "ok", "success": true}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="" %}
-```json
-{"status": "error", "message": "reason_string"}
-```
-{% endswagger-response %}
-
-{% swagger-response status="403: Forbidden" description="" %}
+{% tab title="403: Forbidden " %}
 ```json
 {"status": "error", "message": 403}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="429: Too Many Requests" description="" %}
+{% tab title="429: Too Many Requests " %}
 ```json
 {"status": "error", "message": "Rate limited", "ratelimited": true, "time": "seconds_string"}
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+
+{% tab title="400: Bad Request " %}
+```json
+{"status": "error", "message": "reason_string"}
+```
+{% endtab %}
+{% endtabs %}

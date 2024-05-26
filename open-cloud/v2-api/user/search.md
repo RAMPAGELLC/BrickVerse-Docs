@@ -1,15 +1,19 @@
 # search
 
-{% swagger method="post" path="/search" baseUrl="https://api.brickverse.co/v2/user" summary="Information" %}
-{% swagger-description %}
+## Information
+
+<mark style="color:green;">`POST`</mark> `https://api.brickverse.co/v2/user/search`
+
 API used to search for accounts by partial strings.
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="username" type="String" required="true" %}
+#### Request Body
 
-{% endswagger-parameter %}
+| Name                                       | Type   | Description |
+| ------------------------------------------ | ------ | ----------- |
+| username<mark style="color:red;">\*</mark> | String |             |
 
-{% swagger-response status="200: OK" description="Response" %}
+{% tabs %}
+{% tab title="200: OK Response" %}
 ```json
 {
     "status": "ok",
@@ -31,9 +35,21 @@ API used to search for accounts by partial strings.
     ]
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="" %}
+{% tab title="403: Forbidden " %}
+```json
+{"status": "error", "message": 403}
+```
+{% endtab %}
+
+{% tab title="429: Too Many Requests " %}
+```json
+{"status": "error", "message": "Rate limited", "ratelimited": true, "time": "seconds_string"}
+```
+{% endtab %}
+
+{% tab title="400: Bad Request " %}
 ```json
 {
     "status": "error",
@@ -41,17 +57,5 @@ API used to search for accounts by partial strings.
     "got": null
 }
 ```
-{% endswagger-response %}
-
-{% swagger-response status="403: Forbidden" description="" %}
-```json
-{"status": "error", "message": 403}
-```
-{% endswagger-response %}
-
-{% swagger-response status="429: Too Many Requests" description="" %}
-```json
-{"status": "error", "message": "Rate limited", "ratelimited": true, "time": "seconds_string"}
-```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}

@@ -1,39 +1,38 @@
 # /{universe}/join/random
 
-{% swagger method="get" path="/join/random" baseUrl="https://api.brickverse.co/v2/worlds/{universe_id}" summary="Information" expanded="false" %}
-{% swagger-description %}
+## Information
 
-{% endswagger-description %}
+<mark style="color:blue;">`GET`</mark> `https://api.brickverse.co/v2/worlds/{universe_id}/join/random`
 
-{% swagger-parameter in="query" name="launch_client" type="Bool" %}
-Launch brickverse client or not.
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="query" name="return_url" type="String" %}
-Redirect a user after launching the client. launch\_client query param is required.
-{% endswagger-parameter %}
+| Name           | Type   | Description                                                                         |
+| -------------- | ------ | ----------------------------------------------------------------------------------- |
+| launch\_client | Bool   | Launch brickverse client or not.                                                    |
+| return\_url    | String | Redirect a user after launching the client. launch\_client query param is required. |
 
-{% swagger-response status="200: OK" description="Response" %}
+{% tabs %}
+{% tab title="200: OK Response" %}
 ```json
 {"status": "ok", "success": true, "client_join_token": "XXXXXXXXXXXXXXX"}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="" %}
-```json
-{"status": "error", "message": "reason_string"}
-```
-{% endswagger-response %}
-
-{% swagger-response status="403: Forbidden" description="" %}
+{% tab title="403: Forbidden " %}
 ```json
 {"status": "error", "message": 403}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="429: Too Many Requests" description="" %}
+{% tab title="429: Too Many Requests " %}
 ```json
 {"status": "error", "message": "Rate limited", "ratelimited": true, "time": "seconds_string"}
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+
+{% tab title="400: Bad Request " %}
+```json
+{"status": "error", "message": "reason_string"}
+```
+{% endtab %}
+{% endtabs %}

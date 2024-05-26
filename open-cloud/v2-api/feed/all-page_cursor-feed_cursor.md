@@ -1,19 +1,20 @@
 # all/{page\_cursor/{feed\_cursor}
 
-{% swagger method="get" path="/all/{page_cursor/{feed_cursor}" baseUrl="https://api.brickverse.gg/v2/feed" summary="Information" %}
-{% swagger-description %}
+## Information
+
+<mark style="color:blue;">`GET`</mark> `https://api.brickverse.gg/v2/feed/all/{page_cursor/{feed_cursor}`
+
 API to send to your user feed.
-{% endswagger-description %}
 
-{% swagger-parameter in="path" name="page_cursor" type="Int" required="true" %}
-Page Number. Utilize 0 for first page. Index key "pages" in JSON Response for the total pages.
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="path" name="feed_cursor" type="Int" required="true" %}
-Amount of feed posts per page. Must be 0-8. Defaults to 4.
-{% endswagger-parameter %}
+| Name                                           | Type | Description                                                                                    |
+| ---------------------------------------------- | ---- | ---------------------------------------------------------------------------------------------- |
+| page\_cursor<mark style="color:red;">\*</mark> | Int  | Page Number. Utilize 0 for first page. Index key "pages" in JSON Response for the total pages. |
+| feed\_cursor<mark style="color:red;">\*</mark> | Int  | Amount of feed posts per page. Must be 0-8. Defaults to 4.                                     |
 
-{% swagger-response status="200: OK" description="Response" %}
+{% tabs %}
+{% tab title="200: OK Response" %}
 ```json
 {
     "status": "ok",
@@ -78,23 +79,23 @@ Amount of feed posts per page. Must be 0-8. Defaults to 4.
     ]
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="" %}
-```json
-{"status": "error", "message": "reason_string"}
-```
-{% endswagger-response %}
-
-{% swagger-response status="403: Forbidden" description="" %}
+{% tab title="403: Forbidden " %}
 ```json
 {"status": "error", "message": 403}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="429: Too Many Requests" description="" %}
+{% tab title="429: Too Many Requests " %}
 ```json
 {"status": "error", "message": "Rate limited", "ratelimited": true, "time": "seconds_string"}
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+
+{% tab title="400: Bad Request " %}
+```json
+{"status": "error", "message": "reason_string"}
+```
+{% endtab %}
+{% endtabs %}

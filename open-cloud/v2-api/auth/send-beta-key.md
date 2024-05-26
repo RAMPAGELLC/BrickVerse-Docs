@@ -1,13 +1,15 @@
 # send-beta-key
 
-{% swagger method="post" path="/send-beta-key/{email}" baseUrl="https://api.brickverse.co/v2/auth" summary="Information" expanded="false" %}
-{% swagger-description %}
+## Information
+
+<mark style="color:green;">`POST`</mark> `https://api.brickverse.co/v2/auth/send-beta-key/{email}`
+
 Forward your beta key to your e-mail address.
 
 Account registered with the e-mail is required.
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="Response" %}
+{% tabs %}
+{% tab title="200: OK Response" %}
 ```json
 {
     "status": "ok",
@@ -15,23 +17,23 @@ Account registered with the e-mail is required.
     "message": ...
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="" %}
-```json
-{"status": "error", "message": ...}
-```
-{% endswagger-response %}
-
-{% swagger-response status="403: Forbidden" description="" %}
+{% tab title="403: Forbidden " %}
 ```json
 {"status": "error", "message": 403}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="429: Too Many Requests" description="" %}
+{% tab title="429: Too Many Requests " %}
 ```json
 {"status": "error", "message": "Rate limited", "ratelimited": true, "time": "seconds_string"}
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+
+{% tab title="400: Bad Request " %}
+```json
+{"status": "error", "message": ...}
+```
+{% endtab %}
+{% endtabs %}

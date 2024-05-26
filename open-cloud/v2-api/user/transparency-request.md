@@ -4,33 +4,35 @@
 Account authentication required. Read about account authentication at [https://developers.brickverse.co/v2-api/auth/bot-login](https://developers.brickverse.co/v2-api/auth/bot-login).
 {% endhint %}
 
-{% swagger method="post" path="transparency-request" baseUrl="https://api.brickverse.co/v2/user/" summary="Information" %}
-{% swagger-description %}
-API request transparency records of your account data. Record data will be shipped to your email address on record. Some data will not be shown such as passwords.
-{% endswagger-description %}
+## Information
 
-{% swagger-response status="200: OK" description="Response" %}
+<mark style="color:green;">`POST`</mark> `https://api.brickverse.co/v2/user/transparency-request`
+
+API request transparency records of your account data. Record data will be shipped to your email address on record. Some data will not be shown such as passwords.
+
+{% tabs %}
+{% tab title="200: OK Response" %}
 ```json
 {"status": "ok", "success": true}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="" %}
+{% tab title="403: Forbidden " %}
 ```json
 {"status": "error", "message": "reason_string"}
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="403: Forbidden" description="" %}
-```json
-{"status": "error", "message": "reason_string"}
-```
-{% endswagger-response %}
-
-{% swagger-response status="429: Too Many Requests" description="" %}
+{% tab title="429: Too Many Requests " %}
 ```json
 {"status": "error", "message": "Rate limited", "ratelimited": true, "time": "seconds_string"}
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+
+{% tab title="400: Bad Request " %}
+```json
+{"status": "error", "message": "reason_string"}
+```
+{% endtab %}
+{% endtabs %}
 

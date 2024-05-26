@@ -1,11 +1,13 @@
 # list
 
-{% swagger method="get" path="/list" baseUrl="https://api.brickverse.co/v2/webhook" summary="Information" %}
-{% swagger-description %}
-API used to list webhooks you have created.
-{% endswagger-description %}
+## Information
 
-{% swagger-response status="200: OK" description="Response" %}
+<mark style="color:blue;">`GET`</mark> `https://api.brickverse.co/v2/webhook/list`
+
+API used to list webhooks you have created.
+
+{% tabs %}
+{% tab title="200: OK Response" %}
 ```json
 {
     "status": "ok",
@@ -19,9 +21,21 @@ API used to list webhooks you have created.
     ]
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="" %}
+{% tab title="403: Forbidden " %}
+```json
+{"status": "error", "message": 403}
+```
+{% endtab %}
+
+{% tab title="429: Too Many Requests " %}
+```json
+{"status": "error", "message": "Rate limited", "ratelimited": true, "time": "seconds_string"}
+```
+{% endtab %}
+
+{% tab title="400: Bad Request " %}
 ```json
 {
     "status": "error",
@@ -29,17 +43,5 @@ API used to list webhooks you have created.
     "got": null
 }
 ```
-{% endswagger-response %}
-
-{% swagger-response status="403: Forbidden" description="" %}
-```json
-{"status": "error", "message": 403}
-```
-{% endswagger-response %}
-
-{% swagger-response status="429: Too Many Requests" description="" %}
-```json
-{"status": "error", "message": "Rate limited", "ratelimited": true, "time": "seconds_string"}
-```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}

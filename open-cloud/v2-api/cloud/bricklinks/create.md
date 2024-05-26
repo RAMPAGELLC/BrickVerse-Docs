@@ -1,27 +1,38 @@
 # create
 
-{% swagger method="post" path="/create" baseUrl="https://api.brickverse.co/v2/cloud/bricklinks" summary="Information" %}
-{% swagger-description %}
+## Information
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark> `https://api.brickverse.co/v2/cloud/bricklinks/create`
 
-{% swagger-parameter in="body" name="url" type="String" required="true" %}
-Valid URL
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" type="Int" name="expire" required="true" %}
-UNIX Timestamp expiration. Enter 0 for no expiry.
-{% endswagger-parameter %}
+| Name                                     | Type   | Description                                       |
+| ---------------------------------------- | ------ | ------------------------------------------------- |
+| url<mark style="color:red;">\*</mark>    | String | Valid URL                                         |
+| expire<mark style="color:red;">\*</mark> | Int    | UNIX Timestamp expiration. Enter 0 for no expiry. |
 
-{% swagger-response status="200: OK" description="Response" %}
+{% tabs %}
+{% tab title="200: OK Response" %}
 ```json
 {
     "message" => "Brickl.ink URL created!",
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="" %}
+{% tab title="403: Forbidden " %}
+```json
+{"status": "error", "message": 403}
+```
+{% endtab %}
+
+{% tab title="429: Too Many Requests " %}
+```json
+{"status": "error", "message": "Rate limited", "ratelimited": true, "time": "seconds_string"}
+```
+{% endtab %}
+
+{% tab title="400: Bad Request " %}
 ```json
 {
     "status": "error",
@@ -29,17 +40,5 @@ UNIX Timestamp expiration. Enter 0 for no expiry.
     "got": null
 }
 ```
-{% endswagger-response %}
-
-{% swagger-response status="403: Forbidden" description="" %}
-```json
-{"status": "error", "message": 403}
-```
-{% endswagger-response %}
-
-{% swagger-response status="429: Too Many Requests" description="" %}
-```json
-{"status": "error", "message": "Rate limited", "ratelimited": true, "time": "seconds_string"}
-```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
