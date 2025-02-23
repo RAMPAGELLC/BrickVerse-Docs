@@ -18,15 +18,15 @@ Token field is always false and used internally.
         {
             "session_id": 1,
             "device": "Windows",
-            "browser": "Google Chrome",
-            "created": "2023-10-21 17:21:43",
+            "browser": "BrickVerse Web",
+            "created": "0000-00-00 00:00:00",
             "location": {
                 "ip": "IPv4",
                 "type": "local",
                 "city": "CITY",
                 "region_name": "REGION",
                 "region_code": "RG",
-                "zip": "97301",
+                "zip": "00000",
                 "country_name": "COUNTRY",
                 "country_code": "CC",
                 "continent_code": "CC",
