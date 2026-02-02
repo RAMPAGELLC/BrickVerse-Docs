@@ -14,11 +14,9 @@ The positional component is available as a `Vector3` in the **Position** propert
 
 #### Rotational <a href="#rotational" id="rotational"></a>
 
-CFrame stores 3D rotation data in a 3-by-3 **rotation matrix**. These values are returned by the `CFrame:GetComponents` function after the X, Y and Z positional values. This matrix is used internally when doing [calculations involving rotations](https://en.wikipedia.org/wiki/Rotation\_matrix#Basic\_rotations). They use [radians](https://en.wikipedia.org/wiki/Radian) as their unit (for conversion to degrees, use `math.rad`/`math.deg`).
+CFrame stores 3D rotation data in a 3-by-3 **rotation matrix**. These values are returned by the `CFrame:GetComponents` function after the X, Y and Z positional values. This matrix is used internally when doing [calculations involving rotations](https://en.wikipedia.org/wiki/Rotation_matrix#Basic_rotations). They use [radians](https://en.wikipedia.org/wiki/Radian) as their unit (for conversion to degrees, use `math.rad`/`math.deg`).
 
 The matrix below represents the components of a CFrame’s rotation matrix and their relationship with the various vector properties available (LookVector, RightVector, etc). Although the individual components of the rotation matrix are rarely useful by themselves, the vector properties which derive from them are much more useful.
-
-
 
 |             | **RightVector** | **UpVector** | **–LookVector†** |
 | ----------- | --------------- | ------------ | ---------------- |
@@ -80,4 +78,4 @@ The matrix below represents the components of a CFrame’s rotation matrix and t
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Returns an orthonormalized copy of the CFrame. The `BasePart.CFrame` property automatically applies orthonormalization, but other APIs which take CFrames do not, so this method will occasionally be necessary when when incrementally updating a CFrame and using it with them |
 
-\
+<br>

@@ -13,7 +13,7 @@ description: >-
 We will use the PlayerConnected Event to listen when a player connects.
 
 ```lua
-game.Universe.Players.PlayerConnected:Connect(function(Player)
+game.PlayerService.OnPlayerJoin:Connect(function(Player)
     print(Player.Name.." says Hello to the World!");
 end)
 ```

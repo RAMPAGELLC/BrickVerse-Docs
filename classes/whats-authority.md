@@ -1,19 +1,61 @@
 # What's Authority?
 
-Authority is script authority which limits your world from performing certain actions such as editing and/or reading data.
+### What Is Script Authority?
 
-| Authority Name | Level | About                     |
-| -------------- | ----- | ------------------------- |
-| Backend        | 5     | Authority over everything |
-| Core           | 4     | BrickVerse Core Scripts   |
-| Plugin         | 3     | Studio Plugins            |
-| Server         | 2     | Server Scripts            |
-| Client         | 1     | Client Scripts            |
+**Script authority** determines what a script in your world is allowed to do — especially when it comes to **reading** or **modifying data**. Higher authority levels grant more control, while lower levels are more restricted to protect security.
 
-What is modulescripts classified under? Well if a module is called on the server, it will be assigned authority level 2, and obvious if it was called on client it will be given authority level 1.\
-\
-Level 4 authority ("Core") has some extra security where data can be read, however cannot be modified unless allowed by Level 4. Level 4 is used for core scripts with security not needed.
+### How Are ModuleScripts Classified?
 
-Level 5 authority ("Backend") has authority to grant authority levels, it's data cannot be read or modified by Level 4 and under. Level 5 is typically used for our backend apis.\
-\
-Level 2+ cannot be read or modified by client as it's impossible.
+ModuleScripts are assigned an **authority level** based on **where they are executed**.
+
+* **Called from the client** → **Authority Level 1**
+* **Called from the server** → **Authority Level 2**
+
+This distinction helps us determine how much trust and access a script should have within the system.
+
+***
+
+### Authority Levels Explained
+
+#### **Level 1 — Client**
+
+Used for scripts that run on a player’s device. These have the lowest level of trust and cannot access or modify protected server systems.
+
+#### **Level 2 — Server**
+
+Used for scripts running on the server. These are more trusted and can interact with secure systems that are completely inaccessible to client-side scripts.
+
+{% hint style="danger" %}
+**Important:** Authority Levels **2 and higher** are fully protected from client access. Clients cannot read, modify, or interfere with these scripts.
+{% endhint %}
+
+***
+
+#### **Level 4 — Core**
+
+This level is reserved for **core internal systems**.
+
+* Can **read** certain protected data
+* **Cannot modify** that data unless explicitly permitted by another Level 4 system
+* Designed for sensitive internal logic that needs visibility but limited write power
+
+***
+
+#### **Level 5 — Backend**
+
+This is the **highest authority level** and is used for **backend services and APIs**.
+
+* Can **assign authority levels** to other systems
+* Its data **cannot be read or modified** by Level 4 or lower
+* Reserved strictly for secure backend infrastructure
+
+***
+
+### Summary
+
+| Level | Name    | Typical Use                         | Can Be Accessed by Client? |
+| ----- | ------- | ----------------------------------- | -------------------------- |
+| 1     | Client  | Player-side logic                   | Yes (runs locally)         |
+| 2     | Server  | Game server logic                   | ❌ No                       |
+| 4     | Core    | Internal systems (like Leaderboard) | ❌ No                       |
+| 5     | Backend | APIs & services                     | ❌ No                       |
