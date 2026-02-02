@@ -1,11 +1,9 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Frequently Asked Questions (FAQ)](frequently-asked-questions-faq.md)
 
 ## OPEN CLOUD
 
-* [READ ME](open-cloud/read-me.md)
 * [NPM Package](open-cloud/npm-package/README.md)
   * [Introduction](open-cloud/npm-package/introduction.md)
   * [Tutorials](open-cloud/npm-package/tutorials/README.md)
@@ -23,7 +21,6 @@
       * [GetPlayerByUsername](open-cloud/npm-package/webapicliet/user-endpoint/getplayerbyusername.md)
     * [Guild Endpoint](open-cloud/npm-package/webapicliet/guild-endpoint/README.md)
       * [JoinGuild](open-cloud/npm-package/webapicliet/guild-endpoint/joinguild.md)
-* [Open Cloud](open-cloud/open-cloud.md)
 * [Webhooks](open-cloud/webhooks.md)
 * [Asset Types](open-cloud/asset-types.md)
 * [Beautiful JSON Display](open-cloud/beautiful-json-display.md)
@@ -111,7 +108,3 @@
       * [Frame](game-api/classes/dymanic/gameui/frame.md)
       * [ViewportFrame](game-api/classes/dymanic/gameui/viewportframe.md)
       * [ScreenUI](game-api/classes/dymanic/gameui/screenui.md)
-
-## Employment
-
-* [List Of Administrators](employment/list-of-administrators.md)
