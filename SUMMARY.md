@@ -2,28 +2,9 @@
 
 * [Welcome](README.md)
 
-## OPEN CLOUD
+## Open Cloud API
 
-* [NPM Package](open-cloud/npm-package/README.md)
-  * [Introduction](open-cloud/npm-package/introduction.md)
-  * [Tutorials](open-cloud/npm-package/tutorials/README.md)
-    * [Webhook Configuration](open-cloud/npm-package/tutorials/webhook-configuration.md)
-  * [OpenCloudClient](open-cloud/npm-package/opencloudclient.md)
-  * [WebAPICliet](open-cloud/npm-package/webapicliet/README.md)
-    * [Client](open-cloud/npm-package/webapicliet/client.md)
-    * [login](open-cloud/npm-package/webapicliet/login.md)
-    * [quit](open-cloud/npm-package/webapicliet/quit.md)
-    * [Friends Endpoint](open-cloud/npm-package/webapicliet/friends-endpoint/README.md)
-      * [SendFriendRequest](open-cloud/npm-package/webapicliet/friends-endpoint/sendfriendrequest.md)
-      * [GetFriends](open-cloud/npm-package/webapicliet/friends-endpoint/getfriends.md)
-    * [User Endpoint](open-cloud/npm-package/webapicliet/user-endpoint/README.md)
-      * [GetAvatar](open-cloud/npm-package/webapicliet/user-endpoint/getavatar.md)
-      * [GetPlayerByUsername](open-cloud/npm-package/webapicliet/user-endpoint/getplayerbyusername.md)
-    * [Guild Endpoint](open-cloud/npm-package/webapicliet/guild-endpoint/README.md)
-      * [JoinGuild](open-cloud/npm-package/webapicliet/guild-endpoint/joinguild.md)
-* [Webhooks](open-cloud/webhooks.md)
-* [Asset Types](open-cloud/asset-types.md)
-* [Beautiful JSON Display](open-cloud/beautiful-json-display.md)
+* [OpenID OAuth](open-cloud-api/openid-oauth.md)
 
 ## Developer Guide <a href="#classes" id="classes"></a>
 
