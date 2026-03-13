@@ -14,6 +14,7 @@
 * [What's Authority?](classes/whats-authority.md)
 * [Roblox Vs BrickVerse Classes](classes/roblox-vs-brickverses-classes.md)
 * [DRM - Digital Rights Management](classes/drm-digital-rights-management.md)
+* [Setting Up Developer Webhooks](classes/setting-up-developer-webhooks.md)
 
 ## BrickLua - Coding With Lua
 
