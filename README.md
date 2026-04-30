@@ -2,8 +2,27 @@
 description: >-
   Looking for help? You're in the right place! This website provides helpful
   resources and answers to questions you may have about BrickVerse.
-cover: .gitbook/assets/intro.png
-coverY: 0
+cover: .gitbook/assets/image (6).png
+coverY: 73.43532684283728
+layout:
+  width: default
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
 ---
 
 # Welcome
