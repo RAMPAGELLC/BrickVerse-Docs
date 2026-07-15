@@ -27,3 +27,7 @@
   * [bit32](bricklua-coding-with-lua/learn-lua/bit32.md)
   * [Numbers](bricklua-coding-with-lua/learn-lua/numbers.md)
 * [Player Event](bricklua-coding-with-lua/player-event.md)
+
+## api
+
+* [Game API](api/game-api.md)
