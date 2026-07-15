@@ -28,6 +28,8 @@
   * [Numbers](bricklua-coding-with-lua/learn-lua/numbers.md)
 * [Player Event](bricklua-coding-with-lua/player-event.md)
 
-## api
+## Game API
 
-* [Game API](api/game-api.md)
+* [Overview](api/README.md)
+* [Types](api/types/README.md)
+* [Enums](api/enums/README.md)
