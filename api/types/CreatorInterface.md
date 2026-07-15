@@ -1,11 +1,12 @@
 ---
-title: "CreatorInterface"
-description: ""
+title: CreatorInterface
 ---
 
-<figure><img src="../../.gitbook/assets/api-icons/CreatorInterface.svg" alt="CreatorInterface icon" width="72"><figcaption></figcaption></figure>
-
 # CreatorInterface
+
+<figure><img src="../../.gitbook/assets/api-icons/GUI3D.svg" alt="CreatorInterface icon" width="72"><figcaption></figcaption></figure>
+
+## CreatorInterface
 
 {% hint style="warning" %}
 **Not instantiable**
@@ -13,9 +14,9 @@ description: ""
 This object cannot be created using `Instance.New()`.
 {% endhint %}
 
-## Properties
+### Properties
 
-### ToolMode
+#### ToolMode
 
 **Type:** [CreatorToolMode](../enums/CreatorToolMode.md)
 
@@ -29,9 +30,9 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### TargetPartColor
+#### TargetPartColor
 
-**Type:** [Color](./Color.md)
+**Type:** [Color](Color.md)
 
 **Attributes:** Read-only
 
@@ -43,7 +44,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### TargetPartMaterial
+#### TargetPartMaterial
 
 **Type:** [PartMaterial](../enums/PartMaterial.md)
 
@@ -57,7 +58,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### MoveSnapEnabled
+#### MoveSnapEnabled
 
 **Type:** `boolean`
 
@@ -71,7 +72,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### MoveSnapping
+#### MoveSnapping
 
 **Type:** `number`
 
@@ -85,7 +86,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### UserMoveSnapping
+#### UserMoveSnapping
 
 **Type:** `number`
 
@@ -99,7 +100,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### RotateSnapEnabled
+#### RotateSnapEnabled
 
 **Type:** `boolean`
 
@@ -113,7 +114,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### RotateSnapping
+#### RotateSnapping
 
 **Type:** `number`
 
@@ -127,7 +128,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### UserRotateSnapping
+#### UserRotateSnapping
 
 **Type:** `number`
 
@@ -141,7 +142,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### SnapToPartEnabled
+#### SnapToPartEnabled
 
 **Type:** `boolean`
 
@@ -155,7 +156,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### DuplicateOnDragEnabled
+#### DuplicateOnDragEnabled
 
 **Type:** `boolean`
 
@@ -169,7 +170,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### TransformOrientation
+#### TransformOrientation
 
 **Type:** [TransformOrientation](../enums/TransformOrientation.md)
 
@@ -183,7 +184,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### SelectionPivotMode
+#### SelectionPivotMode
 
 **Type:** [SelectionPivotMode](../enums/SelectionPivotMode.md)
 

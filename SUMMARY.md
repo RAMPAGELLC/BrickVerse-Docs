@@ -14,23 +14,18 @@
 * [DRM - Digital Rights Management](classes/drm-digital-rights-management.md)
 * [Setting Up Developer Webhooks](classes/setting-up-developer-webhooks.md)
 
-## BrickLua - Coding With Lua
-
-* [Introduction](bricklua-coding-with-lua/introduction.md)
-* [Learn Lua](bricklua-coding-with-lua/learn-lua/README.md)
-  * [Functions](bricklua-coding-with-lua/learn-lua/functions.md)
-  * [Strings](bricklua-coding-with-lua/learn-lua/strings.md)
-  * [Tables](bricklua-coding-with-lua/learn-lua/tables.md)
-  * [Boolean](bricklua-coding-with-lua/learn-lua/boolean.md)
-  * [Conditional Structures](bricklua-coding-with-lua/learn-lua/conditional-structures.md)
-  * [Opeartors](bricklua-coding-with-lua/learn-lua/opeartors.md)
-  * [bit32](bricklua-coding-with-lua/learn-lua/bit32.md)
-  * [Numbers](bricklua-coding-with-lua/learn-lua/numbers.md)
-* [Player Event](bricklua-coding-with-lua/player-event.md)
-
 ## Game API
 
 * [Overview](api/README.md)
+* [Learn Luau](game-api/learn-lua/README.md)
+  * [Functions](game-api/learn-lua/functions.md)
+  * [Strings](game-api/learn-lua/strings.md)
+  * [Tables](game-api/learn-lua/tables.md)
+  * [Boolean](game-api/learn-lua/boolean.md)
+  * [Conditional Structures](game-api/learn-lua/conditional-structures.md)
+  * [Opeartors](game-api/learn-lua/opeartors.md)
+  * [bit32](game-api/learn-lua/bit32.md)
+  * [Numbers](game-api/learn-lua/numbers.md)
 * [Types](api/types/README.md)
   * [Accessory](api/types/Accessory.md)
   * [AchievementsService](api/types/AchievementsService.md)

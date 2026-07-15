@@ -1,13 +1,14 @@
 ---
-title: "InputService"
-description: ""
+title: InputService
 ---
-
-<figure><img src="../../.gitbook/assets/api-icons/InputService.svg" alt="InputService icon" width="72"><figcaption></figcaption></figure>
 
 # InputService
 
-**Inherits:** [Instance](./Instance.md)
+<figure><img src="../../.gitbook/assets/api-icons/Input.svg" alt="InputService icon" width="72"><figcaption></figcaption></figure>
+
+## InputService
+
+**Inherits:** [Instance](Instance.md)
 
 {% hint style="info" %}
 **Static class**
@@ -21,23 +22,9 @@ Access this class using `Input`. It cannot be created with `Instance.New()`.
 This object cannot be created using `Instance.New()`.
 {% endhint %}
 
-## Properties
+### Properties
 
-### IsWindowFocused
-
-**Type:** `boolean`
-
-**Attributes:** Read-only
-
-{% hint style="warning" %}
-**Read-only**
-
-This property can be read by scripts but cannot be changed.
-{% endhint %}
-
-Documentation for this property is not yet available.
-
-### IsTouchscreen
+#### IsWindowFocused
 
 **Type:** `boolean`
 
@@ -51,7 +38,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### IsGameFocused
+#### IsTouchscreen
 
 **Type:** `boolean`
 
@@ -65,7 +52,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### IsInputFocused
+#### IsGameFocused
 
 **Type:** `boolean`
 
@@ -79,7 +66,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### IsGamepadConnected
+#### IsInputFocused
 
 **Type:** `boolean`
 
@@ -93,7 +80,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### IsMenuOpened
+#### IsGamepadConnected
 
 **Type:** `boolean`
 
@@ -107,21 +94,9 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### CursorLocked
+#### IsMenuOpened
 
 **Type:** `boolean`
-
-Documentation for this property is not yet available.
-
-### CursorVisible
-
-**Type:** `boolean`
-
-Documentation for this property is not yet available.
-
-### MouseDelta
-
-**Type:** [Vector2](./Vector2.md)
 
 **Attributes:** Read-only
 
@@ -133,9 +108,21 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### MousePosition
+#### CursorLocked
 
-**Type:** [Vector2](./Vector2.md)
+**Type:** `boolean`
+
+Documentation for this property is not yet available.
+
+#### CursorVisible
+
+**Type:** `boolean`
+
+Documentation for this property is not yet available.
+
+#### MouseDelta
+
+**Type:** [Vector2](Vector2.md)
 
 **Attributes:** Read-only
 
@@ -147,7 +134,21 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### ScreenWidth
+#### MousePosition
+
+**Type:** [Vector2](Vector2.md)
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+#### ScreenWidth
 
 **Type:** `number`
 
@@ -161,7 +162,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### ScreenHeight
+#### ScreenHeight
 
 **Type:** `number`
 
@@ -175,174 +176,174 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-## Methods
+### Methods
 
-### StartGamepadVibration(weakMagnitude, strongMagnitude, duration)
+#### StartGamepadVibration(weakMagnitude, strongMagnitude, duration)
 
-#### Parameters
+**Parameters**
 
-- `weakMagnitude`: `number`
-- `strongMagnitude`: `number`
-- `duration`: `number`
-
-**Returns:** `nil`
-
-Documentation for this method is not yet available.
-
-### StopGamepadVibration()
+* `weakMagnitude`: `number`
+* `strongMagnitude`: `number`
+* `duration`: `number`
 
 **Returns:** `nil`
 
 Documentation for this method is not yet available.
 
-### GetMouseWorldPosition(ignoreList?)
+#### StopGamepadVibration()
 
-#### Parameters
-
-- `ignoreList`: { [Instance](./Instance.md) } — optional
-
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** `nil`
 
 Documentation for this method is not yet available.
 
-### GetVector2(actionName)
+#### GetMouseWorldPosition(ignoreList?)
 
-#### Parameters
+**Parameters**
 
-- `actionName`: `string`
+* `ignoreList`: { [Instance](Instance.md) } — optional
 
-**Returns:** [InputActionVector2](./InputActionVector2.md)
-
-Documentation for this method is not yet available.
-
-### GetButton(actionName)
-
-#### Parameters
-
-- `actionName`: `string`
-
-**Returns:** [InputActionButton](./InputActionButton.md)
+**Returns:** [Vector3](Vector3.md)
 
 Documentation for this method is not yet available.
 
-### GetAxis(actionName)
+#### GetVector2(actionName)
 
-#### Parameters
+**Parameters**
 
-- `actionName`: `string`
+* `actionName`: `string`
 
-**Returns:** [InputActionAxis](./InputActionAxis.md)
-
-Documentation for this method is not yet available.
-
-### BindButton(name)
-
-#### Parameters
-
-- `name`: `string`
-
-**Returns:** [InputActionButton](./InputActionButton.md)
+**Returns:** [InputActionVector2](InputActionVector2.md)
 
 Documentation for this method is not yet available.
 
-### BindAxis(name)
+#### GetButton(actionName)
 
-#### Parameters
+**Parameters**
 
-- `name`: `string`
+* `actionName`: `string`
 
-**Returns:** [InputActionAxis](./InputActionAxis.md)
-
-Documentation for this method is not yet available.
-
-### BindVector2(name)
-
-#### Parameters
-
-- `name`: `string`
-
-**Returns:** [InputActionVector2](./InputActionVector2.md)
+**Returns:** [InputActionButton](InputActionButton.md)
 
 Documentation for this method is not yet available.
 
-## Events
+#### GetAxis(actionName)
 
-### MouseMoved(value)
+**Parameters**
 
-**Type:** [PTSignal](./PTSignal.md)
+* `actionName`: `string`
 
-#### Parameters
+**Returns:** [InputActionAxis](InputActionAxis.md)
 
-- `value`: `any`
+Documentation for this method is not yet available.
 
-This event is fired when its associated action occurs.
+#### BindButton(name)
 
-### GameFocused(value)
+**Parameters**
 
-**Type:** [PTSignal](./PTSignal.md)
+* `name`: `string`
 
-#### Parameters
+**Returns:** [InputActionButton](InputActionButton.md)
 
-- `value`: `any`
+Documentation for this method is not yet available.
 
-This event is fired when its associated action occurs.
+#### BindAxis(name)
 
-### GameUnfocused(value)
+**Parameters**
 
-**Type:** [PTSignal](./PTSignal.md)
+* `name`: `string`
 
-#### Parameters
+**Returns:** [InputActionAxis](InputActionAxis.md)
 
-- `value`: `any`
+Documentation for this method is not yet available.
 
-This event is fired when its associated action occurs.
+#### BindVector2(name)
 
-### GamepadConnected(value)
+**Parameters**
 
-**Type:** [PTSignal](./PTSignal.md)
+* `name`: `string`
 
-#### Parameters
+**Returns:** [InputActionVector2](InputActionVector2.md)
 
-- `value`: `any`
+Documentation for this method is not yet available.
 
-This event is fired when its associated action occurs.
+### Events
 
-### GamepadDisconnected(value)
+#### MouseMoved(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** [PTSignal](PTSignal.md)
 
-#### Parameters
+**Parameters**
 
-- `value`: `any`
-
-This event is fired when its associated action occurs.
-
-### KeyDown(value)
-
-**Type:** [PTSignal](./PTSignal.md)
-
-#### Parameters
-
-- `value`: `any`
+* `value`: `any`
 
 This event is fired when its associated action occurs.
 
-### KeyUp(value)
+#### GameFocused(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** [PTSignal](PTSignal.md)
 
-#### Parameters
+**Parameters**
 
-- `value`: `any`
+* `value`: `any`
 
 This event is fired when its associated action occurs.
 
-### AxisValueChanged(value)
+#### GameUnfocused(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** [PTSignal](PTSignal.md)
 
-#### Parameters
+**Parameters**
 
-- `value`: `any`
+* `value`: `any`
+
+This event is fired when its associated action occurs.
+
+#### GamepadConnected(value)
+
+**Type:** [PTSignal](PTSignal.md)
+
+**Parameters**
+
+* `value`: `any`
+
+This event is fired when its associated action occurs.
+
+#### GamepadDisconnected(value)
+
+**Type:** [PTSignal](PTSignal.md)
+
+**Parameters**
+
+* `value`: `any`
+
+This event is fired when its associated action occurs.
+
+#### KeyDown(value)
+
+**Type:** [PTSignal](PTSignal.md)
+
+**Parameters**
+
+* `value`: `any`
+
+This event is fired when its associated action occurs.
+
+#### KeyUp(value)
+
+**Type:** [PTSignal](PTSignal.md)
+
+**Parameters**
+
+* `value`: `any`
+
+This event is fired when its associated action occurs.
+
+#### AxisValueChanged(value)
+
+**Type:** [PTSignal](PTSignal.md)
+
+**Parameters**
+
+* `value`: `any`
 
 This event is fired when its associated action occurs.
