@@ -1,125 +1,175 @@
 #!/usr/bin/env python3
 
-"""
-Regenerates the Game API section inside SUMMARY.md.
-
-Scans:
-    api/types/
-    api/enums/
-
-and replaces everything beginning at:
-
-    ## Game API
-
-with a freshly generated navigation.
-
-README.md files become folder landing pages.
-"""
-
-from pathlib import Path
 from collections import defaultdict
+from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 
-SUMMARY = ROOT / "SUMMARY.md"
-API = ROOT / "api"
-TYPES = API / "types"
-ENUMS = API / "enums"
+SUMMARY_PATH = ROOT / "SUMMARY.md"
+API_PATH = ROOT / "api"
+TYPES_PATH = API_PATH / "types"
+ENUMS_PATH = API_PATH / "enums"
+
+GAME_API_MARKER = "## Game API"
 
 
-def slug(name: str):
-    return name.lower()
+def display_name(file: Path) -> str:
+    """
+    Returns a readable page name.
+
+    Prefer the first Markdown heading when available. Otherwise,
+    fall back to the filename.
+    """
+    try:
+        for line in file.read_text(encoding="utf-8").splitlines():
+            stripped = line.strip()
+
+            if stripped.startswith("# "):
+                return stripped[2:].strip()
+    except OSError:
+        pass
+
+    return file.stem.replace("-", " ").replace("_", " ").title()
+
+
+def sort_key(value: str) -> str:
+    return value.casefold()
 
 
 def scan_types():
-    categories = defaultdict(list)
+    """
+    Returns:
+        root_pages:
+            Types stored directly in api/types/
 
-    if not TYPES.exists():
-        return categories
+        grouped_pages:
+            Types stored inside api/types/<folder>/
+    """
+    root_pages = []
+    grouped_pages = defaultdict(list)
 
-    for file in TYPES.rglob("*.md"):
-        if file.name.lower() == "readme.md":
+    if not TYPES_PATH.exists():
+        return root_pages, grouped_pages
+
+    for file in TYPES_PATH.rglob("*.md"):
+        if file.name.casefold() in {"readme.md", "index.md"}:
             continue
 
-        rel = file.relative_to(TYPES)
+        relative = file.relative_to(TYPES_PATH)
+        target = f"api/types/{relative.as_posix()}"
+        page = (display_name(file), target)
 
-        if len(rel.parts) == 1:
-            category = "General"
-            name = file.stem
-            path = f"api/types/{file.name}"
+        if len(relative.parts) == 1:
+            root_pages.append(page)
         else:
-            category = rel.parts[0]
-            name = file.stem
-            path = "api/types/" + rel.as_posix()
+            category_path = relative.parent.as_posix()
+            grouped_pages[category_path].append(page)
 
-        categories[category].append((name, path))
+    root_pages.sort(key=lambda item: sort_key(item[0]))
 
-    for cat in categories:
-        categories[cat].sort(key=lambda x: slug(x[0]))
+    for pages in grouped_pages.values():
+        pages.sort(key=lambda item: sort_key(item[0]))
 
-    return dict(sorted(categories.items()))
+    grouped_pages = dict(
+        sorted(
+            grouped_pages.items(),
+            key=lambda item: sort_key(item[0]),
+        )
+    )
+
+    return root_pages, grouped_pages
 
 
 def scan_enums():
     enums = []
 
-    if not ENUMS.exists():
+    if not ENUMS_PATH.exists():
         return enums
 
-    for file in ENUMS.rglob("*.md"):
-        if file.name.lower() == "readme.md":
+    for file in ENUMS_PATH.rglob("*.md"):
+        if file.name.casefold() in {"readme.md", "index.md"}:
             continue
 
-        enums.append((file.stem, "api/enums/" + file.relative_to(ENUMS).as_posix()))
+        relative = file.relative_to(ENUMS_PATH)
 
-    enums.sort(key=lambda x: slug(x[0]))
+        enums.append(
+            (
+                display_name(file),
+                f"api/enums/{relative.as_posix()}",
+            )
+        )
+
+    enums.sort(key=lambda item: sort_key(item[0]))
     return enums
 
 
-def build_section():
-    lines = []
+def category_name(category_path: str) -> str:
+    return (
+        Path(category_path)
+        .name
+        .replace("-", " ")
+        .replace("_", " ")
+        .title()
+    )
 
-    lines.append("## Game API")
-    lines.append("")
-    lines.append("* [Overview](api/README.md)")
-    lines.append("")
-    lines.append("* [Types](api/types/README.md)")
 
-    categories = scan_types()
+def build_game_api_section() -> str:
+    root_types, grouped_types = scan_types()
+    enums = scan_enums()
 
-    for category, pages in categories.items():
-        lines.append(f"  * **{category}**")
+    lines = [
+        GAME_API_MARKER,
+        "",
+        "* [Overview](api/README.md)",
+        "* [Types](api/types/README.md)",
+    ]
 
-        for name, path in pages:
-            lines.append(f"    * [{name}]({path})")
+    # Root files appear directly under Types.
+    for name, target in root_types:
+        lines.append(f"  * [{name}]({target})")
 
-    lines.append("")
+    # Only real folders create category levels.
+    for category, pages in grouped_types.items():
+        lines.append(f"  * {category_name(category)}")
+
+        for name, target in pages:
+            lines.append(f"    * [{name}]({target})")
+
     lines.append("* [Enums](api/enums/README.md)")
 
-    for name, path in scan_enums():
-        lines.append(f"  * [{name}]({path})")
+    for name, target in enums:
+        lines.append(f"  * [{name}]({target})")
 
-    return "\n".join(lines) + "\n"
+    return "\n".join(lines).rstrip() + "\n"
 
 
 def main():
-    if not SUMMARY.exists():
-        raise FileNotFoundError("SUMMARY.md not found.")
+    if not SUMMARY_PATH.exists():
+        raise FileNotFoundError(
+            f"Could not find {SUMMARY_PATH}"
+        )
 
-    summary = SUMMARY.read_text(encoding="utf-8")
+    summary = SUMMARY_PATH.read_text(encoding="utf-8")
+    marker_index = summary.find(GAME_API_MARKER)
 
-    marker = "## Game API"
+    if marker_index == -1:
+        raise RuntimeError(
+            f'Could not find "{GAME_API_MARKER}" in SUMMARY.md'
+        )
 
-    idx = summary.find(marker)
+    preserved_content = summary[:marker_index].rstrip()
+    generated_section = build_game_api_section()
 
-    if idx == -1:
-        raise RuntimeError("Couldn't locate '## Game API' in SUMMARY.md")
+    updated_summary = (
+        f"{preserved_content}\n\n{generated_section}"
+    )
 
-    summary = summary[:idx].rstrip() + "\n\n" + build_section()
+    SUMMARY_PATH.write_text(
+        updated_summary,
+        encoding="utf-8",
+    )
 
-    SUMMARY.write_text(summary, encoding="utf-8")
-
-    print("SUMMARY.md regenerated successfully.")
+    print("SUMMARY.md Game API section regenerated.")
 
 
 if __name__ == "__main__":
