@@ -17,7 +17,7 @@ This object cannot be created using `Instance.New()`.
 
 ### Center
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 **Attributes:** Read-only
 
@@ -31,13 +31,13 @@ Documentation for this property is not yet available.
 
 ### Size
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
 ### Extents
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 **Attributes:** Read-only
 
@@ -51,7 +51,7 @@ Documentation for this property is not yet available.
 
 ### Start
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 **Attributes:** Read-only
 
@@ -65,7 +65,7 @@ Documentation for this property is not yet available.
 
 ### End
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
@@ -99,8 +99,8 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `position`: [Vector3](./Vector3.md)
-- `size`: [Vector3](./Vector3.md)
+- `position`: `Vector3`
+- `size`: `Vector3`
 
 **Returns:** [Bounds](./Bounds.md)
 
@@ -113,9 +113,9 @@ Documentation for this method is not yet available.
 #### Parameters
 
 - `bounds`: [Bounds](./Bounds.md)
-- `point`: [Vector3](./Vector3.md)
+- `point`: [ector3](./ector3.md)
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** `Vector3`
 
 Documentation for this method is not yet available.
 
@@ -126,7 +126,7 @@ Documentation for this method is not yet available.
 #### Parameters
 
 - `bounds`: [Bounds](./Bounds.md)
-- `point`: [Vector3](./Vector3.md)
+- `point`: [ector3](./ector3.md)
 
 **Returns:** `boolean`
 
@@ -139,7 +139,7 @@ Documentation for this method is not yet available.
 #### Parameters
 
 - `bounds`: [Bounds](./Bounds.md)
-- `point`: [Vector3](./Vector3.md)
+- `point`: [ector3](./ector3.md)
 
 **Returns:** [Bounds](./Bounds.md)
 
@@ -178,8 +178,8 @@ Documentation for this method is not yet available.
 #### Parameters
 
 - `bounds`: [Bounds](./Bounds.md)
-- `min`: [Vector3](./Vector3.md)
-- `max`: [Vector3](./Vector3.md)
+- `min`: [ector3](./ector3.md)
+- `max`: [ector3](./ector3.md)
 
 **Returns:** [Bounds](./Bounds.md)
 
@@ -192,7 +192,7 @@ Documentation for this method is not yet available.
 #### Parameters
 
 - `bounds`: [Bounds](./Bounds.md)
-- `point`: [Vector3](./Vector3.md)
+- `point`: [ector3](./ector3.md)
 
 **Returns:** `number`
 
@@ -205,7 +205,7 @@ Documentation for this method is not yet available.
 #### Parameters
 
 - `bounds`: [Bounds](./Bounds.md)
-- `point`: [Vector3](./Vector3.md)
+- `point`: [ector3](./ector3.md)
 
 **Returns:** `number`
 

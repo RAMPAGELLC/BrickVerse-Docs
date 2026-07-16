@@ -15,7 +15,7 @@ This object cannot be created using `Instance.New()`.
 
 ### Pressed(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

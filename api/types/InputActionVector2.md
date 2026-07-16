@@ -41,7 +41,7 @@ Documentation for this property is not yet available.
 
 ### Value
 
-**Type:** [Vector2](./Vector2.md)
+**Type:** `Vector2`
 
 **Attributes:** Read-only
 

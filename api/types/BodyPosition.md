@@ -13,7 +13,7 @@ description: ""
 
 ### TargetPosition
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 

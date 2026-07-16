@@ -141,7 +141,7 @@ Documentation for this method is not yet available.
 
 ### Loaded(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

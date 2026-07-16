@@ -1,42 +1,41 @@
 ---
-title: BodyRotation
+title: "BodyRotation"
+description: ""
 ---
+
+<figure><img src="../../.gitbook/assets/api-icons/BodyRotation.svg" alt="BodyRotation icon" width="72"><figcaption></figcaption></figure>
 
 # BodyRotation
 
-<figure><img src="../../.gitbook/assets/api-icons/BodyPosition.svg" alt="BodyRotation icon" width="72"><figcaption></figcaption></figure>
+**Inherits:** [Instance](./Instance.md)
 
-## BodyRotation
+## Properties
 
-**Inherits:** [Instance](Instance.md)
+### TargetRotation
 
-### Properties
-
-#### TargetRotation
-
-**Type:** [Vector3](Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
-#### Force
+### Force
 
 **Type:** `number`
 
 Documentation for this property is not yet available.
 
-#### AcceptanceAngle
+### AcceptanceAngle
 
 **Type:** `number`
 
 Documentation for this property is not yet available.
 
-### Methods
+## Methods
 
-#### SetQuaternion(quaternion)
+### SetQuaternion(quaternion)
 
-**Parameters**
+#### Parameters
 
-* `quaternion`: [Quaternion](Quaternion.md)
+- `quaternion`: [Quaternion](./Quaternion.md)
 
 **Returns:** `nil`
 

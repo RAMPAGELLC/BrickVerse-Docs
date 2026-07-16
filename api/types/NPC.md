@@ -14,13 +14,13 @@ description: ""
 
 ### Velocity
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
 ### SeatOffset
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
@@ -56,7 +56,7 @@ Documentation for this property is not yet available.
 
 ### NametagOffset
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
@@ -230,7 +230,7 @@ Documentation for this property is not yet available.
 
 #### Parameters
 
-- `velo`: [Vector3](./Vector3.md)
+- `velo`: `Vector3`
 
 **Returns:** `nil`
 
@@ -310,7 +310,7 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `pos`: [Vector3](./Vector3.md)
+- `pos`: `Vector3`
 
 **Returns:** `nil`
 
@@ -346,7 +346,7 @@ Documentation for this method is not yet available.
 
 ### Died(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -356,7 +356,7 @@ This event is fired when its associated action occurs.
 
 ### Landed(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -366,7 +366,7 @@ This event is fired when its associated action occurs.
 
 ### NavFinished(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

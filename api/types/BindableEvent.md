@@ -25,7 +25,7 @@ Documentation for this method is not yet available.
 
 ### Invoked(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

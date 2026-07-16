@@ -67,7 +67,7 @@ Documentation for this method is not yet available.
 
 ### SettingChanged(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

@@ -13,7 +13,7 @@ description: ""
 
 ### Clicked(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

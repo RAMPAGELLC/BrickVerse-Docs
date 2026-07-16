@@ -23,11 +23,11 @@ This object cannot be created using `Instance.New()`.
 
 ## Methods
 
-### GetDatastore(key)
+### GetDataStore(name)
 
 #### Parameters
 
-- `key`: `string`
+- `name`: `string`
 
 **Returns:** [Datastore](./Datastore.md)
 

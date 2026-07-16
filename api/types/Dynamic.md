@@ -14,37 +14,37 @@ description: ""
 
 ### Position
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
 ### Rotation
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
 ### Size
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
 ### LocalPosition
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
 ### LocalRotation
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
 ### LocalSize
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
@@ -68,7 +68,7 @@ Documentation for this property is not yet available.
 
 ### Forward
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 **Attributes:** Read-only
 
@@ -82,7 +82,7 @@ Documentation for this property is not yet available.
 
 ### Right
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 **Attributes:** Read-only
 
@@ -96,7 +96,7 @@ Documentation for this property is not yet available.
 
 ### Up
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 **Attributes:** Read-only
 
@@ -125,7 +125,7 @@ Documentation for this method is not yet available.
 #### Parameters
 
 - `target`: `any`
-- `up`: [Vector3](./Vector3.md)
+- `up`: `Vector3`
 
 **Returns:** `nil`
 
@@ -135,7 +135,7 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `translation`: [Vector3](./Vector3.md)
+- `translation`: `Vector3`
 
 **Returns:** `nil`
 
@@ -145,8 +145,8 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `point`: [Vector3](./Vector3.md)
-- `axis`: [Vector3](./Vector3.md)
+- `point`: `Vector3`
+- `axis`: `Vector3`
 - `angle`: `number`
 
 **Returns:** `nil`
@@ -157,7 +157,7 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `eulerAngles`: [Vector3](./Vector3.md)
+- `eulerAngles`: `Vector3`
 
 **Returns:** `nil`
 

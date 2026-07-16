@@ -70,7 +70,7 @@ This method may yield the current script until the operation completes.
 #### Parameters
 
 - `dyn`: [Dynamic](./Dynamic.md)
-- `photoSize`: [Vector2](./Vector2.md) — optional
+- `photoSize`: `Vector2` — optional
 - `overlay`: [UIField](./UIField.md) — optional
 
 **Returns:** `nil`
@@ -89,9 +89,9 @@ This method may yield the current script until the operation completes.
 
 #### Parameters
 
-- `pos`: [Vector3](./Vector3.md)
-- `rot`: [Vector3](./Vector3.md)
-- `photoSize`: [Vector2](./Vector2.md) — optional
+- `pos`: `Vector3`
+- `rot`: `Vector3`
+- `photoSize`: `Vector2` — optional
 - `overlay`: [UIField](./UIField.md) — optional
 
 **Returns:** `nil`

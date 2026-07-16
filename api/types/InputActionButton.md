@@ -37,7 +37,7 @@ Documentation for this property is not yet available.
 
 ### Pressed(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -47,7 +47,7 @@ This event is fired when its associated action occurs.
 
 ### Released(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

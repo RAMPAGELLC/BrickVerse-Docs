@@ -1,9 +1,11 @@
 ---
-title: "PTSignal"
+title: "BVSignal"
 description: ""
 ---
 
-# PTSignal
+<figure><img src="../../.gitbook/assets/api-icons/BVSignal.svg" alt="BVSignal icon" width="72"><figcaption></figcaption></figure>
+
+# BVSignal
 
 {% hint style="warning" %}
 **Not instantiable**
@@ -19,7 +21,7 @@ This object cannot be created using `Instance.New()`.
 
 - `action`: `() -> ()`
 
-**Returns:** [PTSignalConnection](./PTSignalConnection.md)
+**Returns:** [BVSignalConnection](./BVSignalConnection.md)
 
 Documentation for this method is not yet available.
 

@@ -1,9 +1,9 @@
 ---
-title: "PTFunction"
+title: "BVFunction"
 description: ""
 ---
 
-# PTFunction
+# BVFunction
 
 {% hint style="warning" %}
 **Not instantiable**

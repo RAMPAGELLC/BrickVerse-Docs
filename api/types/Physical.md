@@ -44,13 +44,13 @@ Documentation for this property is not yet available.
 
 ### Velocity
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
 ### AngularVelocity
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
@@ -118,7 +118,7 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `position`: [Vector3](./Vector3.md)
+- `position`: `Vector3`
 
 **Returns:** `nil`
 
@@ -128,7 +128,7 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `rotation`: [Vector3](./Vector3.md)
+- `rotation`: `Vector3`
 
 **Returns:** `nil`
 
@@ -138,7 +138,7 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `force`: [Vector3](./Vector3.md)
+- `force`: `Vector3`
 - `mode`: [ForceMode](../enums/ForceMode.md) — optional — default: `Force`
 
 **Returns:** `nil`
@@ -149,7 +149,7 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `force`: [Vector3](./Vector3.md)
+- `force`: `Vector3`
 - `mode`: [ForceMode](../enums/ForceMode.md) — optional — default: `Force`
 
 **Returns:** `nil`
@@ -160,8 +160,8 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `force`: [Vector3](./Vector3.md)
-- `position`: [Vector3](./Vector3.md)
+- `force`: `Vector3`
+- `position`: `Vector3`
 - `mode`: [ForceMode](../enums/ForceMode.md) — optional — default: `Force`
 
 **Returns:** `nil`
@@ -172,7 +172,7 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `force`: [Vector3](./Vector3.md)
+- `force`: `Vector3`
 - `mode`: [ForceMode](../enums/ForceMode.md) — optional — default: `Force`
 
 **Returns:** `nil`
@@ -183,7 +183,7 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `torque`: [Vector3](./Vector3.md)
+- `torque`: `Vector3`
 - `mode`: [ForceMode](../enums/ForceMode.md) — optional — default: `Force`
 
 **Returns:** `nil`
@@ -194,7 +194,7 @@ Documentation for this method is not yet available.
 
 ### Touched(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -204,7 +204,7 @@ This event is fired when its associated action occurs.
 
 ### TouchEnded(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -214,7 +214,7 @@ This event is fired when its associated action occurs.
 
 ### MouseEnter(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -224,7 +224,7 @@ This event is fired when its associated action occurs.
 
 ### MouseExit(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -234,7 +234,7 @@ This event is fired when its associated action occurs.
 
 ### Clicked(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

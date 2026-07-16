@@ -13,7 +13,7 @@ description: ""
 
 ### Forward
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 **Attributes:** Read-only
 
@@ -105,13 +105,13 @@ Documentation for this property is not yet available.
 
 ### PositionOffset
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
 ### RotationOffset
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
@@ -197,7 +197,7 @@ Documentation for this property is not yet available.
 
 #### Parameters
 
-- `pos`: [Vector3](./Vector3.md)
+- `pos`: `Vector3`
 
 **Returns:** `boolean`
 
@@ -207,7 +207,7 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `pos`: [Vector3](./Vector3.md)
+- `pos`: `Vector3`
 
 **Returns:** `boolean`
 
@@ -217,7 +217,7 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `pos`: [Vector2](./Vector2.md)
+- `pos`: `Vector2`
 - `ignoreList`: { [Instance](./Instance.md) } — optional
 - `maxDistance`: `number` — optional — default: `10000`
 
@@ -229,7 +229,7 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `pos`: [Vector2](./Vector2.md)
+- `pos`: `Vector2`
 - `ignoreList`: { [Instance](./Instance.md) } — optional
 - `maxDistance`: `number` — optional — default: `10000`
 
@@ -241,9 +241,9 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `pos`: [Vector2](./Vector2.md)
+- `pos`: `Vector2`
 
-**Returns:** [Vector2](./Vector2.md)
+**Returns:** `Vector2`
 
 Documentation for this method is not yet available.
 
@@ -251,9 +251,9 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `pos`: [Vector2](./Vector2.md)
+- `pos`: `Vector2`
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** `Vector3`
 
 Documentation for this method is not yet available.
 
@@ -261,9 +261,9 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `pos`: [Vector3](./Vector3.md)
+- `pos`: `Vector3`
 
-**Returns:** [Vector2](./Vector2.md)
+**Returns:** `Vector2`
 
 Documentation for this method is not yet available.
 
@@ -271,9 +271,9 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `pos`: [Vector3](./Vector3.md)
+- `pos`: `Vector3`
 
-**Returns:** [Vector2](./Vector2.md)
+**Returns:** `Vector2`
 
 Documentation for this method is not yet available.
 
@@ -281,9 +281,9 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `pos`: [Vector2](./Vector2.md)
+- `pos`: `Vector2`
 
-**Returns:** [Vector2](./Vector2.md)
+**Returns:** `Vector2`
 
 Documentation for this method is not yet available.
 
@@ -291,9 +291,9 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `pos`: [Vector2](./Vector2.md)
+- `pos`: `Vector2`
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** `Vector3`
 
 Documentation for this method is not yet available.
 
@@ -301,7 +301,7 @@ Documentation for this method is not yet available.
 
 ### FirstPersonEntered(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -311,7 +311,7 @@ This event is fired when its associated action occurs.
 
 ### FirstPersonExited(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

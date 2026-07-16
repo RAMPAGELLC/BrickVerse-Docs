@@ -67,7 +67,7 @@ Documentation for this property is not yet available.
 
 ### LocalTestStarted(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -77,7 +77,7 @@ This event is fired when its associated action occurs.
 
 ### LocalTestStopped(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

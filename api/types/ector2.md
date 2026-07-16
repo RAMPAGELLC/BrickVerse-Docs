@@ -1,11 +1,9 @@
 ---
-title: "Vector3"
+title: "ector2"
 description: ""
 ---
 
-<figure><img src="../../.gitbook/assets/api-icons/Vector3.svg" alt="Vector3 icon" width="72"><figcaption></figcaption></figure>
-
-# Vector3
+# ector2
 
 {% hint style="warning" %}
 **Not instantiable**
@@ -27,43 +25,9 @@ Documentation for this property is not yet available.
 
 Documentation for this property is not yet available.
 
-### Z
-
-**Type:** `number`
-
-Documentation for this property is not yet available.
-
-### Forward
-
-**Type:** [Vector3](./Vector3.md)
-
-**Attributes:** Static · Read-only
-
-{% hint style="warning" %}
-**Read-only**
-
-This property can be read by scripts but cannot be changed.
-{% endhint %}
-
-Documentation for this property is not yet available.
-
-### Back
-
-**Type:** [Vector3](./Vector3.md)
-
-**Attributes:** Static · Read-only
-
-{% hint style="warning" %}
-**Read-only**
-
-This property can be read by scripts but cannot be changed.
-{% endhint %}
-
-Documentation for this property is not yet available.
-
 ### Down
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** [ector2](./ector2.md)
 
 **Attributes:** Static · Read-only
 
@@ -77,7 +41,7 @@ Documentation for this property is not yet available.
 
 ### Left
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** [ector2](./ector2.md)
 
 **Attributes:** Static · Read-only
 
@@ -91,7 +55,7 @@ Documentation for this property is not yet available.
 
 ### One
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** [ector2](./ector2.md)
 
 **Attributes:** Static · Read-only
 
@@ -105,7 +69,7 @@ Documentation for this property is not yet available.
 
 ### Zero
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** [ector2](./ector2.md)
 
 **Attributes:** Static · Read-only
 
@@ -119,7 +83,7 @@ Documentation for this property is not yet available.
 
 ### Right
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** [ector2](./ector2.md)
 
 **Attributes:** Static · Read-only
 
@@ -133,7 +97,7 @@ Documentation for this property is not yet available.
 
 ### Up
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** [ector2](./ector2.md)
 
 **Attributes:** Static · Read-only
 
@@ -161,7 +125,7 @@ Documentation for this property is not yet available.
 
 ### Normalized
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** [ector2](./ector2.md)
 
 **Attributes:** Read-only
 
@@ -193,7 +157,7 @@ Documentation for this property is not yet available.
 
 **Attributes:** Static
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -205,7 +169,7 @@ Documentation for this method is not yet available.
 
 - `d`: `number`
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -218,33 +182,7 @@ Documentation for this method is not yet available.
 - `x`: `number`
 - `y`: `number`
 
-**Returns:** [Vector3](./Vector3.md)
-
-Documentation for this method is not yet available.
-
-### New(x, y, z)
-
-**Attributes:** Static
-
-#### Parameters
-
-- `x`: `number`
-- `y`: `number`
-- `z`: `number`
-
-**Returns:** [Vector3](./Vector3.md)
-
-Documentation for this method is not yet available.
-
-### New(v)
-
-**Attributes:** Static
-
-#### Parameters
-
-- `v`: [Vector2](./Vector2.md)
-
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -254,8 +192,8 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `from`: [Vector3](./Vector3.md)
-- `to`: [Vector3](./Vector3.md)
+- `from`: [ector2](./ector2.md)
+- `to`: [ector2](./ector2.md)
 
 **Returns:** `number`
 
@@ -267,10 +205,10 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `lhs`: [Vector3](./Vector3.md)
-- `rhs`: [Vector3](./Vector3.md)
+- `lhs`: [ector2](./ector2.md)
+- `rhs`: [ector2](./ector2.md)
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** `number`
 
 Documentation for this method is not yet available.
 
@@ -280,8 +218,8 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `a`: [Vector3](./Vector3.md)
-- `b`: [Vector3](./Vector3.md)
+- `a`: [ector2](./ector2.md)
+- `b`: [ector2](./ector2.md)
 
 **Returns:** `number`
 
@@ -293,8 +231,8 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `lhs`: [Vector3](./Vector3.md)
-- `rhs`: [Vector3](./Vector3.md)
+- `lhs`: [ector2](./ector2.md)
+- `rhs`: [ector2](./ector2.md)
 
 **Returns:** `number`
 
@@ -306,11 +244,11 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `a`: [Vector3](./Vector3.md)
-- `b`: [Vector3](./Vector3.md)
+- `a`: [ector2](./ector2.md)
+- `b`: [ector2](./ector2.md)
 - `t`: `number`
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -320,10 +258,10 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `lhs`: [Vector3](./Vector3.md)
-- `rhs`: [Vector3](./Vector3.md)
+- `lhs`: [ector2](./ector2.md)
+- `rhs`: [ector2](./ector2.md)
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -333,10 +271,10 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `lhs`: [Vector3](./Vector3.md)
-- `rhs`: [Vector3](./Vector3.md)
+- `lhs`: [ector2](./ector2.md)
+- `rhs`: [ector2](./ector2.md)
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -346,11 +284,11 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `current`: [Vector3](./Vector3.md)
-- `target`: [Vector3](./Vector3.md)
+- `current`: [ector2](./ector2.md)
+- `target`: [ector2](./ector2.md)
 - `maxDistanceDelta`: `number`
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -360,9 +298,9 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `value`: [Vector3](./Vector3.md)
+- `value`: [ector2](./ector2.md)
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -372,23 +310,10 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `vector`: [Vector3](./Vector3.md)
-- `onNormal`: [Vector3](./Vector3.md)
+- `vector`: [ector2](./ector2.md)
+- `onNormal`: [ector2](./ector2.md)
 
-**Returns:** [Vector3](./Vector3.md)
-
-Documentation for this method is not yet available.
-
-### ProjectOnPlane(vector, planeNormal)
-
-**Attributes:** Static · Semi-static
-
-#### Parameters
-
-- `vector`: [Vector3](./Vector3.md)
-- `planeNormal`: [Vector3](./Vector3.md)
-
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -398,24 +323,10 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `inDirection`: [Vector3](./Vector3.md)
-- `inNormal`: [Vector3](./Vector3.md)
+- `inDirection`: [ector2](./ector2.md)
+- `inNormal`: [ector2](./ector2.md)
 
-**Returns:** [Vector3](./Vector3.md)
-
-Documentation for this method is not yet available.
-
-### SignedAngle(from, to, axis)
-
-**Attributes:** Static · Semi-static
-
-#### Parameters
-
-- `from`: [Vector3](./Vector3.md)
-- `to`: [Vector3](./Vector3.md)
-- `axis`: [Vector3](./Vector3.md)
-
-**Returns:** `number`
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -425,11 +336,11 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `a`: [Vector3](./Vector3.md)
-- `b`: [Vector3](./Vector3.md)
+- `a`: [ector2](./ector2.md)
+- `b`: [ector2](./ector2.md)
 - `t`: `number`
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -439,9 +350,9 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `val`: [Vector3](./Vector3.md)
+- `val`: [ector2](./ector2.md)
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -451,9 +362,9 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `val`: [Vector3](./Vector3.md)
+- `val`: [ector2](./ector2.md)
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -463,9 +374,9 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `val`: [Vector3](./Vector3.md)
+- `val`: [ector2](./ector2.md)
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -475,9 +386,9 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `val`: [Vector3](./Vector3.md)
+- `val`: [ector2](./ector2.md)
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -487,36 +398,9 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `val`: [Vector3](./Vector3.md)
+- `val`: [ector2](./ector2.md)
 
-**Returns:** [Vector3](./Vector3.md)
-
-Documentation for this method is not yet available.
-
-### Rotated(val, axis, angle)
-
-**Attributes:** Static · Semi-static
-
-#### Parameters
-
-- `val`: [Vector3](./Vector3.md)
-- `axis`: [Vector3](./Vector3.md)
-- `angle`: `number`
-
-**Returns:** [Vector3](./Vector3.md)
-
-Documentation for this method is not yet available.
-
-### LimitLength(val, length)
-
-**Attributes:** Static · Semi-static
-
-#### Parameters
-
-- `val`: [Vector3](./Vector3.md)
-- `length`: `number`
-
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -526,11 +410,50 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `val`: [Vector3](./Vector3.md)
-- `min`: [Vector3](./Vector3.md)
-- `max`: [Vector3](./Vector3.md)
+- `val`: [ector2](./ector2.md)
+- `min`: [ector2](./ector2.md)
+- `max`: [ector2](./ector2.md)
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
+
+Documentation for this method is not yet available.
+
+### ProjectOnPlane(vector, planeNormal)
+
+**Attributes:** Static · Semi-static
+
+#### Parameters
+
+- `vector`: [ector2](./ector2.md)
+- `planeNormal`: [ector2](./ector2.md)
+
+**Returns:** [ector2](./ector2.md)
+
+Documentation for this method is not yet available.
+
+### Rotated(val, angle)
+
+**Attributes:** Static · Semi-static
+
+#### Parameters
+
+- `val`: [ector2](./ector2.md)
+- `angle`: `number`
+
+**Returns:** [ector2](./ector2.md)
+
+Documentation for this method is not yet available.
+
+### LimitLength(val, length)
+
+**Attributes:** Static · Semi-static
+
+#### Parameters
+
+- `val`: [ector2](./ector2.md)
+- `length`: `number`
+
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -540,9 +463,9 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `val`: [Vector3](./Vector3.md)
+- `val`: [ector2](./ector2.md)
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.
 
@@ -552,8 +475,8 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `val`: [Vector3](./Vector3.md)
+- `val`: [ector2](./ector2.md)
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** [ector2](./ector2.md)
 
 Documentation for this method is not yet available.

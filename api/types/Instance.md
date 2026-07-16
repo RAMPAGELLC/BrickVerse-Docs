@@ -8,7 +8,7 @@ description: ""
 # Instance
 
 **Inherits:** [NetworkedObject](./NetworkedObject.md)
-**Inherited by:** [AchievementsService](./AchievementsService.md), [Animator](./Animator.md), [AssetsService](./AssetsService.md), [BindableEvent](./BindableEvent.md), [BodyPosition](./BodyPosition.md), [BodyRotation](./BodyRotation.md), [CaptureService](./CaptureService.md), [ChatService](./ChatService.md), [Clothing](./Clothing.md), [CoreUIService](./CoreUIService.md), [CreatorAddons](./CreatorAddons.md), [CreatorContextService](./CreatorContextService.md), [CreatorGUI](./CreatorGUI.md), [CreatorHistory](./CreatorHistory.md), [CreatorSelections](./CreatorSelections.md), [DatastoreService](./DatastoreService.md), [Dynamic](./Dynamic.md), [Environment](./Environment.md), [FilterService](./FilterService.md), [Folder](./Folder.md), [Grabbable](./Grabbable.md), [GUI](./GUI.md), [HiddenBase](./HiddenBase.md), [HttpService](./HttpService.md), [InputService](./InputService.md), [InsertService](./InsertService.md), [IOService](./IOService.md), [Lighting](./Lighting.md), [LightingModifier](./LightingModifier.md), [MissingInstance](./MissingInstance.md), [NetworkEvent](./NetworkEvent.md), [PlayerGUI](./PlayerGUI.md), [Players](./Players.md), [PreferencesService](./PreferencesService.md), [PresenceService](./PresenceService.md), [PurchasesService](./PurchasesService.md), [Script](./Script.md), [ScriptService](./ScriptService.md), [Sky](./Sky.md), [SocialService](./SocialService.md), [Stat](./Stat.md), [Stats](./Stats.md), [Team](./Team.md), [Teams](./Teams.md), [TweenService](./TweenService.md), [UIAspectRatioRestraint](./UIAspectRatioRestraint.md), [UICorner](./UICorner.md), [UIField](./UIField.md), [UIShadow](./UIShadow.md), [UIStroke](./UIStroke.md), [ValueBase](./ValueBase.md), [Weld](./Weld.md), [World](./World.md), [WorldsService](./WorldsService.md)
+**Inherited by:** [AchievementsService](./AchievementsService.md), [Animator](./Animator.md), [AssetsService](./AssetsService.md), [BindableEvent](./BindableEvent.md), [BodyPosition](./BodyPosition.md), [BodyRotation](./BodyRotation.md), [CaptureService](./CaptureService.md), [ChatService](./ChatService.md), [Clothing](./Clothing.md), [ConfigService](./ConfigService.md), [CoreUIService](./CoreUIService.md), [CreatorAddons](./CreatorAddons.md), [CreatorContextService](./CreatorContextService.md), [CreatorGUI](./CreatorGUI.md), [CreatorHistory](./CreatorHistory.md), [CreatorSelections](./CreatorSelections.md), [DatastoreService](./DatastoreService.md), [Dynamic](./Dynamic.md), [Environment](./Environment.md), [FilterService](./FilterService.md), [Folder](./Folder.md), [Grabbable](./Grabbable.md), [GUI](./GUI.md), [HiddenBase](./HiddenBase.md), [HttpService](./HttpService.md), [InputService](./InputService.md), [InsertService](./InsertService.md), [IOService](./IOService.md), [Lighting](./Lighting.md), [LightingModifier](./LightingModifier.md), [MissingInstance](./MissingInstance.md), [NetworkEvent](./NetworkEvent.md), [PlayerGUI](./PlayerGUI.md), [Players](./Players.md), [PreferencesService](./PreferencesService.md), [PresenceService](./PresenceService.md), [PurchasesService](./PurchasesService.md), [Script](./Script.md), [ScriptService](./ScriptService.md), [Sky](./Sky.md), [SocialService](./SocialService.md), [Stat](./Stat.md), [Stats](./Stats.md), [Team](./Team.md), [Teams](./Teams.md), [Terrain](./Terrain.md), [TweenService](./TweenService.md), [UIAspectRatioRestraint](./UIAspectRatioRestraint.md), [UICorner](./UICorner.md), [UIField](./UIField.md), [UIShadow](./UIShadow.md), [UIStroke](./UIStroke.md), [ValueBase](./ValueBase.md), [Weld](./Weld.md), [World](./World.md), [WorldsService](./WorldsService.md)
 
 {% hint style="danger" %}
 **Abstract object**
@@ -281,7 +281,7 @@ Documentation for this method is not yet available.
 
 ### ChildAdded(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -291,7 +291,7 @@ This event is fired when its associated action occurs.
 
 ### ChildRemoved(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -301,7 +301,7 @@ This event is fired when its associated action occurs.
 
 ### ChildDeleting(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -311,7 +311,7 @@ This event is fired when its associated action occurs.
 
 ### ChildDeleted(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

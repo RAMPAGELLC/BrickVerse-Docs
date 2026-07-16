@@ -31,7 +31,7 @@ Documentation for this property is not yet available.
 
 ### AbsoluteSize
 
-**Type:** [Vector2](./Vector2.md)
+**Type:** `Vector2`
 
 **Attributes:** Read-only
 

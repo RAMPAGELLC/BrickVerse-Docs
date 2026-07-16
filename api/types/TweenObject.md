@@ -98,7 +98,7 @@ Documentation for this method is not yet available.
 #### Parameters
 
 - `target`: [Dynamic](./Dynamic.md)
-- `destination`: [Vector3](./Vector3.md)
+- `destination`: `Vector3`
 - `time`: `number`
 
 **Returns:** `nil`
@@ -110,7 +110,7 @@ Documentation for this method is not yet available.
 #### Parameters
 
 - `target`: [Dynamic](./Dynamic.md)
-- `destination`: [Vector3](./Vector3.md)
+- `destination`: `Vector3`
 - `time`: `number`
 
 **Returns:** `nil`
@@ -122,7 +122,7 @@ Documentation for this method is not yet available.
 #### Parameters
 
 - `target`: [Dynamic](./Dynamic.md)
-- `destination`: [Vector3](./Vector3.md)
+- `destination`: `Vector3`
 - `time`: `number`
 
 **Returns:** `nil`
@@ -159,8 +159,8 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `from`: [Vector2](./Vector2.md)
-- `to`: [Vector2](./Vector2.md)
+- `from`: `Vector2`
+- `to`: `Vector2`
 - `time`: `number`
 - `callback`: `() -> ()`
 
@@ -172,8 +172,8 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `from`: [Vector3](./Vector3.md)
-- `to`: [Vector3](./Vector3.md)
+- `from`: `Vector3`
+- `to`: `Vector3`
 - `time`: `number`
 - `callback`: `() -> ()`
 
@@ -242,7 +242,7 @@ Documentation for this method is not yet available.
 
 ### Finished(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -252,7 +252,7 @@ This event is fired when its associated action occurs.
 
 ### Canceled(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

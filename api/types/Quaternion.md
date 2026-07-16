@@ -98,7 +98,7 @@ Documentation for this method is not yet available.
 #### Parameters
 
 - `angle`: `number`
-- `axis`: [Vector3](./Vector3.md)
+- `axis`: `Vector3`
 
 **Returns:** [Quaternion](./Quaternion.md)
 
@@ -137,7 +137,7 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `euler`: [Vector3](./Vector3.md)
+- `euler`: `Vector3`
 
 **Returns:** [Quaternion](./Quaternion.md)
 
@@ -151,7 +151,7 @@ Documentation for this method is not yet available.
 
 - `euler`: [Quaternion](./Quaternion.md)
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** `Vector3`
 
 Documentation for this method is not yet available.
 
@@ -161,8 +161,8 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `fromDirection`: [Vector3](./Vector3.md)
-- `toDirection`: [Vector3](./Vector3.md)
+- `fromDirection`: `Vector3`
+- `toDirection`: `Vector3`
 
 **Returns:** [Quaternion](./Quaternion.md)
 
@@ -214,7 +214,7 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `forward`: [Vector3](./Vector3.md)
+- `forward`: `Vector3`
 
 **Returns:** [Quaternion](./Quaternion.md)
 
@@ -226,8 +226,8 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `forward`: [Vector3](./Vector3.md)
-- `upwards`: [Vector3](./Vector3.md)
+- `forward`: `Vector3`
+- `upwards`: `Vector3`
 
 **Returns:** [Quaternion](./Quaternion.md)
 

@@ -20,7 +20,7 @@ This object exists as a base for other objects and cannot be created or accessed
 
 ### Changed(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

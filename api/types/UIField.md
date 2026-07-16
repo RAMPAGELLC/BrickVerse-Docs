@@ -14,13 +14,13 @@ description: ""
 
 ### PositionOffset
 
-**Type:** [Vector2](./Vector2.md)
+**Type:** `Vector2`
 
 Documentation for this property is not yet available.
 
 ### PositionRelative
 
-**Type:** [Vector2](./Vector2.md)
+**Type:** `Vector2`
 
 Documentation for this property is not yet available.
 
@@ -32,13 +32,13 @@ Documentation for this property is not yet available.
 
 ### SizeOffset
 
-**Type:** [Vector2](./Vector2.md)
+**Type:** `Vector2`
 
 Documentation for this property is not yet available.
 
 ### SizeRelative
 
-**Type:** [Vector2](./Vector2.md)
+**Type:** `Vector2`
 
 Documentation for this property is not yet available.
 
@@ -50,13 +50,13 @@ Documentation for this property is not yet available.
 
 ### PivotPoint
 
-**Type:** [Vector2](./Vector2.md)
+**Type:** `Vector2`
 
 Documentation for this property is not yet available.
 
 ### Scale
 
-**Type:** [Vector2](./Vector2.md)
+**Type:** `Vector2`
 
 Documentation for this property is not yet available.
 
@@ -86,7 +86,7 @@ Documentation for this property is not yet available.
 
 ### AbsolutePosition
 
-**Type:** [Vector2](./Vector2.md)
+**Type:** `Vector2`
 
 **Attributes:** Read-only
 
@@ -100,7 +100,7 @@ Documentation for this property is not yet available.
 
 ### AbsoluteSize
 
-**Type:** [Vector2](./Vector2.md)
+**Type:** `Vector2`
 
 **Attributes:** Read-only
 
@@ -130,7 +130,7 @@ Documentation for this property is not yet available.
 
 ### MouseEnter(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -140,7 +140,7 @@ This event is fired when its associated action occurs.
 
 ### MouseExit(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -150,7 +150,7 @@ This event is fired when its associated action occurs.
 
 ### MouseDown(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -160,7 +160,7 @@ This event is fired when its associated action occurs.
 
 ### MouseUp(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -170,7 +170,7 @@ This event is fired when its associated action occurs.
 
 ### TransformChanged(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -180,7 +180,7 @@ This event is fired when its associated action occurs.
 
 ### VisibilityChanged(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

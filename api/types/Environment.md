@@ -31,7 +31,7 @@ Documentation for this property is not yet available.
 
 ### Gravity
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 Documentation for this property is not yet available.
 
@@ -53,8 +53,8 @@ Documentation for this property is not yet available.
 
 #### Parameters
 
-- `origin`: [Vector3](./Vector3.md)
-- `direction`: [Vector3](./Vector3.md)
+- `origin`: `Vector3`
+- `direction`: `Vector3`
 - `maxDistance`: `number` — optional — default: `10000`
 - `ignoreList`: { [Instance](./Instance.md) } — optional
 
@@ -66,8 +66,8 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `origin`: [Vector3](./Vector3.md)
-- `direction`: [Vector3](./Vector3.md)
+- `origin`: `Vector3`
+- `direction`: `Vector3`
 - `maxDistance`: `number` — optional — default: `1000`
 - `ignoreList`: { [Instance](./Instance.md) } — optional
 
@@ -79,7 +79,7 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `origin`: [Vector3](./Vector3.md)
+- `origin`: `Vector3`
 - `radius`: `number`
 - `ignoreList`: { [Instance](./Instance.md) } — optional
 
@@ -91,9 +91,9 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `pos`: [Vector3](./Vector3.md)
-- `size`: [Vector3](./Vector3.md)
-- `rot`: [Vector3](./Vector3.md)
+- `pos`: `Vector3`
+- `size`: `Vector3`
+- `rot`: `Vector3`
 - `ignoreList`: { [Instance](./Instance.md) } — optional
 
 **Returns:** { [Instance](./Instance.md) }
@@ -110,8 +110,8 @@ Documentation for this method is not yet available.
 
 #### Parameters
 
-- `toPoint`: [Vector3](./Vector3.md)
+- `toPoint`: `Vector3`
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** `Vector3`
 
 Documentation for this method is not yet available.

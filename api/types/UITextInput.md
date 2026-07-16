@@ -95,7 +95,7 @@ Documentation for this method is not yet available.
 
 ### Submitted(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -105,7 +105,7 @@ This event is fired when its associated action occurs.
 
 ### Changed(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -115,7 +115,7 @@ This event is fired when its associated action occurs.
 
 ### FocusEnter(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -125,7 +125,7 @@ This event is fired when its associated action occurs.
 
 ### FocusExit(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

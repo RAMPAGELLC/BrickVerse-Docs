@@ -37,12 +37,12 @@ Documentation for this property is not yet available.
 
 ### FillFrom
 
-**Type:** [Vector2](./Vector2.md)
+**Type:** `Vector2`
 
 Documentation for this property is not yet available.
 
 ### FillTo
 
-**Type:** [Vector2](./Vector2.md)
+**Type:** `Vector2`
 
 Documentation for this property is not yet available.

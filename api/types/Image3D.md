@@ -19,13 +19,13 @@ Documentation for this property is not yet available.
 
 ### TextureScale
 
-**Type:** [Vector2](./Vector2.md)
+**Type:** `Vector2`
 
 Documentation for this property is not yet available.
 
 ### TextureOffset
 
-**Type:** [Vector2](./Vector2.md)
+**Type:** `Vector2`
 
 Documentation for this property is not yet available.
 

@@ -1,9 +1,9 @@
 ---
-title: "PTSignalConnection"
+title: "BVSignalConnection"
 description: ""
 ---
 
-# PTSignalConnection
+# BVSignalConnection
 
 {% hint style="warning" %}
 **Not instantiable**

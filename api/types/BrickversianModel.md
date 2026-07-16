@@ -75,7 +75,7 @@ Documentation for this property is not yet available.
 
 ### RagdollPosition
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 **Attributes:** Read-only
 
@@ -89,7 +89,7 @@ Documentation for this property is not yet available.
 
 ### RagdollRotation
 
-**Type:** [Vector3](./Vector3.md)
+**Type:** `Vector3`
 
 **Attributes:** Read-only
 
@@ -107,7 +107,7 @@ Documentation for this property is not yet available.
 
 #### Parameters
 
-- `force`: [Vector3](./Vector3.md) — optional
+- `force`: `Vector3` — optional
 
 **Returns:** `nil`
 
@@ -150,7 +150,7 @@ Documentation for this method is not yet available.
 
 ### RagdollStarted(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -160,7 +160,7 @@ This event is fired when its associated action occurs.
 
 ### RagdollStopped(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

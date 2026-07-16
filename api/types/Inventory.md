@@ -1,14 +1,13 @@
 ---
-title: Inventory
+title: "Inventory"
+description: ""
 ---
+
+<figure><img src="../../.gitbook/assets/api-icons/Inventory.svg" alt="Inventory icon" width="72"><figcaption></figcaption></figure>
 
 # Inventory
 
-<figure><img src="../../.gitbook/assets/api-icons/Backpack.svg" alt="Inventory icon" width="72"><figcaption></figcaption></figure>
-
-## Inventory
-
-**Inherits:** [HiddenBase](HiddenBase.md)
+**Inherits:** [HiddenBase](./HiddenBase.md)
 
 {% hint style="info" %}
 **Static class**

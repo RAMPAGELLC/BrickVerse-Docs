@@ -34,7 +34,7 @@ Documentation for this property is not yet available.
 
 ### Loaded(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

@@ -51,7 +51,7 @@ Documentation for this property is not yet available.
 
 ### Touched(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

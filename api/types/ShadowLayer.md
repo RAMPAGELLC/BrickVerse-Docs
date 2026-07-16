@@ -21,7 +21,7 @@ Documentation for this property is not yet available.
 
 ### Offset
 
-**Type:** [Vector2](./Vector2.md)
+**Type:** `Vector2`
 
 Documentation for this property is not yet available.
 

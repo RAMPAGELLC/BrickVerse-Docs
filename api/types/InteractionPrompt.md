@@ -115,7 +115,7 @@ Documentation for this method is not yet available.
 
 ### Interacted(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

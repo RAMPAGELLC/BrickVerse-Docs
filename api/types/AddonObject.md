@@ -73,7 +73,7 @@ Documentation for this method is not yet available.
 
 ### CleanupReceived(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 

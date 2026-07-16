@@ -64,7 +64,7 @@ Documentation for this method is not yet available.
 #### Parameters
 
 - `key`: `string`
-- `value`: [Vector2](./Vector2.md)
+- `value`: `Vector2`
 
 **Returns:** `nil`
 
@@ -75,7 +75,7 @@ Documentation for this method is not yet available.
 #### Parameters
 
 - `key`: `string`
-- `value`: [Vector3](./Vector3.md)
+- `value`: `Vector3`
 
 **Returns:** `nil`
 
@@ -160,7 +160,7 @@ Documentation for this method is not yet available.
 
 - `key`: `string`
 
-**Returns:** [Vector2](./Vector2.md)
+**Returns:** `Vector2`
 
 Documentation for this method is not yet available.
 
@@ -170,7 +170,7 @@ Documentation for this method is not yet available.
 
 - `key`: `string`
 
-**Returns:** [Vector3](./Vector3.md)
+**Returns:** `Vector3`
 
 Documentation for this method is not yet available.
 

@@ -55,7 +55,7 @@ Documentation for this method is not yet available.
 
 ### InvokedServer(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
@@ -65,7 +65,7 @@ This event is fired when its associated action occurs.
 
 ### InvokedClient(value)
 
-**Type:** [PTSignal](./PTSignal.md)
+**Type:** `PTSignal`
 
 #### Parameters
 
