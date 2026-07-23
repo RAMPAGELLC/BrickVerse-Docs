@@ -1,13 +1,14 @@
 ---
-title: "World"
-description: ""
+title: World
 ---
-
-<figure><img src="../../.gitbook/assets/api-icons/World.svg" alt="World icon" width="72"><figcaption></figcaption></figure>
 
 # World
 
-**Inherits:** [Instance](./Instance.md)
+<figure><img src="../../.gitbook/assets/api-icons/Game.svg" alt="World icon" width="72"><figcaption></figcaption></figure>
+
+## World
+
+**Inherits:** [Instance](Instance.md)
 
 {% hint style="info" %}
 **Static class**
@@ -21,23 +22,9 @@ Access this class using `world`. It cannot be created with `Instance.New()`.
 This object cannot be created using `Instance.New()`.
 {% endhint %}
 
-## Properties
+### Properties
 
-### IsLocalTest
-
-**Type:** `boolean`
-
-**Attributes:** Read-only
-
-{% hint style="warning" %}
-**Read-only**
-
-This property can be read by scripts but cannot be changed.
-{% endhint %}
-
-Documentation for this property is not yet available.
-
-### IsLegacyWorld
+#### IsLocalTest
 
 **Type:** `boolean`
 
@@ -51,7 +38,21 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### WorldID
+#### IsLegacyWorld
+
+**Type:** `boolean`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+#### WorldID
 
 **Type:** `number`
 
@@ -65,7 +66,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### UniverseID
+#### UniverseID
 
 **Type:** `number`
 
@@ -79,7 +80,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### WorldName
+#### WorldName
 
 **Type:** `string`
 
@@ -93,7 +94,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### UniverseName
+#### UniverseName
 
 **Type:** `string`
 
@@ -107,7 +108,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### UniverseDescription
+#### UniverseDescription
 
 **Type:** `string`
 
@@ -121,7 +122,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### ServerID
+#### ServerID
 
 **Type:** `string`
 
@@ -135,7 +136,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### UpTime
+#### UpTime
 
 **Type:** `number`
 
@@ -149,7 +150,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### ServerTime
+#### ServerTime
 
 **Type:** `number`
 
@@ -163,7 +164,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### InstanceCount
+#### InstanceCount
 
 **Type:** `number`
 
@@ -177,9 +178,9 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-## Methods
+### Methods
 
-### GetNetworkedObject(networkID)
+#### GetNetworkedObject(networkID)
 
 **Attributes:** Yields
 
@@ -189,22 +190,22 @@ Documentation for this property is not yet available.
 This method may yield the current script until the operation completes.
 {% endhint %}
 
-#### Parameters
+**Parameters**
 
-- `networkID`: `string`
+* `networkID`: `string`
 
-**Returns:** [NetworkedObject](./NetworkedObject.md)
+**Returns:** [NetworkedObject](NetworkedObject.md)
 
 Documentation for this method is not yet available.
 
-## Events
+### Events
 
-### Rendered(value)
+#### Rendered(value)
 
 **Type:** `PTSignal`
 
-#### Parameters
+**Parameters**
 
-- `value`: `any`
+* `value`: `any`
 
 This event is fired when its associated action occurs.

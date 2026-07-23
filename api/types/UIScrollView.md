@@ -1,23 +1,24 @@
 ---
-title: "UIScrollView"
-description: ""
+title: UIScrollView
 ---
-
-<figure><img src="../../.gitbook/assets/api-icons/UIScrollView.svg" alt="UIScrollView icon" width="72"><figcaption></figcaption></figure>
 
 # UIScrollView
 
-**Inherits:** [UIContainer](./UIContainer.md)
+<figure><img src="../../.gitbook/assets/api-icons/UIScroll.svg" alt="UIScrollView icon" width="72"><figcaption></figcaption></figure>
 
-## Properties
+## UIScrollView
 
-### HorizontalScrollMode
+**Inherits:** [UIContainer](UIContainer.md)
+
+### Properties
+
+#### HorizontalScrollMode
 
 **Type:** [UIScrollMode](../enums/UIScrollMode.md)
 
 Documentation for this property is not yet available.
 
-### VerticalScrollMode
+#### VerticalScrollMode
 
 **Type:** [UIScrollMode](../enums/UIScrollMode.md)
 

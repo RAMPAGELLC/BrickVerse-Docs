@@ -1,10 +1,11 @@
 ---
-title: "ClientScript"
-description: ""
+title: ClientScript
 ---
-
-<figure><img src="../../.gitbook/assets/api-icons/ClientScript.svg" alt="ClientScript icon" width="72"><figcaption></figcaption></figure>
 
 # ClientScript
 
-**Inherits:** [Script](./Script.md)
+<figure><img src="../../.gitbook/assets/api-icons/LocalScript.svg" alt="ClientScript icon" width="72"><figcaption></figcaption></figure>
+
+## ClientScript
+
+**Inherits:** [Script](Script.md)

@@ -1,13 +1,14 @@
 ---
-title: "AchievementsService"
-description: ""
+title: AchievementsService
 ---
-
-<figure><img src="../../.gitbook/assets/api-icons/AchievementsService.svg" alt="AchievementsService icon" width="72"><figcaption></figcaption></figure>
 
 # AchievementsService
 
-**Inherits:** [Instance](./Instance.md)
+<figure><img src="../../.gitbook/assets/api-icons/Achievements.svg" alt="AchievementsService icon" width="72"><figcaption></figcaption></figure>
+
+## AchievementsService
+
+**Inherits:** [Instance](Instance.md)
 
 {% hint style="info" %}
 **Static class**
@@ -21,23 +22,23 @@ Access this class using `Achievements`. It cannot be created with `Instance.New(
 This object cannot be created using `Instance.New()`.
 {% endhint %}
 
-## Properties
+### Properties
 
-### UseAchievementSound
-
-**Type:** `boolean`
-
-Documentation for this property is not yet available.
-
-### NotifyAchievements
+#### UseAchievementSound
 
 **Type:** `boolean`
 
 Documentation for this property is not yet available.
 
-## Methods
+#### NotifyAchievements
 
-### AwardAsync(userID, achievementID)
+**Type:** `boolean`
+
+Documentation for this property is not yet available.
+
+### Methods
+
+#### AwardAsync(userID, achievementID)
 
 **Attributes:** Yields
 
@@ -47,16 +48,16 @@ Documentation for this property is not yet available.
 This method may yield the current script until the operation completes.
 {% endhint %}
 
-#### Parameters
+**Parameters**
 
-- `userID`: `string`
-- `achievementID`: `number`
+* `userID`: `string`
+* `achievementID`: `number`
 
 **Returns:** `nil`
 
 Documentation for this method is not yet available.
 
-### HasAchievementAsync(userID, achievementID)
+#### HasAchievementAsync(userID, achievementID)
 
 **Attributes:** Yields
 
@@ -66,23 +67,23 @@ Documentation for this method is not yet available.
 This method may yield the current script until the operation completes.
 {% endhint %}
 
-#### Parameters
+**Parameters**
 
-- `userID`: `string`
-- `achievementID`: `number`
+* `userID`: `string`
+* `achievementID`: `number`
 
 **Returns:** `boolean`
 
 Documentation for this method is not yet available.
 
-## Events
+### Events
 
-### GotAchievement(value)
+#### GotAchievement(value)
 
 **Type:** `PTSignal`
 
-#### Parameters
+**Parameters**
 
-- `value`: `any`
+* `value`: `any`
 
 This event is fired when its associated action occurs.

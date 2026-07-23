@@ -5,14 +5,36 @@
 ## Open Cloud API
 
 * [OpenID OAuth](open-cloud-api/openid-oauth.md)
+* [Cloud API](open-cloud-api/cloud-api.md)
 
 ## Developer Guide <a href="#classes" id="classes"></a>
 
 * [Universe Configs / ENV Service](classes/universe-configs-env-service.md)
 * [Creating Your First Guild Bot](classes/creating-your-first-guild-bot.md)
-* [Roblox Vs BrickVerse Classes](classes/roblox-vs-brickverses-classes.md)
 * [DRM - Digital Rights Management](classes/drm-digital-rights-management.md)
 * [Setting Up Developer Webhooks](classes/setting-up-developer-webhooks.md)
+* [Scripting with Luau](classes/scripting-with-luau.md)
+
+## Moving to BrickVerse
+
+***
+
+* [Overview](overview/README.md)
+  * [For Roblox Developers](overview/for-roblox-developers.md)
+  * [For Unity Developers](overview/for-unity-developers.md)
+  * [For Unreal Engine Developers](overview/for-unreal-engine-developers.md)
+  * [For Godot Developers](overview/for-godot-developers.md)
+  * [For Web Developers](overview/for-web-developers.md)
+
+## Scripting with Luau
+
+* [Overview](scripting-with-luau/overview/README.md)
+  * [Your First Script](scripting-with-luau/overview/your-first-script.md)
+  * [Variables and Types](scripting-with-luau/overview/variables-and-types.md)
+  * [Functions](scripting-with-luau/overview/functions.md)
+  * [Events](scripting-with-luau/overview/events.md)
+  * [Tables](scripting-with-luau/overview/tables.md)
+  * [Modules](scripting-with-luau/overview/modules.md)
 
 ## Game API
 

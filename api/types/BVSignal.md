@@ -1,11 +1,12 @@
 ---
-title: "BVSignal"
-description: ""
+title: BVSignal
 ---
 
-<figure><img src="../../.gitbook/assets/api-icons/BVSignal.svg" alt="BVSignal icon" width="72"><figcaption></figcaption></figure>
-
 # BVSignal
+
+<figure><img src="../../.gitbook/assets/api-icons/Event.svg" alt="BVSignal icon" width="72"><figcaption></figcaption></figure>
+
+## BVSignal
 
 {% hint style="warning" %}
 **Not instantiable**
@@ -13,29 +14,29 @@ description: ""
 This object cannot be created using `Instance.New()`.
 {% endhint %}
 
-## Methods
+### Methods
 
-### Connect(action)
+#### Connect(action)
 
-#### Parameters
+**Parameters**
 
-- `action`: `() -> ()`
+* `action`: `() -> ()`
 
-**Returns:** [BVSignalConnection](./BVSignalConnection.md)
+**Returns:** [BVSignalConnection](BVSignalConnection.md)
 
 Documentation for this method is not yet available.
 
-### Disconnect(action)
+#### Disconnect(action)
 
-#### Parameters
+**Parameters**
 
-- `action`: `() -> ()`
+* `action`: `() -> ()`
 
 **Returns:** `nil`
 
 Documentation for this method is not yet available.
 
-### Wait()
+#### Wait()
 
 **Attributes:** Yields
 
@@ -49,11 +50,11 @@ This method may yield the current script until the operation completes.
 
 Documentation for this method is not yet available.
 
-### Once(action)
+#### Once(action)
 
-#### Parameters
+**Parameters**
 
-- `action`: `() -> ()`
+* `action`: `() -> ()`
 
 **Returns:** `nil`
 
