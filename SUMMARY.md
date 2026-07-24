@@ -28,13 +28,29 @@
 
 ## Scripting with Luau
 
-* [Overview](scripting-with-luau/overview/README.md)
-  * [Your First Script](scripting-with-luau/overview/your-first-script.md)
-  * [Variables and Types](scripting-with-luau/overview/variables-and-types.md)
-  * [Functions](scripting-with-luau/overview/functions.md)
-  * [Events](scripting-with-luau/overview/events.md)
-  * [Tables](scripting-with-luau/overview/tables.md)
-  * [Modules](scripting-with-luau/overview/modules.md)
+* [BrickLua Tutorials](scripting-with-luau/README.md)
+* [Your First Script](scripting-with-luau/your-first-script.md)
+* [Variables and Types](scripting-with-luau/variables-and-types.md)
+* [Functions](scripting-with-luau/functions.md)
+* [Events](scripting-with-luau/events.md)
+* [Tables](scripting-with-luau/tables.md)
+* [Modules](scripting-with-luau/modules.md)
+* [Creating Parts](scripting-with-luau/creating-parts.md)
+* [Working with Players](scripting-with-luau/working-with-players.md)
+* [Building a UI](scripting-with-luau/building-a-ui.md)
+* [Making a Tool](scripting-with-luau/making-a-tool.md)
+* [Saving Data](scripting-with-luau/saving-data.md)
+* [Universe Configs](scripting-with-luau/universe-configs.md)
+* [Using JSON](scripting-with-luau/using-json.md)
+* [Using Tags](scripting-with-luau/using-tags.md)
+* [Client vs Server](scripting-with-luau/client-vs-server.md)
+* [NetworkService](scripting-with-luau/networkservice.md)
+* [HTTP Requests](scripting-with-luau/http-requests.md)
+* [Creating NPCs](scripting-with-luau/creating-npcs.md)
+* [Leaderboards](scripting-with-luau/leaderboards.md)
+* [Inventory Systems](scripting-with-luau/inventory-systems.md)
+* [Common Scripting Patterns](scripting-with-luau/common-scripting-patterns.md)
+
 
 ## Game API
 
