@@ -17,14 +17,14 @@
 
 ## Moving to BrickVerse
 
-***
-
-* [Overview](overview/README.md)
-  * [For Roblox Developers](overview/for-roblox-developers.md)
-  * [For Unity Developers](overview/for-unity-developers.md)
-  * [For Unreal Engine Developers](overview/for-unreal-engine-developers.md)
-  * [For Godot Developers](overview/for-godot-developers.md)
-  * [For Web Developers](overview/for-web-developers.md)
+* [Overview](moving-to-brickverse/overview.md)
+* [For Roblox Developers](moving-to-brickverse/for-roblox-developers/README.md)
+  * [Porting your Roblox Place (.rbxl/.rbxlx) to BrickVerse](moving-to-brickverse/for-roblox-developers/porting-your-roblox-place-.rbxl-.rbxlx-to-brickverse.md)
+  * [Auto-translating your Roblox Luau to BrickLua](moving-to-brickverse/for-roblox-developers/auto-translating-your-roblox-luau-to-bricklua.md)
+* [For Unreal Engine Developers](moving-to-brickverse/for-unreal-engine-developers.md)
+* [For Unity Developers](moving-to-brickverse/for-unity-developers.md)
+* [For Godot Developers](moving-to-brickverse/for-godot-developers.md)
+* [For Web Developers](moving-to-brickverse/for-web-developers.md)
 
 ## Scripting with Luau
 
@@ -50,7 +50,6 @@
 * [Leaderboards](scripting-with-luau/leaderboards.md)
 * [Inventory Systems](scripting-with-luau/inventory-systems.md)
 * [Common Scripting Patterns](scripting-with-luau/common-scripting-patterns.md)
-
 
 ## Game API
 
