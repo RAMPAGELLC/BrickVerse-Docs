@@ -11,6 +11,20 @@ description: ""
 
 ## Properties
 
+### IsPlaying
+
+**Type:** `boolean`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
 ### CurrentAnimation
 
 **Type:** `string`

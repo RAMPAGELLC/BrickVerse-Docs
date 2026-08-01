@@ -11,6 +11,12 @@ description: ""
 
 ## Properties
 
+### Type
+
+**Type:** `ClothingType`
+
+Documentation for this property is not yet available.
+
 ### Image
 
 **Type:** [ImageAsset](./ImageAsset.md)

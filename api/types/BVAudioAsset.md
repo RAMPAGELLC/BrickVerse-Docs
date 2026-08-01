@@ -1,18 +1,17 @@
 ---
-title: BVAudioAsset
+title: "BVAudioAsset"
+description: ""
 ---
+
+<figure><img src="../../.gitbook/assets/api-icons/BVAudioAsset.svg" alt="BVAudioAsset icon" width="72"><figcaption></figcaption></figure>
 
 # BVAudioAsset
 
-<figure><img src="../../.gitbook/assets/api-icons/BVMeshAsset.svg" alt="BVAudioAsset icon" width="72"><figcaption></figcaption></figure>
+**Inherits:** [AudioAsset](./AudioAsset.md)
 
-## BVAudioAsset
+## Properties
 
-**Inherits:** [AudioAsset](AudioAsset.md)
-
-### Properties
-
-#### AudioID
+### AudioID
 
 **Type:** `string`
 

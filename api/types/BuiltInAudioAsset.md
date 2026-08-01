@@ -1,18 +1,17 @@
 ---
-title: BuiltInAudioAsset
+title: "BuiltInAudioAsset"
+description: ""
 ---
+
+<figure><img src="../../.gitbook/assets/api-icons/BuiltInAudioAsset.svg" alt="BuiltInAudioAsset icon" width="72"><figcaption></figcaption></figure>
 
 # BuiltInAudioAsset
 
-<figure><img src="../../.gitbook/assets/api-icons/BuiltInFontAsset.svg" alt="BuiltInAudioAsset icon" width="72"><figcaption></figcaption></figure>
+**Inherits:** [AudioAsset](./AudioAsset.md)
 
-## BuiltInAudioAsset
+## Properties
 
-**Inherits:** [AudioAsset](AudioAsset.md)
-
-### Properties
-
-#### AudioPreset
+### AudioPreset
 
 **Type:** [BuiltInAudioPreset](../enums/BuiltInAudioPreset.md)
 

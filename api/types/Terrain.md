@@ -41,6 +41,30 @@ Documentation for this property is not yet available.
 
 Documentation for this property is not yet available.
 
+### CollisionLayer
+
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
+### CollisionMask
+
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
+### CollisionUpdateDelay
+
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
+### CollisionMargin
+
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
 ### DefaultSdfStrength
 
 **Type:** `number`
@@ -59,55 +83,13 @@ Documentation for this property is not yet available.
 
 Documentation for this property is not yet available.
 
-### BaseColor
-
-**Type:** [Color](./Color.md)
-
-Documentation for this property is not yet available.
-
-### GrassColor
-
-**Type:** [Color](./Color.md)
-
-Documentation for this property is not yet available.
-
-### StoneColor
-
-**Type:** [Color](./Color.md)
-
-Documentation for this property is not yet available.
-
-### SandColor
-
-**Type:** [Color](./Color.md)
-
-Documentation for this property is not yet available.
-
-### DirtColor
-
-**Type:** [Color](./Color.md)
-
-Documentation for this property is not yet available.
-
-### SnowColor
-
-**Type:** [Color](./Color.md)
-
-Documentation for this property is not yet available.
-
-### ConcreteColor
-
-**Type:** [Color](./Color.md)
-
-Documentation for this property is not yet available.
-
-### BrickColor
-
-**Type:** [Color](./Color.md)
-
-Documentation for this property is not yet available.
-
 ## Methods
+
+### GetMaterials()
+
+**Returns:** { [TerrainMaterial](./TerrainMaterial.md) }
+
+Documentation for this method is not yet available.
 
 ### FillBall(center, radius, material?)
 

@@ -3,8 +3,6 @@ title: "Bounds"
 description: ""
 ---
 
-<figure><img src="../../.gitbook/assets/api-icons/Bounds.svg" alt="Bounds icon" width="72"><figcaption></figcaption></figure>
-
 # Bounds
 
 {% hint style="warning" %}

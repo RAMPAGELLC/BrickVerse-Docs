@@ -1,24 +1,23 @@
 ---
-title: BVImageAsset
+title: "BVImageAsset"
+description: ""
 ---
+
+<figure><img src="../../.gitbook/assets/api-icons/BVImageAsset.svg" alt="BVImageAsset icon" width="72"><figcaption></figcaption></figure>
 
 # BVImageAsset
 
-<figure><img src="../../.gitbook/assets/api-icons/BVMeshAsset.svg" alt="BVImageAsset icon" width="72"><figcaption></figcaption></figure>
+**Inherits:** [ImageAsset](./ImageAsset.md)
 
-## BVImageAsset
+## Properties
 
-**Inherits:** [ImageAsset](ImageAsset.md)
-
-### Properties
-
-#### ImageID
+### ImageID
 
 **Type:** `string`
 
 Documentation for this property is not yet available.
 
-#### ImageType
+### ImageType
 
 **Type:** [ImageType](../enums/ImageType.md)
 

@@ -3,8 +3,6 @@ title: "Explosion"
 description: ""
 ---
 
-<figure><img src="../../.gitbook/assets/api-icons/Explosion.svg" alt="Explosion icon" width="72"><figcaption></figcaption></figure>
-
 # Explosion
 
 **Inherits:** [Dynamic](./Dynamic.md)

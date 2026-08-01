@@ -3,7 +3,7 @@ title: "BrickversianModel"
 description: ""
 ---
 
-<figure><img src="../../.gitbook/assets/api-icons/BrickversianModel.svg" alt="BrickversianModel icon" width="72"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/api-icons/BrickVersianModel.svg" alt="BrickversianModel icon" width="72"><figcaption></figcaption></figure>
 
 # BrickversianModel
 
@@ -50,12 +50,6 @@ Documentation for this property is not yet available.
 ### FaceImage
 
 **Type:** [ImageAsset](./ImageAsset.md)
-
-Documentation for this property is not yet available.
-
-### BodyMesh
-
-**Type:** [MeshAsset](./MeshAsset.md)
 
 Documentation for this property is not yet available.
 

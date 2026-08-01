@@ -3,8 +3,6 @@ title: "FileLinkAsset"
 description: ""
 ---
 
-<figure><img src="../../.gitbook/assets/api-icons/FileLinkAsset.svg" alt="FileLinkAsset icon" width="72"><figcaption></figcaption></figure>
-
 # FileLinkAsset
 
 **Inherits:** [BaseAsset](./BaseAsset.md)

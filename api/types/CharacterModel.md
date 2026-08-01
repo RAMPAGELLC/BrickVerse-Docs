@@ -3,8 +3,6 @@ title: "CharacterModel"
 description: ""
 ---
 
-<figure><img src="../../.gitbook/assets/api-icons/CharacterModel.svg" alt="CharacterModel icon" width="72"><figcaption></figcaption></figure>
-
 # CharacterModel
 
 **Inherits:** [Dynamic](./Dynamic.md)

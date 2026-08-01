@@ -3,8 +3,6 @@ title: "Datastore"
 description: ""
 ---
 
-<figure><img src="../../.gitbook/assets/api-icons/Datastore.svg" alt="Datastore icon" width="72"><figcaption></figcaption></figure>
-
 # Datastore
 
 {% hint style="warning" %}

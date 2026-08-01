@@ -1,14 +1,13 @@
 ---
-title: InputService
+title: "InputService"
+description: ""
 ---
+
+<figure><img src="../../.gitbook/assets/api-icons/InputService.svg" alt="InputService icon" width="72"><figcaption></figcaption></figure>
 
 # InputService
 
-<figure><img src="../../.gitbook/assets/api-icons/Input.svg" alt="InputService icon" width="72"><figcaption></figcaption></figure>
-
-## InputService
-
-**Inherits:** [Instance](Instance.md)
+**Inherits:** [Instance](./Instance.md)
 
 {% hint style="info" %}
 **Static class**
@@ -22,23 +21,9 @@ Access this class using `Input`. It cannot be created with `Instance.New()`.
 This object cannot be created using `Instance.New()`.
 {% endhint %}
 
-### Properties
+## Properties
 
-#### IsWindowFocused
-
-**Type:** `boolean`
-
-**Attributes:** Read-only
-
-{% hint style="warning" %}
-**Read-only**
-
-This property can be read by scripts but cannot be changed.
-{% endhint %}
-
-Documentation for this property is not yet available.
-
-#### IsTouchscreen
+### IsWindowFocused
 
 **Type:** `boolean`
 
@@ -52,7 +37,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-#### IsGameFocused
+### IsTouchscreen
 
 **Type:** `boolean`
 
@@ -66,7 +51,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-#### IsInputFocused
+### IsGameFocused
 
 **Type:** `boolean`
 
@@ -80,7 +65,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-#### IsGamepadConnected
+### IsInputFocused
 
 **Type:** `boolean`
 
@@ -94,7 +79,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-#### IsMenuOpened
+### IsGamepadConnected
 
 **Type:** `boolean`
 
@@ -108,19 +93,33 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-#### CursorLocked
+### IsMenuOpened
+
+**Type:** `boolean`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### CursorLocked
 
 **Type:** `boolean`
 
 Documentation for this property is not yet available.
 
-#### CursorVisible
+### CursorVisible
 
 **Type:** `boolean`
 
 Documentation for this property is not yet available.
 
-#### MouseDelta
+### MouseDelta
 
 **Type:** `Vector2`
 
@@ -134,7 +133,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-#### MousePosition
+### MousePosition
 
 **Type:** `Vector2`
 
@@ -148,7 +147,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-#### ScreenWidth
+### ScreenWidth
 
 **Type:** `number`
 
@@ -162,7 +161,7 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-#### ScreenHeight
+### ScreenHeight
 
 **Type:** `number`
 
@@ -176,174 +175,174 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### Methods
+## Methods
 
-#### StartGamepadVibration(weakMagnitude, strongMagnitude, duration)
+### StartGamepadVibration(weakMagnitude, strongMagnitude, duration)
 
-**Parameters**
+#### Parameters
 
-* `weakMagnitude`: `number`
-* `strongMagnitude`: `number`
-* `duration`: `number`
-
-**Returns:** `nil`
-
-Documentation for this method is not yet available.
-
-#### StopGamepadVibration()
+- `weakMagnitude`: `number`
+- `strongMagnitude`: `number`
+- `duration`: `number`
 
 **Returns:** `nil`
 
 Documentation for this method is not yet available.
 
-#### GetMouseWorldPosition(ignoreList?)
+### StopGamepadVibration()
 
-**Parameters**
+**Returns:** `nil`
 
-* `ignoreList`: { [Instance](Instance.md) } — optional
+Documentation for this method is not yet available.
+
+### GetMouseWorldPosition(ignoreList?)
+
+#### Parameters
+
+- `ignoreList`: { [Instance](./Instance.md) } — optional
 
 **Returns:** `Vector3`
 
 Documentation for this method is not yet available.
 
-#### GetVector2(actionName)
+### GetVector2(actionName)
 
-**Parameters**
+#### Parameters
 
-* `actionName`: `string`
+- `actionName`: `string`
 
-**Returns:** [InputActionVector2](InputActionVector2.md)
-
-Documentation for this method is not yet available.
-
-#### GetButton(actionName)
-
-**Parameters**
-
-* `actionName`: `string`
-
-**Returns:** [InputActionButton](InputActionButton.md)
+**Returns:** [InputActionVector2](./InputActionVector2.md)
 
 Documentation for this method is not yet available.
 
-#### GetAxis(actionName)
+### GetButton(actionName)
 
-**Parameters**
+#### Parameters
 
-* `actionName`: `string`
+- `actionName`: `string`
 
-**Returns:** [InputActionAxis](InputActionAxis.md)
-
-Documentation for this method is not yet available.
-
-#### BindButton(name)
-
-**Parameters**
-
-* `name`: `string`
-
-**Returns:** [InputActionButton](InputActionButton.md)
+**Returns:** [InputActionButton](./InputActionButton.md)
 
 Documentation for this method is not yet available.
 
-#### BindAxis(name)
+### GetAxis(actionName)
 
-**Parameters**
+#### Parameters
 
-* `name`: `string`
+- `actionName`: `string`
 
-**Returns:** [InputActionAxis](InputActionAxis.md)
-
-Documentation for this method is not yet available.
-
-#### BindVector2(name)
-
-**Parameters**
-
-* `name`: `string`
-
-**Returns:** [InputActionVector2](InputActionVector2.md)
+**Returns:** [InputActionAxis](./InputActionAxis.md)
 
 Documentation for this method is not yet available.
 
-### Events
+### BindButton(name)
 
-#### MouseMoved(value)
+#### Parameters
+
+- `name`: `string`
+
+**Returns:** [InputActionButton](./InputActionButton.md)
+
+Documentation for this method is not yet available.
+
+### BindAxis(name)
+
+#### Parameters
+
+- `name`: `string`
+
+**Returns:** [InputActionAxis](./InputActionAxis.md)
+
+Documentation for this method is not yet available.
+
+### BindVector2(name)
+
+#### Parameters
+
+- `name`: `string`
+
+**Returns:** [InputActionVector2](./InputActionVector2.md)
+
+Documentation for this method is not yet available.
+
+## Events
+
+### MouseMoved(value)
 
 **Type:** `PTSignal`
 
-**Parameters**
+#### Parameters
 
-* `value`: `any`
+- `value`: `any`
 
 This event is fired when its associated action occurs.
 
-#### GameFocused(value)
+### GameFocused(value)
 
 **Type:** `PTSignal`
 
-**Parameters**
+#### Parameters
 
-* `value`: `any`
+- `value`: `any`
 
 This event is fired when its associated action occurs.
 
-#### GameUnfocused(value)
+### GameUnfocused(value)
 
 **Type:** `PTSignal`
 
-**Parameters**
+#### Parameters
 
-* `value`: `any`
+- `value`: `any`
 
 This event is fired when its associated action occurs.
 
-#### GamepadConnected(value)
+### GamepadConnected(value)
 
 **Type:** `PTSignal`
 
-**Parameters**
+#### Parameters
 
-* `value`: `any`
+- `value`: `any`
 
 This event is fired when its associated action occurs.
 
-#### GamepadDisconnected(value)
+### GamepadDisconnected(value)
 
 **Type:** `PTSignal`
 
-**Parameters**
+#### Parameters
 
-* `value`: `any`
+- `value`: `any`
 
 This event is fired when its associated action occurs.
 
-#### KeyDown(value)
+### KeyDown(value)
 
 **Type:** `PTSignal`
 
-**Parameters**
+#### Parameters
 
-* `value`: `any`
+- `value`: `any`
 
 This event is fired when its associated action occurs.
 
-#### KeyUp(value)
+### KeyUp(value)
 
 **Type:** `PTSignal`
 
-**Parameters**
+#### Parameters
 
-* `value`: `any`
+- `value`: `any`
 
 This event is fired when its associated action occurs.
 
-#### AxisValueChanged(value)
+### AxisValueChanged(value)
 
 **Type:** `PTSignal`
 
-**Parameters**
+#### Parameters
 
-* `value`: `any`
+- `value`: `any`
 
 This event is fired when its associated action occurs.

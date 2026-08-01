@@ -3,8 +3,6 @@ title: "NumberRange"
 description: ""
 ---
 
-<figure><img src="../../.gitbook/assets/api-icons/NumberRange.svg" alt="NumberRange icon" width="72"><figcaption></figcaption></figure>
-
 # NumberRange
 
 {% hint style="warning" %}

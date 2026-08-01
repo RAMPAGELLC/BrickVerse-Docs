@@ -3,8 +3,6 @@ title: "CreatorHistory"
 description: ""
 ---
 
-<figure><img src="../../.gitbook/assets/api-icons/CreatorHistory.svg" alt="CreatorHistory icon" width="72"><figcaption></figcaption></figure>
-
 # CreatorHistory
 
 **Inherits:** [Instance](./Instance.md)

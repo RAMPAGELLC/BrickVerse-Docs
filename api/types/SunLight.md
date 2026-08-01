@@ -1,14 +1,13 @@
 ---
-title: SunLight
+title: "SunLight"
+description: ""
 ---
+
+<figure><img src="../../.gitbook/assets/api-icons/SunLight.svg" alt="SunLight icon" width="72"><figcaption></figcaption></figure>
 
 # SunLight
 
-<figure><img src="../../.gitbook/assets/api-icons/Sun.svg" alt="SunLight icon" width="72"><figcaption></figcaption></figure>
-
-## SunLight
-
-**Inherits:** [Light](Light.md)
+**Inherits:** [Light](./Light.md)
 
 {% hint style="info" %}
 **Static class**

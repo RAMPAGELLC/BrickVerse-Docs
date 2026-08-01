@@ -1,9 +1,17 @@
 ---
-title: "RayResult"
+title: "StreamingService"
 description: ""
 ---
 
-# RayResult
+# StreamingService
+
+**Inherits:** [Instance](./Instance.md)
+
+{% hint style="info" %}
+**Static class**
+
+Access this class using `Streaming`. It cannot be created with `Instance.New()`.
+{% endhint %}
 
 {% hint style="warning" %}
 **Not instantiable**
@@ -13,38 +21,32 @@ This object cannot be created using `Instance.New()`.
 
 ## Properties
 
-### Origin
+### Enabled
 
-**Type:** `Vector3`
-
-Documentation for this property is not yet available.
-
-### Direction
-
-**Type:** `Vector3`
+**Type:** `boolean`
 
 Documentation for this property is not yet available.
 
-### Position
-
-**Type:** `Vector3`
-
-Documentation for this property is not yet available.
-
-### Normal
-
-**Type:** `Vector3`
-
-Documentation for this property is not yet available.
-
-### Distance
+### MinimumDistance
 
 **Type:** `number`
 
 Documentation for this property is not yet available.
 
-### Instance
+### MaximumDistance
 
-**Type:** [Instance](./Instance.md)
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
+### SmartStreaming
+
+**Type:** `boolean`
+
+Documentation for this property is not yet available.
+
+### OcclusionCulling
+
+**Type:** `boolean`
 
 Documentation for this property is not yet available.

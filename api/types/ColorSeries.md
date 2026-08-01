@@ -3,8 +3,6 @@ title: "ColorSeries"
 description: ""
 ---
 
-<figure><img src="../../.gitbook/assets/api-icons/ColorSeries.svg" alt="ColorSeries icon" width="72"><figcaption></figcaption></figure>
-
 # ColorSeries
 
 {% hint style="warning" %}

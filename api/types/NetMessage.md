@@ -3,8 +3,6 @@ title: "NetMessage"
 description: ""
 ---
 
-<figure><img src="../../.gitbook/assets/api-icons/NetMessage.svg" alt="NetMessage icon" width="72"><figcaption></figcaption></figure>
-
 # NetMessage
 
 {% hint style="warning" %}

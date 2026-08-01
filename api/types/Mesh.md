@@ -17,6 +17,12 @@ description: ""
 
 Documentation for this property is not yet available.
 
+### Texture
+
+**Type:** [ImageAsset](./ImageAsset.md)
+
+Documentation for this property is not yet available.
+
 ### IncludeOffset
 
 **Type:** `boolean`

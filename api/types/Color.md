@@ -3,8 +3,6 @@ title: "Color"
 description: ""
 ---
 
-<figure><img src="../../.gitbook/assets/api-icons/Color.svg" alt="Color icon" width="72"><figcaption></figcaption></figure>
-
 # Color
 
 {% hint style="warning" %}

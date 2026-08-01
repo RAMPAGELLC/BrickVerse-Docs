@@ -3,8 +3,6 @@ title: "Quaternion"
 description: ""
 ---
 
-<figure><img src="../../.gitbook/assets/api-icons/Quaternion.svg" alt="Quaternion icon" width="72"><figcaption></figcaption></figure>
-
 # Quaternion
 
 {% hint style="warning" %}
