@@ -25,6 +25,7 @@
 * [For Unity Developers](moving-to-brickverse/for-unity-developers.md)
 * [For Godot Developers](moving-to-brickverse/for-godot-developers.md)
 * [For Web Developers](moving-to-brickverse/for-web-developers.md)
+* [Upload Limits and Restrictions](moving-to-brickverse/upload-limits-and-restrictions.md)
 
 ## Scripting with Luau
 
