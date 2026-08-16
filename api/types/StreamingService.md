@@ -3,6 +3,8 @@ title: "StreamingService"
 description: ""
 ---
 
+<figure><img src="../../.gitbook/assets/api-icons/StreamingService.svg" alt="StreamingService icon" width="72"><figcaption></figcaption></figure>
+
 # StreamingService
 
 **Inherits:** [Instance](./Instance.md)

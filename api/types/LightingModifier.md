@@ -6,7 +6,7 @@ description: ""
 # LightingModifier
 
 **Inherits:** [Instance](./Instance.md)
-**Inherited by:** [ColorAdjustModifier](./ColorAdjustModifier.md)
+**Inherited by:** [AmbientOcclusionEffect](./AmbientOcclusionEffect.md), [BloomEffect](./BloomEffect.md), [ColorAdjustModifier](./ColorAdjustModifier.md), [FogEffect](./FogEffect.md), [TonemapEffect](./TonemapEffect.md)
 
 {% hint style="danger" %}
 **Abstract object**

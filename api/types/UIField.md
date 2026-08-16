@@ -8,7 +8,7 @@ description: ""
 # UIField
 
 **Inherits:** [Instance](./Instance.md)
-**Inherited by:** [UIContainer](./UIContainer.md), [UIImage](./UIImage.md), [UIView](./UIView.md), [UIViewport](./UIViewport.md)
+**Inherited by:** [UIAd](./UIAd.md), [UIContainer](./UIContainer.md), [UIImage](./UIImage.md), [UIVideoFrame](./UIVideoFrame.md), [UIView](./UIView.md), [UIViewport](./UIViewport.md)
 
 ## Properties
 

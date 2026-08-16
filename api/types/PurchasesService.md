@@ -23,7 +23,7 @@ This object cannot be created using `Instance.New()`.
 
 ## Methods
 
-### PromptAsync(player, assetID)
+### PromptAsync(player, entitlementID)
 
 **Attributes:** Yields
 
@@ -36,13 +36,13 @@ This method may yield the current script until the operation completes.
 #### Parameters
 
 - `player`: [Player](./Player.md)
-- `assetID`: `number`
+- `entitlementID`: `number`
 
 **Returns:** `boolean`
 
 Documentation for this method is not yet available.
 
-### OwnsItemAsync(player, assetID)
+### OwnsItemAsync(player, entitlementID)
 
 **Attributes:** Yields
 
@@ -55,7 +55,7 @@ This method may yield the current script until the operation completes.
 #### Parameters
 
 - `player`: [Player](./Player.md)
-- `assetID`: `number`
+- `entitlementID`: `number`
 
 **Returns:** `boolean`
 

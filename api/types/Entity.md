@@ -8,7 +8,7 @@ description: ""
 # Entity
 
 **Inherits:** [RigidBody](./RigidBody.md)
-**Inherited by:** [Mesh](./Mesh.md), [Part](./Part.md)
+**Inherited by:** [Icosphere](./Icosphere.md), [Mesh](./Mesh.md), [Part](./Part.md), [UnionOperation](./UnionOperation.md)
 
 {% hint style="danger" %}
 **Abstract object**
@@ -25,6 +25,12 @@ This object exists as a base for other objects and cannot be created or accessed
 Documentation for this property is not yet available.
 
 ### CastShadows
+
+**Type:** `boolean`
+
+Documentation for this property is not yet available.
+
+### IsNegated
 
 **Type:** `boolean`
 

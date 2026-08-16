@@ -10,6 +10,48 @@ description: ""
 
 ## Properties
 
+### XRHeadPose
+
+**Type:** `Transform3D`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### XRLeftHandPose
+
+**Type:** `Transform3D`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### XRRightHandPose
+
+**Type:** `Transform3D`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
 ### CurrentState
 
 **Type:** [CharacterModelState](../enums/CharacterModelState.md)

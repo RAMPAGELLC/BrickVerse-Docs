@@ -29,4 +29,5 @@ description: ""
 | `PartMaterial.Sandstone` |  |
 | `PartMaterial.Snow` |  |
 | `PartMaterial.Stone` |  |
+| `PartMaterial.Stud` |  |
 | `PartMaterial.Wood` |  |

@@ -13,7 +13,7 @@ description: ""
 
 ### Type
 
-**Type:** `ClothingType`
+**Type:** [ClothingType](../enums/ClothingType.md)
 
 Documentation for this property is not yet available.
 

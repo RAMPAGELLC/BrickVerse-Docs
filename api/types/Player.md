@@ -17,6 +17,20 @@ This object cannot be created using `Instance.New()`.
 
 ## Properties
 
+### CanVoiceChat
+
+**Type:** `boolean`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
 ### UserID
 
 **Type:** `string`
@@ -98,6 +112,18 @@ Documentation for this property is not yet available.
 Documentation for this property is not yet available.
 
 ### AllowAnimationWhileMoving
+
+**Type:** `boolean`
+
+Documentation for this property is not yet available.
+
+### ShowNametagToLocalPlayer
+
+**Type:** `boolean`
+
+Documentation for this property is not yet available.
+
+### ShowNametagToOtherPlayers
 
 **Type:** `boolean`
 
@@ -185,6 +211,34 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
+### IsUniverseTester
+
+**Type:** `boolean`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### IsUniverseAdmin
+
+**Type:** `boolean`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
 ### UserRoleClass
 
 **Type:** `string`
@@ -202,6 +256,90 @@ Documentation for this property is not yet available.
 ### ChatColor
 
 **Type:** [Color](./Color.md)
+
+Documentation for this property is not yet available.
+
+### MembershipType
+
+**Type:** `string`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### IsBirthdayToday
+
+**Type:** `boolean`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### IsGovOfficial
+
+**Type:** `boolean`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### IsPartner
+
+**Type:** `boolean`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### IsBetaTester
+
+**Type:** `boolean`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### IsTrustedReporter
+
+**Type:** `boolean`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
 
 Documentation for this property is not yet available.
 

@@ -3,6 +3,8 @@ title: "UICorner"
 description: ""
 ---
 
+<figure><img src="../../.gitbook/assets/api-icons/UICorner.svg" alt="UICorner icon" width="72"><figcaption></figcaption></figure>
+
 # UICorner
 
 **Inherits:** [Instance](./Instance.md)

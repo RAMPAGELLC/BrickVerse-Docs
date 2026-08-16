@@ -6,7 +6,7 @@ description: ""
 # ResourceAsset
 
 **Inherits:** [BaseAsset](./BaseAsset.md)
-**Inherited by:** [AudioAsset](./AudioAsset.md), [FontAsset](./FontAsset.md), [ImageAsset](./ImageAsset.md), [MeshAnimationAsset](./MeshAnimationAsset.md), [MeshAsset](./MeshAsset.md)
+**Inherited by:** [AudioAsset](./AudioAsset.md), [FontAsset](./FontAsset.md), [ImageAsset](./ImageAsset.md), [MeshAnimationAsset](./MeshAnimationAsset.md), [MeshAsset](./MeshAsset.md), [VideoAsset](./VideoAsset.md)
 
 {% hint style="danger" %}
 **Abstract object**

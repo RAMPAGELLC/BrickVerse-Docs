@@ -8,6 +8,7 @@ description: ""
 # Seat
 
 **Inherits:** [Part](./Part.md)
+**Inherited by:** [VehicleSeat](./VehicleSeat.md)
 
 ## Properties
 

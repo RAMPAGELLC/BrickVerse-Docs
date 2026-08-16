@@ -11,6 +11,36 @@ description: ""
 
 ## Properties
 
+### RateLimitEnabled
+
+**Type:** `boolean`
+
+Documentation for this property is not yet available.
+
+### RateLimitMaxRequests
+
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
+### RateLimitWindowSeconds
+
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
+### RateLimitScope
+
+**Type:** [NetworkEventRateLimitScope](../enums/NetworkEventRateLimitScope.md)
+
+Documentation for this property is not yet available.
+
+### LogRateLimitRejections
+
+**Type:** `boolean`
+
+Documentation for this property is not yet available.
+
 ### Reliable
 
 **Type:** `boolean`
@@ -19,33 +49,33 @@ Documentation for this property is not yet available.
 
 ## Methods
 
-### InvokeServer(msg?, _?)
+### InvokeServer(payload?, _?)
 
 #### Parameters
 
-- `msg`: [NetMessage](./NetMessage.md) — optional
+- `payload`: `any` — optional
 - `_`: `any` — optional
 
 **Returns:** `nil`
 
 Documentation for this method is not yet available.
 
-### InvokeClient(msg?, player?)
+### InvokeClient(payload?, player?)
 
 #### Parameters
 
-- `msg`: [NetMessage](./NetMessage.md) — optional
+- `payload`: `any` — optional
 - `player`: [Player](./Player.md) — optional
 
 **Returns:** `nil`
 
 Documentation for this method is not yet available.
 
-### InvokeClients(msg?)
+### InvokeClients(payload?)
 
 #### Parameters
 
-- `msg`: [NetMessage](./NetMessage.md) — optional
+- `payload`: `any` — optional
 
 **Returns:** `nil`
 

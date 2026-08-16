@@ -23,7 +23,7 @@ This object cannot be created using `Instance.New()`.
 
 ## Methods
 
-### Filter(input)
+### FilterAsync(input)
 
 **Attributes:** Static
 

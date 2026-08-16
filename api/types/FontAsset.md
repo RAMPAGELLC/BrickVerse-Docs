@@ -8,7 +8,7 @@ description: ""
 # FontAsset
 
 **Inherits:** [ResourceAsset](./ResourceAsset.md)
-**Inherited by:** [BuiltInFontAsset](./BuiltInFontAsset.md)
+**Inherited by:** [BuiltInFontAsset](./BuiltInFontAsset.md), [BVFontAsset](./BVFontAsset.md)
 
 {% hint style="danger" %}
 **Abstract object**

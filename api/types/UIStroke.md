@@ -3,6 +3,8 @@ title: "UIStroke"
 description: ""
 ---
 
+<figure><img src="../../.gitbook/assets/api-icons/UIStroke.svg" alt="UIStroke icon" width="72"><figcaption></figcaption></figure>
+
 # UIStroke
 
 **Inherits:** [Instance](./Instance.md)

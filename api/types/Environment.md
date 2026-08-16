@@ -47,6 +47,24 @@ Documentation for this property is not yet available.
 
 Documentation for this property is not yet available.
 
+### WindDirection
+
+**Type:** `Vector3`
+
+Documentation for this property is not yet available.
+
+### WindSpeed
+
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
+### WindStrength
+
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
 ## Methods
 
 ### Raycast(origin, direction, maxDistance?, ignoreList?)

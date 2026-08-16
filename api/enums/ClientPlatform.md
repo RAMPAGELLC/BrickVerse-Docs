@@ -12,3 +12,5 @@ description: ""
 | `ClientPlatform.Desktop` |  |
 | `ClientPlatform.Mobile` |  |
 | `ClientPlatform.VR` |  |
+| `ClientPlatform.Tablet` |  |
+| `ClientPlatform.Console` |  |

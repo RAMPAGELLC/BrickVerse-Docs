@@ -197,6 +197,26 @@ This method may yield the current script until the operation completes.
 
 Documentation for this method is not yet available.
 
+### GetService(className)
+
+#### Parameters
+
+- `className`: `string`
+
+**Returns:** [Instance](./Instance.md)
+
+Documentation for this method is not yet available.
+
+### FindService(className)
+
+#### Parameters
+
+- `className`: `string`
+
+**Returns:** [Instance](./Instance.md)
+
+Documentation for this method is not yet available.
+
 ## Events
 
 ### Rendered(value)

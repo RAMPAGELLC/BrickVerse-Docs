@@ -8,7 +8,7 @@ description: ""
 # Instance
 
 **Inherits:** [NetworkedObject](./NetworkedObject.md)
-**Inherited by:** [AchievementsService](./AchievementsService.md), [Animator](./Animator.md), [AssetsService](./AssetsService.md), [BindableEvent](./BindableEvent.md), [BodyPosition](./BodyPosition.md), [BodyRotation](./BodyRotation.md), [CaptureService](./CaptureService.md), [ChatService](./ChatService.md), [Clothing](./Clothing.md), [ConfigService](./ConfigService.md), [CoreUIService](./CoreUIService.md), [CreatorAddons](./CreatorAddons.md), [CreatorContextService](./CreatorContextService.md), [CreatorGUI](./CreatorGUI.md), [CreatorHistory](./CreatorHistory.md), [CreatorSelections](./CreatorSelections.md), [DatastoreService](./DatastoreService.md), [Dynamic](./Dynamic.md), [Environment](./Environment.md), [FilterService](./FilterService.md), [Folder](./Folder.md), [Grabbable](./Grabbable.md), [GUI](./GUI.md), [HiddenBase](./HiddenBase.md), [HttpService](./HttpService.md), [InputService](./InputService.md), [InsertService](./InsertService.md), [IOService](./IOService.md), [Lighting](./Lighting.md), [LightingModifier](./LightingModifier.md), [MissingInstance](./MissingInstance.md), [NetworkEvent](./NetworkEvent.md), [PlayerGUI](./PlayerGUI.md), [Players](./Players.md), [PreferencesService](./PreferencesService.md), [PresenceService](./PresenceService.md), [PurchasesService](./PurchasesService.md), [Script](./Script.md), [ScriptService](./ScriptService.md), [Sky](./Sky.md), [SocialService](./SocialService.md), [Stat](./Stat.md), [Stats](./Stats.md), [StreamingService](./StreamingService.md), [Team](./Team.md), [Teams](./Teams.md), [Terrain](./Terrain.md), [TerrainMaterial](./TerrainMaterial.md), [TweenService](./TweenService.md), [UIAspectRatioRestraint](./UIAspectRatioRestraint.md), [UICorner](./UICorner.md), [UIField](./UIField.md), [UIShadow](./UIShadow.md), [UIStroke](./UIStroke.md), [ValueBase](./ValueBase.md), [Weld](./Weld.md), [World](./World.md), [WorldsService](./WorldsService.md)
+**Inherited by:** [AchievementsService](./AchievementsService.md), [Actor](./Actor.md), [AdService](./AdService.md), [AlignPosition](./AlignPosition.md), [AlignRotation](./AlignRotation.md), [Animator](./Animator.md), [AntiCheatService](./AntiCheatService.md), [AssetsService](./AssetsService.md), [Beam](./Beam.md), [BindableEvent](./BindableEvent.md), [BodyPosition](./BodyPosition.md), [BodyRotation](./BodyRotation.md), [CaptureService](./CaptureService.md), [ChatChannel](./ChatChannel.md), [ChatService](./ChatService.md), [ClickDetector](./ClickDetector.md), [Clothing](./Clothing.md), [ConfigService](./ConfigService.md), [Constraint](./Constraint.md), [CoreUIService](./CoreUIService.md), [CreatorAddons](./CreatorAddons.md), [CreatorContextService](./CreatorContextService.md), [CreatorGUI](./CreatorGUI.md), [CreatorHistory](./CreatorHistory.md), [CreatorSelections](./CreatorSelections.md), [DatastoreService](./DatastoreService.md), [Dynamic](./Dynamic.md), [Environment](./Environment.md), [FilterService](./FilterService.md), [Folder](./Folder.md), [GameSetting](./GameSetting.md), [GameSettingsService](./GameSettingsService.md), [GeometryService](./GeometryService.md), [Grabbable](./Grabbable.md), [GUI](./GUI.md), [HiddenBase](./HiddenBase.md), [Highlight](./Highlight.md), [HttpService](./HttpService.md), [InputService](./InputService.md), [InsertService](./InsertService.md), [IOService](./IOService.md), [Lighting](./Lighting.md), [LightingModifier](./LightingModifier.md), [MissingInstance](./MissingInstance.md), [NavigationLink](./NavigationLink.md), [NetworkEvent](./NetworkEvent.md), [PathfindingPath](./PathfindingPath.md), [PathfindingService](./PathfindingService.md), [PlayerGUI](./PlayerGUI.md), [Players](./Players.md), [PreferencesService](./PreferencesService.md), [PresenceService](./PresenceService.md), [PurchasesService](./PurchasesService.md), [RopeConstraint](./RopeConstraint.md), [Script](./Script.md), [ScriptService](./ScriptService.md), [ShaderEffect](./ShaderEffect.md), [Sky](./Sky.md), [SlashCommand](./SlashCommand.md), [SocialService](./SocialService.md), [SoundGroup](./SoundGroup.md), [Stat](./Stat.md), [Stats](./Stats.md), [StreamingService](./StreamingService.md), [SurfaceAppearance](./SurfaceAppearance.md), [Team](./Team.md), [Teams](./Teams.md), [Terrain](./Terrain.md), [TerrainGrass](./TerrainGrass.md), [TerrainMaterial](./TerrainMaterial.md), [Trail](./Trail.md), [TweenService](./TweenService.md), [UIAspectRatioRestraint](./UIAspectRatioRestraint.md), [UICorner](./UICorner.md), [UIField](./UIField.md), [UIGradient](./UIGradient.md), [UIShadow](./UIShadow.md), [UIStroke](./UIStroke.md), [ValueBase](./ValueBase.md), [VoiceChatService](./VoiceChatService.md), [VRService](./VRService.md), [Weld](./Weld.md), [World](./World.md), [WorldsService](./WorldsService.md)
 
 {% hint style="danger" %}
 **Abstract object**
@@ -45,6 +45,43 @@ Documentation for this property is not yet available.
 Documentation for this property is not yet available.
 
 ## Methods
+
+### GetAttribute(name)
+
+#### Parameters
+
+- `name`: `string`
+
+**Returns:** `any`
+
+Documentation for this method is not yet available.
+
+### GetAttributes()
+
+**Returns:** `table`
+
+Documentation for this method is not yet available.
+
+### SetAttribute(name, value)
+
+#### Parameters
+
+- `name`: `string`
+- `value`: `any`
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
+### GetAttributeChangedSignal(name)
+
+#### Parameters
+
+- `name`: `string`
+
+**Returns:** [BVSignal](./BVSignal.md)
+
+Documentation for this method is not yet available.
 
 ### GetDescendants()
 
@@ -138,6 +175,12 @@ Documentation for this method is not yet available.
 - `className`: `string`
 
 **Returns:** [Instance](./Instance.md)
+
+Documentation for this method is not yet available.
+
+### GetActor()
+
+**Returns:** [Actor](./Actor.md)
 
 Documentation for this method is not yet available.
 
@@ -278,6 +321,16 @@ Documentation for this method is not yet available.
 Documentation for this method is not yet available.
 
 ## Events
+
+### AttributeChanged(value)
+
+**Type:** `PTSignal`
+
+#### Parameters
+
+- `value`: `any`
+
+This event is fired when its associated action occurs.
 
 ### ChildAdded(value)
 

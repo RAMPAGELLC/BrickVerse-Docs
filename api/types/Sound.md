@@ -11,6 +11,12 @@ description: ""
 
 ## Properties
 
+### SoundGroup
+
+**Type:** [SoundGroup](./SoundGroup.md)
+
+Documentation for this property is not yet available.
+
 ### Audio
 
 **Type:** [AudioAsset](./AudioAsset.md)

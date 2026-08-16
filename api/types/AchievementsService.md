@@ -56,6 +56,25 @@ This method may yield the current script until the operation completes.
 
 Documentation for this method is not yet available.
 
+### AwardAsync(userID, achievementID)
+
+**Attributes:** Yields
+
+{% hint style="info" %}
+**Yielding method**
+
+This method may yield the current script until the operation completes.
+{% endhint %}
+
+#### Parameters
+
+- `userID`: `string`
+- `achievementID`: `string`
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
 ### HasAchievementAsync(userID, achievementID)
 
 **Attributes:** Yields
@@ -70,6 +89,25 @@ This method may yield the current script until the operation completes.
 
 - `userID`: `string`
 - `achievementID`: `number`
+
+**Returns:** `boolean`
+
+Documentation for this method is not yet available.
+
+### HasAchievementAsync(userID, achievementID)
+
+**Attributes:** Yields
+
+{% hint style="info" %}
+**Yielding method**
+
+This method may yield the current script until the operation completes.
+{% endhint %}
+
+#### Parameters
+
+- `userID`: `string`
+- `achievementID`: `string`
 
 **Returns:** `boolean`
 

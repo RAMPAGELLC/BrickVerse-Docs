@@ -11,6 +11,30 @@ description: ""
 
 ## Properties
 
+### PlacementMode
+
+**Type:** [DecalPlacementMode](../enums/DecalPlacementMode.md)
+
+Documentation for this property is not yet available.
+
+### Face
+
+**Type:** [NormalId](../enums/NormalId.md)
+
+Documentation for this property is not yet available.
+
+### FaceOffset
+
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
+### FaceScale
+
+**Type:** `Vector2`
+
+Documentation for this property is not yet available.
+
 ### Image
 
 **Type:** [ImageAsset](./ImageAsset.md)

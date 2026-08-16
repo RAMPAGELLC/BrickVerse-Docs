@@ -8,6 +8,7 @@ description: ""
 # Grabbable
 
 **Inherits:** [Instance](./Instance.md)
+**Inherited by:** [DragDetector](./DragDetector.md)
 
 ## Properties
 

@@ -8,6 +8,7 @@ description: ""
 # UIImage
 
 **Inherits:** [UIField](./UIField.md)
+**Inherited by:** [EditableImage](./EditableImage.md)
 
 ## Properties
 

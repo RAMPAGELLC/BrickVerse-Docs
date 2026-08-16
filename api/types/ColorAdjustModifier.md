@@ -8,6 +8,7 @@ description: ""
 # ColorAdjustModifier
 
 **Inherits:** [LightingModifier](./LightingModifier.md)
+**Inherited by:** [ColorCorrectionEffect](./ColorCorrectionEffect.md)
 
 ## Properties
 
