@@ -453,7 +453,7 @@ Documentation for this method is not yet available.
 
 ### Chatted(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -463,7 +463,7 @@ This event is fired when its associated action occurs.
 
 ### StatChanged(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -473,7 +473,7 @@ This event is fired when its associated action occurs.
 
 ### TeamChanged(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -483,7 +483,7 @@ This event is fired when its associated action occurs.
 
 ### Respawned(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

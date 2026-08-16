@@ -130,7 +130,7 @@ Documentation for this property is not yet available.
 
 ### MouseEnter(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -140,7 +140,7 @@ This event is fired when its associated action occurs.
 
 ### MouseExit(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -150,7 +150,7 @@ This event is fired when its associated action occurs.
 
 ### MouseDown(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -160,7 +160,7 @@ This event is fired when its associated action occurs.
 
 ### MouseUp(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -170,7 +170,7 @@ This event is fired when its associated action occurs.
 
 ### TransformChanged(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -180,7 +180,7 @@ This event is fired when its associated action occurs.
 
 ### VisibilityChanged(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

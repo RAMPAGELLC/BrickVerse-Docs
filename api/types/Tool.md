@@ -63,7 +63,7 @@ Documentation for this method is not yet available.
 
 ### Equipped(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -73,7 +73,7 @@ This event is fired when its associated action occurs.
 
 ### Unequipped(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -83,7 +83,7 @@ This event is fired when its associated action occurs.
 
 ### Activated(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -93,7 +93,7 @@ This event is fired when its associated action occurs.
 
 ### Deactivated(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

@@ -451,7 +451,7 @@ Documentation for this method is not yet available.
 
 ### MouseMoved(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -461,7 +461,7 @@ This event is fired when its associated action occurs.
 
 ### GameFocused(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -471,7 +471,7 @@ This event is fired when its associated action occurs.
 
 ### GameUnfocused(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -481,7 +481,7 @@ This event is fired when its associated action occurs.
 
 ### GamepadConnected(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -491,7 +491,7 @@ This event is fired when its associated action occurs.
 
 ### GamepadDisconnected(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -501,7 +501,7 @@ This event is fired when its associated action occurs.
 
 ### KeyDown(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -511,7 +511,7 @@ This event is fired when its associated action occurs.
 
 ### KeyUp(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -521,7 +521,7 @@ This event is fired when its associated action occurs.
 
 ### AxisValueChanged(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

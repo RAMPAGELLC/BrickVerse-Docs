@@ -242,7 +242,7 @@ Documentation for this method is not yet available.
 
 ### Finished(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -252,7 +252,7 @@ This event is fired when its associated action occurs.
 
 ### Canceled(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

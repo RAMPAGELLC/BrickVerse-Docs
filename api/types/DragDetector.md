@@ -13,7 +13,7 @@ description: ""
 
 ### DragStart(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -23,7 +23,7 @@ This event is fired when its associated action occurs.
 
 ### DragContinue(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -33,7 +33,7 @@ This event is fired when its associated action occurs.
 
 ### DragEnd(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

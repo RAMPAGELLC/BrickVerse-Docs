@@ -159,7 +159,7 @@ Documentation for this method is not yet available.
 
 ### Loaded(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -169,7 +169,7 @@ This event is fired when its associated action occurs.
 
 ### Finished(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

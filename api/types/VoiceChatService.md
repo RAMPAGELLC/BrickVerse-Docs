@@ -241,7 +241,7 @@ Documentation for this method is not yet available.
 
 ### MicrophoneChanged(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -251,7 +251,7 @@ This event is fired when its associated action occurs.
 
 ### PlayerMutedChanged(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -261,7 +261,7 @@ This event is fired when its associated action occurs.
 
 ### PlayerSpeakingChanged(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -271,7 +271,7 @@ This event is fired when its associated action occurs.
 
 ### VoiceLevelChanged(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

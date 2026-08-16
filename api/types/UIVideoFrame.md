@@ -123,7 +123,7 @@ Documentation for this method is not yet available.
 
 ### Ended(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

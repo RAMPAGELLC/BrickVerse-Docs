@@ -85,7 +85,7 @@ Documentation for this method is not yet available.
 
 ### InvokedServer(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -95,7 +95,7 @@ This event is fired when its associated action occurs.
 
 ### InvokedClient(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

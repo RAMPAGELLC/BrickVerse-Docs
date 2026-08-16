@@ -13,7 +13,7 @@ description: ""
 
 ### Clicked(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

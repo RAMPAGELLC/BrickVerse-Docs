@@ -56,7 +56,7 @@ Documentation for this method is not yet available.
 
 ### NewChatMessage(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -66,7 +66,7 @@ This event is fired when its associated action occurs.
 
 ### MessageReceived(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ This event is fired when its associated action occurs.
 
 ### MessageDeclined(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

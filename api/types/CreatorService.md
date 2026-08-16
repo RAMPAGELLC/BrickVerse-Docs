@@ -67,7 +67,7 @@ Documentation for this property is not yet available.
 
 ### LocalTestStarted(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -77,7 +77,7 @@ This event is fired when its associated action occurs.
 
 ### LocalTestStopped(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

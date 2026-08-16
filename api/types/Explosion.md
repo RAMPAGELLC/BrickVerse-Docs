@@ -49,7 +49,7 @@ Documentation for this property is not yet available.
 
 ### Touched(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

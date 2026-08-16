@@ -192,7 +192,7 @@ Documentation for this method is not yet available.
 
 ### UserCFrameChanged(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -202,7 +202,7 @@ This event is fired when its associated action occurs.
 
 ### UserCFrameEnabled(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -212,7 +212,7 @@ This event is fired when its associated action occurs.
 
 ### NavigationRequested(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -222,7 +222,7 @@ This event is fired when its associated action occurs.
 
 ### VREnabledChanged(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -232,7 +232,7 @@ This event is fired when its associated action occurs.
 
 ### TouchpadModeChanged(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

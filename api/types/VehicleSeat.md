@@ -55,7 +55,7 @@ Documentation for this property is not yet available.
 
 ### InputChanged(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

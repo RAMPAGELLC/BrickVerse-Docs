@@ -117,7 +117,7 @@ Documentation for this method is not yet available.
 
 ### GotAchievement(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

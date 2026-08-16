@@ -144,7 +144,7 @@ Documentation for this method is not yet available.
 
 ### RagdollStarted(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -154,7 +154,7 @@ This event is fired when its associated action occurs.
 
 ### RagdollStopped(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

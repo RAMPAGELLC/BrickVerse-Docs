@@ -194,7 +194,7 @@ Documentation for this method is not yet available.
 
 ### Touched(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -204,7 +204,7 @@ This event is fired when its associated action occurs.
 
 ### TouchEnded(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -214,7 +214,7 @@ This event is fired when its associated action occurs.
 
 ### MouseEnter(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -224,7 +224,7 @@ This event is fired when its associated action occurs.
 
 ### MouseExit(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -234,7 +234,7 @@ This event is fired when its associated action occurs.
 
 ### Clicked(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

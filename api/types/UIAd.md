@@ -63,7 +63,7 @@ Documentation for this method is not yet available.
 
 ### AdLoaded(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -73,7 +73,7 @@ This event is fired when its associated action occurs.
 
 ### AdClicked(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

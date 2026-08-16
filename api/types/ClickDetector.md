@@ -21,7 +21,7 @@ Documentation for this property is not yet available.
 
 ### MouseClick(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -31,7 +31,7 @@ This event is fired when its associated action occurs.
 
 ### MouseHoverEnter(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -41,7 +41,7 @@ This event is fired when its associated action occurs.
 
 ### MouseHoverLeave(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

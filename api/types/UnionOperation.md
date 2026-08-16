@@ -51,7 +51,7 @@ Documentation for this method is not yet available.
 
 ### GeometryChanged(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

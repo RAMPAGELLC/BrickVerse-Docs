@@ -139,7 +139,7 @@ Documentation for this method is not yet available.
 
 ### PropertyChanged(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -149,7 +149,7 @@ This event is fired when its associated action occurs.
 
 ### Renamed(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -159,7 +159,7 @@ This event is fired when its associated action occurs.
 
 ### TreeEntered(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -169,7 +169,7 @@ This event is fired when its associated action occurs.
 
 ### TreeExited(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -179,7 +179,7 @@ This event is fired when its associated action occurs.
 
 ### Destroying(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 

@@ -324,7 +324,7 @@ Documentation for this method is not yet available.
 
 ### AttributeChanged(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -334,7 +334,7 @@ This event is fired when its associated action occurs.
 
 ### ChildAdded(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -344,7 +344,7 @@ This event is fired when its associated action occurs.
 
 ### ChildRemoved(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -354,7 +354,7 @@ This event is fired when its associated action occurs.
 
 ### ChildDeleting(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
@@ -364,7 +364,7 @@ This event is fired when its associated action occurs.
 
 ### ChildDeleted(value)
 
-**Type:** `PTSignal`
+**Type:** [BVSignal](./BVSignal.md)
 
 #### Parameters
 
