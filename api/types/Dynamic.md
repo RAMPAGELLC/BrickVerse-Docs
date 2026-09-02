@@ -8,7 +8,7 @@ description: ""
 # Dynamic
 
 **Inherits:** [Instance](./Instance.md)
-**Inherited by:** [Accessory](./Accessory.md), [Attachment](./Attachment.md), [Camera](./Camera.md), [CharacterModel](./CharacterModel.md), [Decal](./Decal.md), [Explosion](./Explosion.md), [GUI3D](./GUI3D.md), [Image3D](./Image3D.md), [Light](./Light.md), [Marker3D](./Marker3D.md), [Model](./Model.md), [Particles](./Particles.md), [Physical](./Physical.md), [Sound](./Sound.md), [Text3D](./Text3D.md)
+**Inherited by:** [Accessory](./Accessory.md), [Attachment](./Attachment.md), [Camera](./Camera.md), [CaptureSurface](./CaptureSurface.md), [CharacterModel](./CharacterModel.md), [Decal](./Decal.md), [Explosion](./Explosion.md), [GUI3D](./GUI3D.md), [Image3D](./Image3D.md), [Light](./Light.md), [Marker3D](./Marker3D.md), [Model](./Model.md), [Particles](./Particles.md), [PCGSpline](./PCGSpline.md), [Physical](./Physical.md), [ReflectionCapture](./ReflectionCapture.md), [SceneCapture](./SceneCapture.md), [Sound](./Sound.md), [Text3D](./Text3D.md), [TriggerVolume](./TriggerVolume.md)
 
 ## Properties
 

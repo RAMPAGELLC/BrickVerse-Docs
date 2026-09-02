@@ -690,6 +690,62 @@ Documentation for this method is not yet available.
 
 Documentation for this method is not yet available.
 
+### TransformVertices(transform, vertexIds?)
+
+#### Parameters
+
+- `transform`: `Transform3D`
+- `vertexIds`: `{ number }` — optional
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
+### FlipFaces(faceIds?)
+
+#### Parameters
+
+- `faceIds`: `{ number }` — optional
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
+### ProjectUVs(plane?, scale?, offset?, faceIds?)
+
+#### Parameters
+
+- `plane`: [MeshProjectionPlane](../enums/MeshProjectionPlane.md) — optional — default: `XZ`
+- `scale`: `number` — optional — default: `1`
+- `offset`: `Vector2` — optional
+- `faceIds`: `{ number }` — optional
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
+### Subdivide(faceIds?, iterations?)
+
+#### Parameters
+
+- `faceIds`: `{ number }` — optional
+- `iterations`: `number` — optional — default: `1`
+
+**Returns:** `{ number }`
+
+Documentation for this method is not yet available.
+
+### ExtrudeFaces(faceIds, offset)
+
+#### Parameters
+
+- `faceIds`: `{ number }`
+- `offset`: `Vector3`
+
+**Returns:** `{ number }`
+
+Documentation for this method is not yet available.
+
 ### MergeVertices(mergeTolerance)
 
 #### Parameters

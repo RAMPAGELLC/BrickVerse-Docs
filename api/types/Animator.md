@@ -25,6 +25,20 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
+### CurrentTrack
+
+**Type:** [AnimationTrack](./AnimationTrack.md)
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
 ### CurrentAnimation
 
 **Type:** `string`
@@ -32,6 +46,56 @@ Documentation for this property is not yet available.
 Documentation for this property is not yet available.
 
 ## Methods
+
+### LoadAnimation(track)
+
+#### Parameters
+
+- `track`: [AnimationTrack](./AnimationTrack.md)
+
+**Returns:** [AnimationTrack](./AnimationTrack.md)
+
+Documentation for this method is not yet available.
+
+### IsAnimationLoaded(track)
+
+#### Parameters
+
+- `track`: [AnimationTrack](./AnimationTrack.md)
+
+**Returns:** `boolean`
+
+Documentation for this method is not yet available.
+
+### UnloadAnimation(track)
+
+#### Parameters
+
+- `track`: [AnimationTrack](./AnimationTrack.md)
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
+### PlayAnimationTrack(track)
+
+#### Parameters
+
+- `track`: [AnimationTrack](./AnimationTrack.md)
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
+### StopAnimationTrack(track)
+
+#### Parameters
+
+- `track`: [AnimationTrack](./AnimationTrack.md)
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
 
 ### PlayAnimation(animationKey)
 
@@ -64,3 +128,25 @@ Documentation for this method is not yet available.
 **Returns:** `nil`
 
 Documentation for this method is not yet available.
+
+## Events
+
+### AnimationPlayed(value)
+
+**Type:** [BVSignal](./BVSignal.md)
+
+#### Parameters
+
+- `value`: `any`
+
+This event is fired when its associated action occurs.
+
+### AnimationStopped(value)
+
+**Type:** [BVSignal](./BVSignal.md)
+
+#### Parameters
+
+- `value`: `any`
+
+This event is fired when its associated action occurs.

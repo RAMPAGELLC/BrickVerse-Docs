@@ -65,6 +65,34 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
+### MicrophoneVolume
+
+**Type:** `number`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### OutputVolume
+
+**Type:** `number`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
 ### IndicatorEnabled
 
 **Type:** `boolean`
@@ -138,6 +166,26 @@ Documentation for this method is not yet available.
 #### Parameters
 
 - `sensitivity`: `number`
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
+### SetMicrophoneVolume(volume)
+
+#### Parameters
+
+- `volume`: `number`
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
+### SetOutputVolume(volume)
+
+#### Parameters
+
+- `volume`: `number`
 
 **Returns:** `nil`
 

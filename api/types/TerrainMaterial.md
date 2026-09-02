@@ -17,6 +17,12 @@ description: ""
 
 Documentation for this property is not yet available.
 
+### Kind
+
+**Type:** [TerrainMaterialKind](../enums/TerrainMaterialKind.md)
+
+Documentation for this property is not yet available.
+
 ### SurfaceType
 
 **Type:** [TerrainSurfaceType](../enums/TerrainSurfaceType.md)

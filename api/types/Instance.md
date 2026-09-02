@@ -8,7 +8,7 @@ description: ""
 # Instance
 
 **Inherits:** [NetworkedObject](./NetworkedObject.md)
-**Inherited by:** [AchievementsService](./AchievementsService.md), [Actor](./Actor.md), [AdService](./AdService.md), [AlignPosition](./AlignPosition.md), [AlignRotation](./AlignRotation.md), [Animator](./Animator.md), [AntiCheatService](./AntiCheatService.md), [AssetsService](./AssetsService.md), [Beam](./Beam.md), [BindableEvent](./BindableEvent.md), [BodyPosition](./BodyPosition.md), [BodyRotation](./BodyRotation.md), [CaptureService](./CaptureService.md), [ChatChannel](./ChatChannel.md), [ChatService](./ChatService.md), [ClickDetector](./ClickDetector.md), [Clothing](./Clothing.md), [ConfigService](./ConfigService.md), [Constraint](./Constraint.md), [CoreUIService](./CoreUIService.md), [CreatorAddons](./CreatorAddons.md), [CreatorContextService](./CreatorContextService.md), [CreatorGUI](./CreatorGUI.md), [CreatorHistory](./CreatorHistory.md), [CreatorSelections](./CreatorSelections.md), [DatastoreService](./DatastoreService.md), [Dynamic](./Dynamic.md), [Environment](./Environment.md), [FilterService](./FilterService.md), [Folder](./Folder.md), [GameSetting](./GameSetting.md), [GameSettingsService](./GameSettingsService.md), [GeometryService](./GeometryService.md), [Grabbable](./Grabbable.md), [GUI](./GUI.md), [HiddenBase](./HiddenBase.md), [Highlight](./Highlight.md), [HttpService](./HttpService.md), [InputService](./InputService.md), [InsertService](./InsertService.md), [IOService](./IOService.md), [Lighting](./Lighting.md), [LightingModifier](./LightingModifier.md), [MissingInstance](./MissingInstance.md), [NavigationLink](./NavigationLink.md), [NetworkEvent](./NetworkEvent.md), [PathfindingPath](./PathfindingPath.md), [PathfindingService](./PathfindingService.md), [PlayerGUI](./PlayerGUI.md), [Players](./Players.md), [PreferencesService](./PreferencesService.md), [PresenceService](./PresenceService.md), [PurchasesService](./PurchasesService.md), [RopeConstraint](./RopeConstraint.md), [Script](./Script.md), [ScriptService](./ScriptService.md), [ShaderEffect](./ShaderEffect.md), [Sky](./Sky.md), [SlashCommand](./SlashCommand.md), [SocialService](./SocialService.md), [SoundGroup](./SoundGroup.md), [Stat](./Stat.md), [Stats](./Stats.md), [StreamingService](./StreamingService.md), [SurfaceAppearance](./SurfaceAppearance.md), [Team](./Team.md), [Teams](./Teams.md), [Terrain](./Terrain.md), [TerrainGrass](./TerrainGrass.md), [TerrainMaterial](./TerrainMaterial.md), [Trail](./Trail.md), [TweenService](./TweenService.md), [UIAspectRatioRestraint](./UIAspectRatioRestraint.md), [UICorner](./UICorner.md), [UIField](./UIField.md), [UIGradient](./UIGradient.md), [UIShadow](./UIShadow.md), [UIStroke](./UIStroke.md), [ValueBase](./ValueBase.md), [VoiceChatService](./VoiceChatService.md), [VRService](./VRService.md), [Weld](./Weld.md), [World](./World.md), [WorldsService](./WorldsService.md)
+**Inherited by:** [AchievementsService](./AchievementsService.md), [Actor](./Actor.md), [AdService](./AdService.md), [AlignPosition](./AlignPosition.md), [AlignRotation](./AlignRotation.md), [AnimationTrack](./AnimationTrack.md), [Animator](./Animator.md), [AntiCheatService](./AntiCheatService.md), [AssetsService](./AssetsService.md), [Beam](./Beam.md), [BindableEvent](./BindableEvent.md), [BodyPosition](./BodyPosition.md), [BodyRotation](./BodyRotation.md), [CaptureService](./CaptureService.md), [ChatChannel](./ChatChannel.md), [ChatService](./ChatService.md), [ClickDetector](./ClickDetector.md), [Clothing](./Clothing.md), [CollectionService](./CollectionService.md), [ConfigService](./ConfigService.md), [Constraint](./Constraint.md), [CoreUIService](./CoreUIService.md), [Countdown](./Countdown.md), [CreatorAddons](./CreatorAddons.md), [CreatorContextService](./CreatorContextService.md), [CreatorGUI](./CreatorGUI.md), [CreatorHistory](./CreatorHistory.md), [CreatorSelections](./CreatorSelections.md), [DatastoreService](./DatastoreService.md), [DebrisService](./DebrisService.md), [Dynamic](./Dynamic.md), [Environment](./Environment.md), [FilterService](./FilterService.md), [Folder](./Folder.md), [GameSetting](./GameSetting.md), [GameSettingsService](./GameSettingsService.md), [GeometryService](./GeometryService.md), [Grabbable](./Grabbable.md), [GUI](./GUI.md), [HiddenBase](./HiddenBase.md), [Highlight](./Highlight.md), [HttpService](./HttpService.md), [InputService](./InputService.md), [InsertService](./InsertService.md), [IOService](./IOService.md), [Lighting](./Lighting.md), [LightingModifier](./LightingModifier.md), [LocalizationService](./LocalizationService.md), [MissingInstance](./MissingInstance.md), [NavigationLink](./NavigationLink.md), [NetworkEvent](./NetworkEvent.md), [ObjectPoolService](./ObjectPoolService.md), [PathfindingPath](./PathfindingPath.md), [PathfindingService](./PathfindingService.md), [PlayerGUI](./PlayerGUI.md), [Players](./Players.md), [PreferencesService](./PreferencesService.md), [PresenceService](./PresenceService.md), [PurchasesService](./PurchasesService.md), [RopeConstraint](./RopeConstraint.md), [RunService](./RunService.md), [SchedulerService](./SchedulerService.md), [Script](./Script.md), [ScriptService](./ScriptService.md), [ShaderEffect](./ShaderEffect.md), [Sky](./Sky.md), [SlashCommand](./SlashCommand.md), [SocialService](./SocialService.md), [SoundGroup](./SoundGroup.md), [Stat](./Stat.md), [Stats](./Stats.md), [StreamingService](./StreamingService.md), [SurfaceAppearance](./SurfaceAppearance.md), [Team](./Team.md), [Teams](./Teams.md), [Terrain](./Terrain.md), [TerrainGrass](./TerrainGrass.md), [TerrainMaterial](./TerrainMaterial.md), [TerrainWater](./TerrainWater.md), [Trail](./Trail.md), [TweenService](./TweenService.md), [UIAspectRatioRestraint](./UIAspectRatioRestraint.md), [UICorner](./UICorner.md), [UIField](./UIField.md), [UIGradient](./UIGradient.md), [UIShadow](./UIShadow.md), [UIStroke](./UIStroke.md), [ValueBase](./ValueBase.md), [VoiceChatService](./VoiceChatService.md), [VRService](./VRService.md), [Weld](./Weld.md), [World](./World.md), [WorldsService](./WorldsService.md)
 
 {% hint style="danger" %}
 **Abstract object**
@@ -99,7 +99,37 @@ Documentation for this method is not yet available.
 
 Documentation for this method is not yet available.
 
+### FindFirstChild(name, recursive?)
+
+#### Parameters
+
+- `name`: `string`
+- `recursive`: `boolean` — optional — default: `False`
+
+**Returns:** [Instance](./Instance.md)
+
+Documentation for this method is not yet available.
+
 ### WaitChild(name, timeoutSec?)
+
+**Attributes:** Yields
+
+{% hint style="info" %}
+**Yielding method**
+
+This method may yield the current script until the operation completes.
+{% endhint %}
+
+#### Parameters
+
+- `name`: `string`
+- `timeoutSec`: `number` — optional
+
+**Returns:** [Instance](./Instance.md)
+
+Documentation for this method is not yet available.
+
+### WaitForChild(name, timeoutSec?)
 
 **Attributes:** Yields
 
@@ -123,6 +153,27 @@ Documentation for this method is not yet available.
 #### Parameters
 
 - `className`: `string`
+
+**Returns:** [Instance](./Instance.md)
+
+Documentation for this method is not yet available.
+
+### FindFirstChildOfClass(className)
+
+#### Parameters
+
+- `className`: `string`
+
+**Returns:** [Instance](./Instance.md)
+
+Documentation for this method is not yet available.
+
+### FindFirstChildWhichIsA(className, recursive?)
+
+#### Parameters
+
+- `className`: `string`
+- `recursive`: `boolean` — optional — default: `False`
 
 **Returns:** [Instance](./Instance.md)
 
@@ -178,6 +229,36 @@ Documentation for this method is not yet available.
 
 Documentation for this method is not yet available.
 
+### FindFirstAncestor(name)
+
+#### Parameters
+
+- `name`: `string`
+
+**Returns:** [Instance](./Instance.md)
+
+Documentation for this method is not yet available.
+
+### FindFirstAncestorOfClass(className)
+
+#### Parameters
+
+- `className`: `string`
+
+**Returns:** [Instance](./Instance.md)
+
+Documentation for this method is not yet available.
+
+### FindFirstAncestorWhichIsA(className)
+
+#### Parameters
+
+- `className`: `string`
+
+**Returns:** [Instance](./Instance.md)
+
+Documentation for this method is not yet available.
+
 ### GetActor()
 
 **Returns:** [Actor](./Actor.md)
@@ -211,6 +292,12 @@ Documentation for this method is not yet available.
 
 Documentation for this method is not yet available.
 
+### ClearAllChildren()
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
 ### GetChildrenOfClass(className)
 
 #### Parameters
@@ -238,6 +325,12 @@ Documentation for this method is not yet available.
 - `instance`: [Instance](./Instance.md)
 
 **Returns:** `boolean`
+
+Documentation for this method is not yet available.
+
+### GetFullName()
+
+**Returns:** `string`
 
 Documentation for this method is not yet available.
 

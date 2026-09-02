@@ -133,6 +133,12 @@ Documentation for this property is not yet available.
 
 Documentation for this property is not yet available.
 
+### AllowDeveloperFreecam
+
+**Type:** `boolean`
+
+Documentation for this property is not yet available.
+
 ### MovementMode
 
 **Type:** [PlayerMovementMode](../enums/PlayerMovementMode.md)

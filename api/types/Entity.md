@@ -8,7 +8,7 @@ description: ""
 # Entity
 
 **Inherits:** [RigidBody](./RigidBody.md)
-**Inherited by:** [Icosphere](./Icosphere.md), [Mesh](./Mesh.md), [Part](./Part.md), [UnionOperation](./UnionOperation.md)
+**Inherited by:** [Icosphere](./Icosphere.md), [Mesh](./Mesh.md), [Part](./Part.md), [UnionOperation](./UnionOperation.md), [VoxelVolume](./VoxelVolume.md)
 
 {% hint style="danger" %}
 **Abstract object**

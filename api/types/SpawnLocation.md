@@ -17,8 +17,8 @@ description: ""
 
 Documentation for this property is not yet available.
 
-### TeamColor
+### Team
 
-**Type:** [Color](./Color.md)
+**Type:** [Team](./Team.md)
 
 Documentation for this property is not yet available.
