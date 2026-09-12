@@ -1,0 +1,371 @@
+# BrickVerse Developer Documentation
+
+> Official BrickVerse creator and Game API documentation. Generated from the live engine API.
+
+## Documentation
+
+- [AddonPermission](https://developers.brickverse.gg/api/enums/AddonPermission): | Value | Description | | --- | --- | | `AddonPermission.IORead` |  | | `AddonPermission.IOWrite` |  |
+- [AlphaMode](https://developers.brickverse.gg/api/enums/AlphaMode): | Value | Description | | --- | --- | | `AlphaMode.Overlay` |  | | `AlphaMode.Transparency` |  |
+- [AmbientSource](https://developers.brickverse.gg/api/enums/AmbientSource): | Value | Description | | --- | --- | | `AmbientSource.Skybox` |  | | `AmbientSource.Color` |  |
+- [AspectRatioScaleType](https://developers.brickverse.gg/api/enums/AspectRatioScaleType): | Value | Description | | --- | --- | | `AspectRatioScaleType.FitContainer` |  | | `AspectRatioScaleType.FitMaxSize` |  | | `AspectRatioScaleType.NoLimit` |  |
+- [BlendMode](https://developers.brickverse.gg/api/enums/BlendMode): | Value | Description | | --- | --- | | `BlendMode.Mix` |  | | `BlendMode.Add` |  | | `BlendMode.Subtract` |  | | `BlendMode.Multiply` |  |
+- [BuiltInAudioPreset](https://developers.brickverse.gg/api/enums/BuiltInAudioPreset): | Value | Description | | --- | --- | | `BuiltInAudioPreset.Jump` |  | | `BuiltInAudioPreset.Explosion` |  |
+- [CameraMode](https://developers.brickverse.gg/api/enums/CameraMode): | Value | Description | | --- | --- | | `CameraMode.Follow` |  | | `CameraMode.Free` |  | | `CameraMode.Scripted` |  |
+- [CaptureUpdateMode](https://developers.brickverse.gg/api/enums/CaptureUpdateMode): | Value | Description | | --- | --- | | `CaptureUpdateMode.Continuous` |  | | `CaptureUpdateMode.OnDemand` |  |
+- [CharacterAttachment](https://developers.brickverse.gg/api/enums/CharacterAttachment): | Value | Description | | --- | --- | | `CharacterAttachment.Head` |  | | `CharacterAttachment.UpperTorso` |  | | `CharacterAttachment.LowerTorso` |  | | `CharacterAttachment.ShoulderLeft` |  | | `CharacterAttachment.ShoulderRight` |  | | `
+- [CharacterModelState](https://developers.brickverse.gg/api/enums/CharacterModelState): | Value | Description | | --- | --- | | `CharacterModelState.Idle` |  | | `CharacterModelState.Walking` |  | | `CharacterModelState.Running` |  | | `CharacterModelState.Jumping` |  | | `CharacterModelState.Climbing` |  |
+- [ClientPlatform](https://developers.brickverse.gg/api/enums/ClientPlatform): | Value | Description | | --- | --- | | `ClientPlatform.Desktop` |  | | `ClientPlatform.Mobile` |  | | `ClientPlatform.VR` |  | | `ClientPlatform.Tablet` |  | | `ClientPlatform.Console` |  |
+- [ClothingType](https://developers.brickverse.gg/api/enums/ClothingType): | Value | Description | | --- | --- | | `ClothingType.TShirt` |  | | `ClothingType.Shirt` |  | | `ClothingType.Pants` |  |
+- [CodeEditorColorTheme](https://developers.brickverse.gg/api/enums/CodeEditorColorTheme): | Value | Description | | --- | --- | | `CodeEditorColorTheme.BrickVerse` |  | | `CodeEditorColorTheme.VisualStudioDark` |  | | `CodeEditorColorTheme.Dracula` |  | | `CodeEditorColorTheme.Light` |  | | `CodeEditorColorTheme.HighContrast` | 
+- [CreatorThemeMode](https://developers.brickverse.gg/api/enums/CreatorThemeMode): | Value | Description | | --- | --- | | `CreatorThemeMode.Dark` |  | | `CreatorThemeMode.Light` |  |
+- [CreatorToolMode](https://developers.brickverse.gg/api/enums/CreatorToolMode): | Value | Description | | --- | --- | | `CreatorToolMode.Select` |  | | `CreatorToolMode.Move` |  | | `CreatorToolMode.Rotate` |  | | `CreatorToolMode.Scale` |  | | `CreatorToolMode.Paint` |  | | `CreatorToolMode.Brush` |  |
+- [CtrlLockCursor](https://developers.brickverse.gg/api/enums/CtrlLockCursor): | Value | Description | | --- | --- | | `CtrlLockCursor.None` |  | | `CtrlLockCursor.Chevron` |  | | `CtrlLockCursor.Stereotypical` |  | | `CtrlLockCursor.StereotypicalDot` |  | | `CtrlLockCursor.Tactical` |  | | `CtrlLockCursor.Dot` |  | |
+- [DecalPlacementMode](https://developers.brickverse.gg/api/enums/DecalPlacementMode): | Value | Description | | --- | --- | | `DecalPlacementMode.Free` |  | | `DecalPlacementMode.Face` |  |
+- [DominantAxis](https://developers.brickverse.gg/api/enums/DominantAxis): | Value | Description | | --- | --- | | `DominantAxis.Width` |  | | `DominantAxis.Height` |  |
+- [FontPreset](https://developers.brickverse.gg/api/enums/FontPreset): | Value | Description | | --- | --- | | `FontPreset.SourceSans` |  | | `FontPreset.PressStart2P` |  | | `FontPreset.Montserrat` |  | | `FontPreset.RobotoMono` |  | | `FontPreset.Rubik` |  | | `FontPreset.Poppins` |  | | `FontPreset.Domine` 
+- [FontStyle](https://developers.brickverse.gg/api/enums/FontStyle): | Value | Description | | --- | --- | | `FontStyle.Normal` |  | | `FontStyle.Italic` |  |
+- [FontWeight](https://developers.brickverse.gg/api/enums/FontWeight): | Value | Description | | --- | --- | | `FontWeight.Thin` |  | | `FontWeight.ExtraLight` |  | | `FontWeight.Light` |  | | `FontWeight.Regular` |  | | `FontWeight.Medium` |  | | `FontWeight.SemiBold` |  | | `FontWeight.Bold` |  | | `FontWeig
+- [ForceMode](https://developers.brickverse.gg/api/enums/ForceMode): | Value | Description | | --- | --- | | `ForceMode.Force` |  | | `ForceMode.Acceleration` |  | | `ForceMode.Impulse` |  | | `ForceMode.VelocityChange` |  |
+- [GrabbablePermissionMode](https://developers.brickverse.gg/api/enums/GrabbablePermissionMode): | Value | Description | | --- | --- | | `GrabbablePermissionMode.None` |  | | `GrabbablePermissionMode.Everyone` |  | | `GrabbablePermissionMode.Scripted` |  |
+- [GradientImageFill](https://developers.brickverse.gg/api/enums/GradientImageFill): | Value | Description | | --- | --- | | `GradientImageFill.Linear` |  | | `GradientImageFill.Radial` |  | | `GradientImageFill.Square` |  |
+- [GraphicsPreset](https://developers.brickverse.gg/api/enums/GraphicsPreset): | Value | Description | | --- | --- | | `GraphicsPreset.Low` |  | | `GraphicsPreset.Medium` |  | | `GraphicsPreset.High` |  | | `GraphicsPreset.Ultra` |  | | `GraphicsPreset.Photo` |  | | `GraphicsPreset.Custom` |  |
+- [HighlightDepthMode](https://developers.brickverse.gg/api/enums/HighlightDepthMode): | Value | Description | | --- | --- | | `HighlightDepthMode.AlwaysOnTop` |  | | `HighlightDepthMode.Occluded` |  |
+- [HorizontalAlignment](https://developers.brickverse.gg/api/enums/HorizontalAlignment): | Value | Description | | --- | --- | | `HorizontalAlignment.Left` |  | | `HorizontalAlignment.Center` |  | | `HorizontalAlignment.Right` |  |
+- [HttpRequestMethod](https://developers.brickverse.gg/api/enums/HttpRequestMethod): | Value | Description | | --- | --- | | `HttpRequestMethod.Get` |  | | `HttpRequestMethod.Post` |  | | `HttpRequestMethod.Put` |  | | `HttpRequestMethod.Delete` |  | | `HttpRequestMethod.Patch` |  |
+- [ImageStretchMode](https://developers.brickverse.gg/api/enums/ImageStretchMode): | Value | Description | | --- | --- | | `ImageStretchMode.Stretch` |  | | `ImageStretchMode.Centered` |  | | `ImageStretchMode.Covered` |  |
+- [ImageType](https://developers.brickverse.gg/api/enums/ImageType): | Value | Description | | --- | --- | | `ImageType.Asset` |  | | `ImageType.AssetThumbnail` |  | | `ImageType.WorldThumbnail` |  | | `ImageType.UserAvatar` |  | | `ImageType.UserAvatarHeadshot` |  | | `ImageType.GuildIcon` |  | | `ImageType
+- [IndentationMode](https://developers.brickverse.gg/api/enums/IndentationMode): | Value | Description | | --- | --- | | `IndentationMode.Tabs` |  | | `IndentationMode.Spaces` |  |
+- [KeyCode](https://developers.brickverse.gg/api/enums/KeyCode): | Value | Description | | --- | --- | | `KeyCode.None` |  | | `KeyCode.Space` |  | | `KeyCode.Exclam` |  | | `KeyCode.QuotedBl` |  | | `KeyCode.Numbersign` |  | | `KeyCode.Dollar` |  | | `KeyCode.Percent` |  | | `KeyCode.Ampersand` |  | | `
+- [MeshAnimationType](https://developers.brickverse.gg/api/enums/MeshAnimationType): | Value | Description | | --- | --- | | `MeshAnimationType.Normal` |  | | `MeshAnimationType.Looped` |  | | `MeshAnimationType.PingPong` |  | | `MeshAnimationType.OneShot` |  | | `MeshAnimationType.OneShotImpluse` |  |
+- [MeshCollisionType](https://developers.brickverse.gg/api/enums/MeshCollisionType): | Value | Description | | --- | --- | | `MeshCollisionType.Bounds` |  | | `MeshCollisionType.Convex` |  | | `MeshCollisionType.Exact` |  |
+- [MeshProjectionPlane](https://developers.brickverse.gg/api/enums/MeshProjectionPlane): | Value | Description | | --- | --- | | `MeshProjectionPlane.XY` |  | | `MeshProjectionPlane.XZ` |  | | `MeshProjectionPlane.YZ` |  |
+- [MsaaScale](https://developers.brickverse.gg/api/enums/MsaaScale): | Value | Description | | --- | --- | | `MsaaScale.Disabled` |  | | `MsaaScale.X2` |  | | `MsaaScale.X4` |  | | `MsaaScale.X8` |  |
+- [NetworkEventRateLimitScope](https://developers.brickverse.gg/api/enums/NetworkEventRateLimitScope): | Value | Description | | --- | --- | | `NetworkEventRateLimitScope.PerPlayer` |  | | `NetworkEventRateLimitScope.PerServer` |  |
+- [NormalId](https://developers.brickverse.gg/api/enums/NormalId): | Value | Description | | --- | --- | | `NormalId.Front` |  | | `NormalId.Back` |  | | `NormalId.Left` |  | | `NormalId.Right` |  | | `NormalId.Top` |  | | `NormalId.Bottom` |  |
+- [ParticleEmissionShape](https://developers.brickverse.gg/api/enums/ParticleEmissionShape): | Value | Description | | --- | --- | | `ParticleEmissionShape.Point` |  | | `ParticleEmissionShape.Sphere` |  | | `ParticleEmissionShape.SphereSurface` |  | | `ParticleEmissionShape.Box` |  | | `ParticleEmissionShape.Ring` |  |
+- [ParticleOrientation](https://developers.brickverse.gg/api/enums/ParticleOrientation): | Value | Description | | --- | --- | | `ParticleOrientation.FaceCamera` |  | | `ParticleOrientation.FaceCameraFixedY` |  |
+- [ParticleSimulationSpace](https://developers.brickverse.gg/api/enums/ParticleSimulationSpace): | Value | Description | | --- | --- | | `ParticleSimulationSpace.Local` |  | | `ParticleSimulationSpace.World` |  |
+- [PartMaterial](https://developers.brickverse.gg/api/enums/PartMaterial): | Value | Description | | --- | --- | | `PartMaterial.SmoothPlastic` |  | | `PartMaterial.Brick` |  | | `PartMaterial.Concrete` |  | | `PartMaterial.Dirt` |  | | `PartMaterial.Fabric` |  | | `PartMaterial.Grass` |  | | `PartMaterial.Ice` | 
+- [PartShape](https://developers.brickverse.gg/api/enums/PartShape): | Value | Description | | --- | --- | | `PartShape.Brick` |  | | `PartShape.Sphere` |  | | `PartShape.Cylinder` |  | | `PartShape.Cone` |  | | `PartShape.Wedge` |  | | `PartShape.Corner` |  | | `PartShape.Bevel` |  | | `PartShape.Concave` |
+- [PlayerMovementMode](https://developers.brickverse.gg/api/enums/PlayerMovementMode): | Value | Description | | --- | --- | | `PlayerMovementMode.Default` |  | | `PlayerMovementMode.Scripted` |  |
+- [PlayTestPresentation](https://developers.brickverse.gg/api/enums/PlayTestPresentation): | Value | Description | | --- | --- | | `PlayTestPresentation.Attached` |  | | `PlayTestPresentation.Windowed` |  |
+- [PreferredEditor](https://developers.brickverse.gg/api/enums/PreferredEditor): | Value | Description | | --- | --- | | `PreferredEditor.BuiltIn` |  | | `PreferredEditor.SystemDefault` |  | | `PreferredEditor.VSCode` |  | | `PreferredEditor.Zed` |  |
+- [Enums](https://developers.brickverse.gg/api/enums): The **Enums** section contains every enumeration used throughout the BrickVerse engine.
+- [RenderingMethod](https://developers.brickverse.gg/api/enums/RenderingMethod): | Value | Description | | --- | --- | | `RenderingMethod.Standard` |  | | `RenderingMethod.Performance` |  | | `RenderingMethod.Compatibility` |  | | `RenderingMethod.Auto` |  |
+- [SelectionPivotMode](https://developers.brickverse.gg/api/enums/SelectionPivotMode): | Value | Description | | --- | --- | | `SelectionPivotMode.Center` |  | | `SelectionPivotMode.PrimarySelection` |  |
+- [ShaderEffectType](https://developers.brickverse.gg/api/enums/ShaderEffectType): | Value | Description | | --- | --- | | `ShaderEffectType.Hologram` |  | | `ShaderEffectType.ForceField` |  | | `ShaderEffectType.Toon` |  | | `ShaderEffectType.NeonPulse` |  | | `ShaderEffectType.Dissolve` |  | | `ShaderEffectType.RimGlow`
+- [ShadowQuality](https://developers.brickverse.gg/api/enums/ShadowQuality): | Value | Description | | --- | --- | | `ShadowQuality.Off` |  | | `ShadowQuality.Low` |  | | `ShadowQuality.Medium` |  | | `ShadowQuality.High` |  | | `ShadowQuality.Ultra` |  |
+- [SkyboxPreset](https://developers.brickverse.gg/api/enums/SkyboxPreset): | Value | Description | | --- | --- | | `SkyboxPreset.Day1` |  | | `SkyboxPreset.Day2` |  | | `SkyboxPreset.Day3` |  | | `SkyboxPreset.Day4` |  | | `SkyboxPreset.Day5` |  | | `SkyboxPreset.Day6` |  | | `SkyboxPreset.Day7` |  | | `SkyboxPres
+- [SoundAttenuationMode](https://developers.brickverse.gg/api/enums/SoundAttenuationMode): | Value | Description | | --- | --- | | `SoundAttenuationMode.Disabled` |  | | `SoundAttenuationMode.Linear` |  | | `SoundAttenuationMode.Squared` |  | | `SoundAttenuationMode.Logarithmic` |  |
+- [TerrainMaterialKind](https://developers.brickverse.gg/api/enums/TerrainMaterialKind): | Value | Description | | --- | --- | | `TerrainMaterialKind.Solid` |  | | `TerrainMaterialKind.Water` |  |
+- [TerrainSurfaceType](https://developers.brickverse.gg/api/enums/TerrainSurfaceType): | Value | Description | | --- | --- | | `TerrainSurfaceType.BuiltIn` |  | | `TerrainSurfaceType.Custom` |  |
+- [TextTrimming](https://developers.brickverse.gg/api/enums/TextTrimming): | Value | Description | | --- | --- | | `TextTrimming.None` |  | | `TextTrimming.Character` |  | | `TextTrimming.Word` |  | | `TextTrimming.CharacterEllipsis` |  | | `TextTrimming.WordEllipsis` |  |
+- [TextureFilter](https://developers.brickverse.gg/api/enums/TextureFilter): | Value | Description | | --- | --- | | `TextureFilter.Nearest` |  | | `TextureFilter.NearestNoMipmaps` |  | | `TextureFilter.Linear` |  | | `TextureFilter.LinearNoMipmaps` |  |
+- [TonemapMode](https://developers.brickverse.gg/api/enums/TonemapMode): | Value | Description | | --- | --- | | `TonemapMode.Linear` |  | | `TonemapMode.Reinhard` |  | | `TonemapMode.Filmic` |  | | `TonemapMode.Aces` |  |
+- [TransformOrientation](https://developers.brickverse.gg/api/enums/TransformOrientation): | Value | Description | | --- | --- | | `TransformOrientation.Global` |  | | `TransformOrientation.Local` |  |
+- [TweenDirection](https://developers.brickverse.gg/api/enums/TweenDirection): | Value | Description | | --- | --- | | `TweenDirection.In` |  | | `TweenDirection.Out` |  | | `TweenDirection.InOut` |  | | `TweenDirection.OutIn` |  |
+- [TweenTransition](https://developers.brickverse.gg/api/enums/TweenTransition): | Value | Description | | --- | --- | | `TweenTransition.Linear` |  | | `TweenTransition.Sine` |  | | `TweenTransition.Quint` |  | | `TweenTransition.Quart` |  | | `TweenTransition.Quad` |  | | `TweenTransition.Expo` |  | | `TweenTransition
+- [UIGradientApplyTo](https://developers.brickverse.gg/api/enums/UIGradientApplyTo): | Value | Description | | --- | --- | | `UIGradientApplyTo.Background` |  | | `UIGradientApplyTo.Text` |  | | `UIGradientApplyTo.Border` |  | | `UIGradientApplyTo.UIStroke` |  | | `UIGradientApplyTo.All` |  |
+- [UILayoutAlignment](https://developers.brickverse.gg/api/enums/UILayoutAlignment): | Value | Description | | --- | --- | | `UILayoutAlignment.Start` |  | | `UILayoutAlignment.Center` |  | | `UILayoutAlignment.End` |  |
+- [UIMaskMode](https://developers.brickverse.gg/api/enums/UIMaskMode): | Value | Description | | --- | --- | | `UIMaskMode.Disabled` |  | | `UIMaskMode.ClipOnly` |  | | `UIMaskMode.ClipAndDraw` |  |
+- [UIMode](https://developers.brickverse.gg/api/enums/UIMode): | Value | Description | | --- | --- | | `UIMode.Default` |  | | `UIMode.GUI3D` |  |
+- [UIScrollMode](https://developers.brickverse.gg/api/enums/UIScrollMode): | Value | Description | | --- | --- | | `UIScrollMode.Disabled` |  | | `UIScrollMode.Auto` |  | | `UIScrollMode.AlwaysShow` |  | | `UIScrollMode.NeverShow` |  |
+- [UserCFrame](https://developers.brickverse.gg/api/enums/UserCFrame): | Value | Description | | --- | --- | | `UserCFrame.Head` |  | | `UserCFrame.LeftHand` |  | | `UserCFrame.RightHand` |  |
+- [VerticalAlignment](https://developers.brickverse.gg/api/enums/VerticalAlignment): | Value | Description | | --- | --- | | `VerticalAlignment.Top` |  | | `VerticalAlignment.Middle` |  | | `VerticalAlignment.Bottom` |  |
+- [VRControllerModelMode](https://developers.brickverse.gg/api/enums/VRControllerModelMode): | Value | Description | | --- | --- | | `VRControllerModelMode.Off` |  | | `VRControllerModelMode.Transparent` |  | | `VRControllerModelMode.Solid` |  |
+- [VRLaserPointerMode](https://developers.brickverse.gg/api/enums/VRLaserPointerMode): | Value | Description | | --- | --- | | `VRLaserPointerMode.Disabled` |  | | `VRLaserPointerMode.Pointer` |  | | `VRLaserPointerMode.Navigation` |  |
+- [VRScaling](https://developers.brickverse.gg/api/enums/VRScaling): | Value | Description | | --- | --- | | `VRScaling.Off` |  | | `VRScaling.World` |  |
+- [VRTouchpad](https://developers.brickverse.gg/api/enums/VRTouchpad): | Value | Description | | --- | --- | | `VRTouchpad.Left` |  | | `VRTouchpad.Right` |  |
+- [VRTouchpadMode](https://developers.brickverse.gg/api/enums/VRTouchpadMode): | Value | Description | | --- | --- | | `VRTouchpadMode.Touch` |  | | `VRTouchpadMode.VirtualThumbstick` |  | | `VRTouchpadMode.ABXY` |  |
+- [Game API](https://developers.brickverse.gg/api): The Game API is the scripting reference for building experiences on BrickVerse.
+- [Accessory](https://developers.brickverse.gg/api/types/Accessory): **Inherits:** [Dynamic](./Dynamic.md)
+- [AchievementsService](https://developers.brickverse.gg/api/types/AchievementsService): **Inherits:** [Instance](./Instance.md)
+- [Actor](https://developers.brickverse.gg/api/types/Actor): **Inherits:** [Instance](./Instance.md)
+- [AddonObject](https://developers.brickverse.gg/api/types/AddonObject): {% hint style="warning" %} **Not instantiable**
+- [AddonToolItem](https://developers.brickverse.gg/api/types/AddonToolItem): {% hint style="warning" %} **Not instantiable**
+- [AdService](https://developers.brickverse.gg/api/types/AdService): **Inherits:** [Instance](./Instance.md)
+- [AlignPosition](https://developers.brickverse.gg/api/types/AlignPosition): **Inherits:** [Instance](./Instance.md)
+- [AlignRotation](https://developers.brickverse.gg/api/types/AlignRotation): **Inherits:** [Instance](./Instance.md)
+- [AmbientOcclusionEffect](https://developers.brickverse.gg/api/types/AmbientOcclusionEffect): **Inherits:** [LightingModifier](./LightingModifier.md)
+- [AnimationTrack](https://developers.brickverse.gg/api/types/AnimationTrack): **Inherits:** [Instance](./Instance.md)
+- [Animator](https://developers.brickverse.gg/api/types/Animator): **Inherits:** [Instance](./Instance.md)
+- [AntiCheatService](https://developers.brickverse.gg/api/types/AntiCheatService): **Inherits:** [Instance](./Instance.md)
+- [AssetsService](https://developers.brickverse.gg/api/types/AssetsService): **Inherits:** [Instance](./Instance.md)
+- [Attachment](https://developers.brickverse.gg/api/types/Attachment): **Inherits:** [Dynamic](./Dynamic.md)
+- [AudioAsset](https://developers.brickverse.gg/api/types/AudioAsset): **Inherits:** [ResourceAsset](./ResourceAsset.md) **Inherited by:** [BuiltInAudioAsset](./BuiltInAudioAsset.md), [BVAudioAsset](./BVAudioAsset.md)
+- [BallSocketConstraint](https://developers.brickverse.gg/api/types/BallSocketConstraint): **Inherits:** [Constraint](./Constraint.md)
+- [BaseAsset](https://developers.brickverse.gg/api/types/BaseAsset): **Inherits:** [NetworkedObject](./NetworkedObject.md) **Inherited by:** [FileLinkAsset](./FileLinkAsset.md), [ResourceAsset](./ResourceAsset.md)
+- [Beam](https://developers.brickverse.gg/api/types/Beam): **Inherits:** [Instance](./Instance.md)
+- [BindableEvent](https://developers.brickverse.gg/api/types/BindableEvent): **Inherits:** [Instance](./Instance.md)
+- [BloomEffect](https://developers.brickverse.gg/api/types/BloomEffect): **Inherits:** [LightingModifier](./LightingModifier.md)
+- [BodyPosition](https://developers.brickverse.gg/api/types/BodyPosition): **Inherits:** [Instance](./Instance.md)
+- [BodyRotation](https://developers.brickverse.gg/api/types/BodyRotation): **Inherits:** [Instance](./Instance.md)
+- [BoolValue](https://developers.brickverse.gg/api/types/BoolValue): **Inherits:** [ValueBase](./ValueBase.md)
+- [Bounds](https://developers.brickverse.gg/api/types/Bounds): {% hint style="warning" %} **Not instantiable**
+- [BrickversianModel](https://developers.brickverse.gg/api/types/BrickversianModel): **Inherits:** [CharacterModel](./CharacterModel.md)
+- [BuiltInAudioAsset](https://developers.brickverse.gg/api/types/BuiltInAudioAsset): **Inherits:** [AudioAsset](./AudioAsset.md)
+- [BuiltInFontAsset](https://developers.brickverse.gg/api/types/BuiltInFontAsset): **Inherits:** [FontAsset](./FontAsset.md)
+- [BVAudioAsset](https://developers.brickverse.gg/api/types/BVAudioAsset): **Inherits:** [AudioAsset](./AudioAsset.md)
+- [BVCallback](https://developers.brickverse.gg/api/types/BVCallback): {% hint style="warning" %} **Not instantiable**
+- [BVFontAsset](https://developers.brickverse.gg/api/types/BVFontAsset): **Inherits:** [FontAsset](./FontAsset.md)
+- [BVFunction](https://developers.brickverse.gg/api/types/BVFunction): {% hint style="warning" %} **Not instantiable**
+- [BVImageAsset](https://developers.brickverse.gg/api/types/BVImageAsset): **Inherits:** [ImageAsset](./ImageAsset.md)
+- [BVMeshAnimationAsset](https://developers.brickverse.gg/api/types/BVMeshAnimationAsset): **Inherits:** [MeshAnimationAsset](./MeshAnimationAsset.md)
+- [BVMeshAsset](https://developers.brickverse.gg/api/types/BVMeshAsset): **Inherits:** [MeshAsset](./MeshAsset.md)
+- [BVSignal](https://developers.brickverse.gg/api/types/BVSignal): {% hint style="warning" %} **Not instantiable**
+- [BVSignalConnection](https://developers.brickverse.gg/api/types/BVSignalConnection): {% hint style="warning" %} **Not instantiable**
+- [BVVideoAsset](https://developers.brickverse.gg/api/types/BVVideoAsset): **Inherits:** [VideoAsset](./VideoAsset.md)
+- [Camera](https://developers.brickverse.gg/api/types/Camera): **Inherits:** [Dynamic](./Dynamic.md)
+- [CaptureService](https://developers.brickverse.gg/api/types/CaptureService): **Inherits:** [Instance](./Instance.md)
+- [CaptureSurface](https://developers.brickverse.gg/api/types/CaptureSurface): **Inherits:** [Dynamic](./Dynamic.md)
+- [CharacterModel](https://developers.brickverse.gg/api/types/CharacterModel): **Inherits:** [Dynamic](./Dynamic.md) **Inherited by:** [BrickversianModel](./BrickversianModel.md)
+- [ChatChannel](https://developers.brickverse.gg/api/types/ChatChannel): **Inherits:** [Instance](./Instance.md)
+- [ChatService](https://developers.brickverse.gg/api/types/ChatService): **Inherits:** [Instance](./Instance.md)
+- [ClickDetector](https://developers.brickverse.gg/api/types/ClickDetector): **Inherits:** [Instance](./Instance.md)
+- [ClientScript](https://developers.brickverse.gg/api/types/ClientScript): **Inherits:** [Script](./Script.md)
+- [Clothing](https://developers.brickverse.gg/api/types/Clothing): **Inherits:** [Instance](./Instance.md)
+- [CollectionService](https://developers.brickverse.gg/api/types/CollectionService): **Inherits:** [Instance](./Instance.md)
+- [Color](https://developers.brickverse.gg/api/types/Color): {% hint style="warning" %} **Not instantiable**
+- [ColorAdjustModifier](https://developers.brickverse.gg/api/types/ColorAdjustModifier): **Inherits:** [LightingModifier](./LightingModifier.md) **Inherited by:** [ColorCorrectionEffect](./ColorCorrectionEffect.md)
+- [ColorCorrectionEffect](https://developers.brickverse.gg/api/types/ColorCorrectionEffect): **Inherits:** [ColorAdjustModifier](./ColorAdjustModifier.md)
+- [ColorSeries](https://developers.brickverse.gg/api/types/ColorSeries): {% hint style="warning" %} **Not instantiable**
+- [ColorValue](https://developers.brickverse.gg/api/types/ColorValue): **Inherits:** [ValueBase](./ValueBase.md)
+- [ConfigService](https://developers.brickverse.gg/api/types/ConfigService): **Inherits:** [Instance](./Instance.md)
+- [Constraint](https://developers.brickverse.gg/api/types/Constraint): **Inherits:** [Instance](./Instance.md) **Inherited by:** [BallSocketConstraint](./BallSocketConstraint.md), [HingeConstraint](./HingeConstraint.md), [MotorConstraint](./MotorConstraint.md), [PrismaticConstraint](./PrismaticConstraint.md), 
+- [CoreUIService](https://developers.brickverse.gg/api/types/CoreUIService): **Inherits:** [Instance](./Instance.md)
+- [Countdown](https://developers.brickverse.gg/api/types/Countdown): **Inherits:** [Instance](./Instance.md)
+- [CreatorAddons](https://developers.brickverse.gg/api/types/CreatorAddons): **Inherits:** [Instance](./Instance.md)
+- [CreatorContextService](https://developers.brickverse.gg/api/types/CreatorContextService): **Inherits:** [Instance](./Instance.md)
+- [CreatorGUI](https://developers.brickverse.gg/api/types/CreatorGUI): **Inherits:** [Instance](./Instance.md)
+- [CreatorHistory](https://developers.brickverse.gg/api/types/CreatorHistory): **Inherits:** [Instance](./Instance.md)
+- [CreatorInterface](https://developers.brickverse.gg/api/types/CreatorInterface): {% hint style="warning" %} **Not instantiable**
+- [CreatorSelections](https://developers.brickverse.gg/api/types/CreatorSelections): **Inherits:** [Instance](./Instance.md)
+- [CreatorService](https://developers.brickverse.gg/api/types/CreatorService): {% hint style="info" %} **Static class**
+- [DamageVolume](https://developers.brickverse.gg/api/types/DamageVolume): **Inherits:** [TriggerVolume](./TriggerVolume.md)
+- [Datastore](https://developers.brickverse.gg/api/types/Datastore): {% hint style="warning" %} **Not instantiable**
+- [DatastoreService](https://developers.brickverse.gg/api/types/DatastoreService): **Inherits:** [Instance](./Instance.md)
+- [DebrisService](https://developers.brickverse.gg/api/types/DebrisService): **Inherits:** [Instance](./Instance.md)
+- [Decal](https://developers.brickverse.gg/api/types/Decal): **Inherits:** [Dynamic](./Dynamic.md)
+- [DragDetector](https://developers.brickverse.gg/api/types/DragDetector): **Inherits:** [Grabbable](./Grabbable.md)
+- [Dynamic](https://developers.brickverse.gg/api/types/Dynamic): **Inherits:** [Instance](./Instance.md) **Inherited by:** [Accessory](./Accessory.md), [Attachment](./Attachment.md), [Camera](./Camera.md), [CaptureSurface](./CaptureSurface.md), [CharacterModel](./CharacterModel.md), [Decal](./Decal.md), 
+- [ector2](https://developers.brickverse.gg/api/types/ector2): {% hint style="warning" %} **Not instantiable**
+- [ector3](https://developers.brickverse.gg/api/types/ector3): {% hint style="warning" %} **Not instantiable**
+- [EditableImage](https://developers.brickverse.gg/api/types/EditableImage): **Inherits:** [UIImage](./UIImage.md)
+- [EditableMesh](https://developers.brickverse.gg/api/types/EditableMesh): **Inherits:** `RefCounted`
+- [Entity](https://developers.brickverse.gg/api/types/Entity): **Inherits:** [RigidBody](./RigidBody.md) **Inherited by:** [Icosphere](./Icosphere.md), [Mesh](./Mesh.md), [Part](./Part.md), [UnionOperation](./UnionOperation.md), [VoxelVolume](./VoxelVolume.md)
+- [Environment](https://developers.brickverse.gg/api/types/Environment): **Inherits:** [Instance](./Instance.md)
+- [Explosion](https://developers.brickverse.gg/api/types/Explosion): **Inherits:** [Dynamic](./Dynamic.md)
+- [FileLinkAsset](https://developers.brickverse.gg/api/types/FileLinkAsset): **Inherits:** [BaseAsset](./BaseAsset.md)
+- [FilterService](https://developers.brickverse.gg/api/types/FilterService): **Inherits:** [Instance](./Instance.md)
+- [FogEffect](https://developers.brickverse.gg/api/types/FogEffect): **Inherits:** [LightingModifier](./LightingModifier.md)
+- [Folder](https://developers.brickverse.gg/api/types/Folder): **Inherits:** [Instance](./Instance.md)
+- [FontAsset](https://developers.brickverse.gg/api/types/FontAsset): **Inherits:** [ResourceAsset](./ResourceAsset.md) **Inherited by:** [BuiltInFontAsset](./BuiltInFontAsset.md), [BVFontAsset](./BVFontAsset.md)
+- [ForceVolume](https://developers.brickverse.gg/api/types/ForceVolume): **Inherits:** [TriggerVolume](./TriggerVolume.md)
+- [GameSetting](https://developers.brickverse.gg/api/types/GameSetting): **Inherits:** [Instance](./Instance.md)
+- [GameSettingsService](https://developers.brickverse.gg/api/types/GameSettingsService): **Inherits:** [Instance](./Instance.md)
+- [GeometryService](https://developers.brickverse.gg/api/types/GeometryService): **Inherits:** [Instance](./Instance.md)
+- [Grabbable](https://developers.brickverse.gg/api/types/Grabbable): **Inherits:** [Instance](./Instance.md) **Inherited by:** [DragDetector](./DragDetector.md)
+- [GradientImageAsset](https://developers.brickverse.gg/api/types/GradientImageAsset): **Inherits:** [ImageAsset](./ImageAsset.md)
+- [GradientSky](https://developers.brickverse.gg/api/types/GradientSky): **Inherits:** [Sky](./Sky.md)
+- [GUI](https://developers.brickverse.gg/api/types/GUI): **Inherits:** [Instance](./Instance.md)
+- [GUI3D](https://developers.brickverse.gg/api/types/GUI3D): **Inherits:** [Dynamic](./Dynamic.md)
+- [Hidden](https://developers.brickverse.gg/api/types/Hidden): **Inherits:** [HiddenBase](./HiddenBase.md)
+- [HiddenBase](https://developers.brickverse.gg/api/types/HiddenBase): **Inherits:** [Instance](./Instance.md) **Inherited by:** [Hidden](./Hidden.md), [Inventory](./Inventory.md), [PlayerDefaults](./PlayerDefaults.md), [ServerHidden](./ServerHidden.md)
+- [Highlight](https://developers.brickverse.gg/api/types/Highlight): **Inherits:** [Instance](./Instance.md)
+- [HingeConstraint](https://developers.brickverse.gg/api/types/HingeConstraint): **Inherits:** [Constraint](./Constraint.md)
+- [HttpRequestData](https://developers.brickverse.gg/api/types/HttpRequestData): {% hint style="warning" %} **Not instantiable**
+- [HttpResponseData](https://developers.brickverse.gg/api/types/HttpResponseData): {% hint style="warning" %} **Not instantiable**
+- [HttpService](https://developers.brickverse.gg/api/types/HttpService): **Inherits:** [Instance](./Instance.md)
+- [Icosphere](https://developers.brickverse.gg/api/types/Icosphere): **Inherits:** [Entity](./Entity.md)
+- [Image3D](https://developers.brickverse.gg/api/types/Image3D): **Inherits:** [Dynamic](./Dynamic.md)
+- [ImageAsset](https://developers.brickverse.gg/api/types/ImageAsset): **Inherits:** [ResourceAsset](./ResourceAsset.md) **Inherited by:** [BVImageAsset](./BVImageAsset.md), [GradientImageAsset](./GradientImageAsset.md)
+- [ImageSky](https://developers.brickverse.gg/api/types/ImageSky): **Inherits:** [Sky](./Sky.md)
+- [InputAction](https://developers.brickverse.gg/api/types/InputAction): **Inherited by:** [InputActionAxis](./InputActionAxis.md), [InputActionButton](./InputActionButton.md), [InputActionVector2](./InputActionVector2.md)
+- [InputActionAxis](https://developers.brickverse.gg/api/types/InputActionAxis): **Inherits:** [InputAction](./InputAction.md)
+- [InputActionButton](https://developers.brickverse.gg/api/types/InputActionButton): **Inherits:** [InputAction](./InputAction.md)
+- [InputActionVector2](https://developers.brickverse.gg/api/types/InputActionVector2): **Inherits:** [InputAction](./InputAction.md)
+- [InputButton](https://developers.brickverse.gg/api/types/InputButton): {% hint style="warning" %} **Not instantiable**
+- [InputButtonCollection](https://developers.brickverse.gg/api/types/InputButtonCollection): {% hint style="warning" %} **Not instantiable**
+- [InputService](https://developers.brickverse.gg/api/types/InputService): **Inherits:** [Instance](./Instance.md)
+- [InsertService](https://developers.brickverse.gg/api/types/InsertService): **Inherits:** [Instance](./Instance.md)
+- [Instance](https://developers.brickverse.gg/api/types/Instance): **Inherits:** [NetworkedObject](./NetworkedObject.md) **Inherited by:** [AchievementsService](./AchievementsService.md), [Actor](./Actor.md), [AdService](./AdService.md), [AlignPosition](./AlignPosition.md), [AlignRotation](./AlignRotation.
+- [InstanceValue](https://developers.brickverse.gg/api/types/InstanceValue): **Inherits:** [ValueBase](./ValueBase.md)
+- [InteractionPrompt](https://developers.brickverse.gg/api/types/InteractionPrompt): **Inherits:** [Physical](./Physical.md)
+- [IntValue](https://developers.brickverse.gg/api/types/IntValue): **Inherits:** [ValueBase](./ValueBase.md)
+- [Inventory](https://developers.brickverse.gg/api/types/Inventory): **Inherits:** [HiddenBase](./HiddenBase.md)
+- [IOService](https://developers.brickverse.gg/api/types/IOService): **Inherits:** [Instance](./Instance.md)
+- [Light](https://developers.brickverse.gg/api/types/Light): **Inherits:** [Dynamic](./Dynamic.md) **Inherited by:** [PointLight](./PointLight.md), [SpotLight](./SpotLight.md), [SunLight](./SunLight.md)
+- [Lighting](https://developers.brickverse.gg/api/types/Lighting): **Inherits:** [Instance](./Instance.md)
+- [LightingModifier](https://developers.brickverse.gg/api/types/LightingModifier): **Inherits:** [Instance](./Instance.md) **Inherited by:** [AmbientOcclusionEffect](./AmbientOcclusionEffect.md), [BloomEffect](./BloomEffect.md), [ColorAdjustModifier](./ColorAdjustModifier.md), [FogEffect](./FogEffect.md), [TonemapEffect](
+- [LocalizationService](https://developers.brickverse.gg/api/types/LocalizationService): **Inherits:** [Instance](./Instance.md)
+- [Marker3D](https://developers.brickverse.gg/api/types/Marker3D): **Inherits:** [Dynamic](./Dynamic.md)
+- [Mesh](https://developers.brickverse.gg/api/types/Mesh): **Inherits:** [Entity](./Entity.md)
+- [MeshAnimationAsset](https://developers.brickverse.gg/api/types/MeshAnimationAsset): **Inherits:** [ResourceAsset](./ResourceAsset.md) **Inherited by:** [BVMeshAnimationAsset](./BVMeshAnimationAsset.md)
+- [MeshAnimationInfo](https://developers.brickverse.gg/api/types/MeshAnimationInfo): {% hint style="warning" %} **Not instantiable**
+- [MeshAsset](https://developers.brickverse.gg/api/types/MeshAsset): **Inherits:** [ResourceAsset](./ResourceAsset.md) **Inherited by:** [BVMeshAsset](./BVMeshAsset.md)
+- [MissingInstance](https://developers.brickverse.gg/api/types/MissingInstance): **Inherits:** [Instance](./Instance.md)
+- [Model](https://developers.brickverse.gg/api/types/Model): **Inherits:** [Dynamic](./Dynamic.md)
+- [ModuleScript](https://developers.brickverse.gg/api/types/ModuleScript): **Inherits:** [Script](./Script.md)
+- [MotorConstraint](https://developers.brickverse.gg/api/types/MotorConstraint): **Inherits:** [Constraint](./Constraint.md)
+- [NavigationLink](https://developers.brickverse.gg/api/types/NavigationLink): **Inherits:** [Instance](./Instance.md)
+- [NegateOperation](https://developers.brickverse.gg/api/types/NegateOperation): **Inherits:** [Part](./Part.md)
+- [NetMessage](https://developers.brickverse.gg/api/types/NetMessage): {% hint style="warning" %} **Not instantiable**
+- [NetworkedObject](https://developers.brickverse.gg/api/types/NetworkedObject): **Inherited by:** [BaseAsset](./BaseAsset.md), [Instance](./Instance.md)
+- [NetworkEvent](https://developers.brickverse.gg/api/types/NetworkEvent): **Inherits:** [Instance](./Instance.md)
+- [NewServerRequestData](https://developers.brickverse.gg/api/types/NewServerRequestData): {% hint style="warning" %} **Not instantiable**
+- [NPC](https://developers.brickverse.gg/api/types/NPC): **Inherits:** [Physical](./Physical.md) **Inherited by:** [Player](./Player.md)
+- [NumberRange](https://developers.brickverse.gg/api/types/NumberRange): {% hint style="warning" %} **Not instantiable**
+- [NumberSeries](https://developers.brickverse.gg/api/types/NumberSeries): {% hint style="warning" %} **Not instantiable**
+- [NumberValue](https://developers.brickverse.gg/api/types/NumberValue): **Inherits:** [ValueBase](./ValueBase.md)
+- [ObjectPoolService](https://developers.brickverse.gg/api/types/ObjectPoolService): **Inherits:** [Instance](./Instance.md)
+- [Part](https://developers.brickverse.gg/api/types/Part): **Inherits:** [Entity](./Entity.md) **Inherited by:** [NegateOperation](./NegateOperation.md), [Seat](./Seat.md), [SpawnLocation](./SpawnLocation.md), [Truss](./Truss.md), [VoiceBox](./VoiceBox.md)
+- [Particles](https://developers.brickverse.gg/api/types/Particles): **Inherits:** [Dynamic](./Dynamic.md)
+- [PathfindingPath](https://developers.brickverse.gg/api/types/PathfindingPath): **Inherits:** [Instance](./Instance.md)
+- [PathfindingService](https://developers.brickverse.gg/api/types/PathfindingService): **Inherits:** [Instance](./Instance.md)
+- [PCGSpline](https://developers.brickverse.gg/api/types/PCGSpline): **Inherits:** [Dynamic](./Dynamic.md)
+- [Physical](https://developers.brickverse.gg/api/types/Physical): **Inherits:** [Dynamic](./Dynamic.md) **Inherited by:** [InteractionPrompt](./InteractionPrompt.md), [NPC](./NPC.md), [RigidBody](./RigidBody.md)
+- [Player](https://developers.brickverse.gg/api/types/Player): **Inherits:** [NPC](./NPC.md)
+- [PlayerDefaults](https://developers.brickverse.gg/api/types/PlayerDefaults): **Inherits:** [HiddenBase](./HiddenBase.md)
+- [PlayerGUI](https://developers.brickverse.gg/api/types/PlayerGUI): **Inherits:** [Instance](./Instance.md)
+- [Players](https://developers.brickverse.gg/api/types/Players): **Inherits:** [Instance](./Instance.md)
+- [PointLight](https://developers.brickverse.gg/api/types/PointLight): **Inherits:** [Light](./Light.md)
+- [PreferencesService](https://developers.brickverse.gg/api/types/PreferencesService): **Inherits:** [Instance](./Instance.md)
+- [PresenceService](https://developers.brickverse.gg/api/types/PresenceService): **Inherits:** [Instance](./Instance.md)
+- [PrismaticConstraint](https://developers.brickverse.gg/api/types/PrismaticConstraint): **Inherits:** [Constraint](./Constraint.md)
+- [ProceduralSky](https://developers.brickverse.gg/api/types/ProceduralSky): **Inherits:** [Sky](./Sky.md)
+- [PurchasesService](https://developers.brickverse.gg/api/types/PurchasesService): **Inherits:** [Instance](./Instance.md)
+- [Quaternion](https://developers.brickverse.gg/api/types/Quaternion): {% hint style="warning" %} **Not instantiable**
+- [QuaternionValue](https://developers.brickverse.gg/api/types/QuaternionValue): **Inherits:** [ValueBase](./ValueBase.md)
+- [RangeValue](https://developers.brickverse.gg/api/types/RangeValue): **Inherits:** [ValueBase](./ValueBase.md)
+- [RayResult](https://developers.brickverse.gg/api/types/RayResult): {% hint style="warning" %} **Not instantiable**
+- [Types](https://developers.brickverse.gg/api/types): The **Types** section contains every class, object, service, and data structure available to BrickVerse scripts.
+- [ReflectionCapture](https://developers.brickverse.gg/api/types/ReflectionCapture): **Inherits:** [Dynamic](./Dynamic.md)
+- [ResourceAsset](https://developers.brickverse.gg/api/types/ResourceAsset): **Inherits:** [BaseAsset](./BaseAsset.md) **Inherited by:** [AudioAsset](./AudioAsset.md), [FontAsset](./FontAsset.md), [ImageAsset](./ImageAsset.md), [MeshAnimationAsset](./MeshAnimationAsset.md), [MeshAsset](./MeshAsset.md), [VideoAsset](
+- [RigidBody](https://developers.brickverse.gg/api/types/RigidBody): **Inherits:** [Physical](./Physical.md) **Inherited by:** [Entity](./Entity.md), [Tool](./Tool.md)
+- [RopeConstraint](https://developers.brickverse.gg/api/types/RopeConstraint): **Inherits:** [Instance](./Instance.md)
+- [RunService](https://developers.brickverse.gg/api/types/RunService): **Inherits:** [Instance](./Instance.md)
+- [SceneCapture](https://developers.brickverse.gg/api/types/SceneCapture): **Inherits:** [Dynamic](./Dynamic.md)
+- [SchedulerService](https://developers.brickverse.gg/api/types/SchedulerService): **Inherits:** [Instance](./Instance.md)
+- [Script](https://developers.brickverse.gg/api/types/Script): **Inherits:** [Instance](./Instance.md) **Inherited by:** [ClientScript](./ClientScript.md), [ModuleScript](./ModuleScript.md), [ServerScript](./ServerScript.md)
+- [ScriptService](https://developers.brickverse.gg/api/types/ScriptService): **Inherits:** [Instance](./Instance.md)
+- [ScriptSharedTable](https://developers.brickverse.gg/api/types/ScriptSharedTable): {% hint style="warning" %} **Not instantiable**
+- [Seat](https://developers.brickverse.gg/api/types/Seat): **Inherits:** [Part](./Part.md) **Inherited by:** [VehicleSeat](./VehicleSeat.md)
+- [ServerHidden](https://developers.brickverse.gg/api/types/ServerHidden): **Inherits:** [HiddenBase](./HiddenBase.md) **Inherited by:** [Temporary](./Temporary.md)
+- [ServerScript](https://developers.brickverse.gg/api/types/ServerScript): **Inherits:** [Script](./Script.md)
+- [ShaderEffect](https://developers.brickverse.gg/api/types/ShaderEffect): **Inherits:** [Instance](./Instance.md)
+- [ShadowLayer](https://developers.brickverse.gg/api/types/ShadowLayer): {% hint style="warning" %} **Not instantiable**
+- [Sky](https://developers.brickverse.gg/api/types/Sky): **Inherits:** [Instance](./Instance.md) **Inherited by:** [GradientSky](./GradientSky.md), [ImageSky](./ImageSky.md), [ProceduralSky](./ProceduralSky.md)
+- [SlashCommand](https://developers.brickverse.gg/api/types/SlashCommand): **Inherits:** [Instance](./Instance.md)
+- [SliderConstraint](https://developers.brickverse.gg/api/types/SliderConstraint): **Inherits:** [Constraint](./Constraint.md)
+- [SocialService](https://developers.brickverse.gg/api/types/SocialService): **Inherits:** [Instance](./Instance.md)
+- [Sound](https://developers.brickverse.gg/api/types/Sound): **Inherits:** [Dynamic](./Dynamic.md)
+- [SoundGroup](https://developers.brickverse.gg/api/types/SoundGroup): **Inherits:** [Instance](./Instance.md)
+- [SpawnLocation](https://developers.brickverse.gg/api/types/SpawnLocation): **Inherits:** [Part](./Part.md)
+- [SpotLight](https://developers.brickverse.gg/api/types/SpotLight): **Inherits:** [Light](./Light.md)
+- [SpringConstraint](https://developers.brickverse.gg/api/types/SpringConstraint): **Inherits:** [Constraint](./Constraint.md)
+- [Stat](https://developers.brickverse.gg/api/types/Stat): **Inherits:** [Instance](./Instance.md)
+- [Stats](https://developers.brickverse.gg/api/types/Stats): **Inherits:** [Instance](./Instance.md)
+- [StreamingService](https://developers.brickverse.gg/api/types/StreamingService): **Inherits:** [Instance](./Instance.md)
+- [StringValue](https://developers.brickverse.gg/api/types/StringValue): **Inherits:** [ValueBase](./ValueBase.md)
+- [SunLight](https://developers.brickverse.gg/api/types/SunLight): **Inherits:** [Light](./Light.md)
+- [SurfaceAppearance](https://developers.brickverse.gg/api/types/SurfaceAppearance): **Inherits:** [Instance](./Instance.md)
+- [Team](https://developers.brickverse.gg/api/types/Team): **Inherits:** [Instance](./Instance.md)
+- [Teams](https://developers.brickverse.gg/api/types/Teams): **Inherits:** [Instance](./Instance.md)
+- [Temporary](https://developers.brickverse.gg/api/types/Temporary): **Inherits:** [ServerHidden](./ServerHidden.md)
+- [Terrain](https://developers.brickverse.gg/api/types/Terrain): **Inherits:** [Instance](./Instance.md)
+- [TerrainGrass](https://developers.brickverse.gg/api/types/TerrainGrass): **Inherits:** [Instance](./Instance.md)
+- [TerrainMaterial](https://developers.brickverse.gg/api/types/TerrainMaterial): **Inherits:** [Instance](./Instance.md)
+- [TerrainWater](https://developers.brickverse.gg/api/types/TerrainWater): **Inherits:** [Instance](./Instance.md)
+- [Text3D](https://developers.brickverse.gg/api/types/Text3D): **Inherits:** [Dynamic](./Dynamic.md)
+- [TonemapEffect](https://developers.brickverse.gg/api/types/TonemapEffect): **Inherits:** [LightingModifier](./LightingModifier.md)
+- [Tool](https://developers.brickverse.gg/api/types/Tool): **Inherits:** [RigidBody](./RigidBody.md)
+- [Trail](https://developers.brickverse.gg/api/types/Trail): **Inherits:** [Instance](./Instance.md)
+- [TriggerVolume](https://developers.brickverse.gg/api/types/TriggerVolume): **Inherits:** [Dynamic](./Dynamic.md) **Inherited by:** [DamageVolume](./DamageVolume.md), [ForceVolume](./ForceVolume.md)
+- [Truss](https://developers.brickverse.gg/api/types/Truss): **Inherits:** [Part](./Part.md)
+- [TweenObject](https://developers.brickverse.gg/api/types/TweenObject): {% hint style="warning" %} **Not instantiable**
+- [TweenService](https://developers.brickverse.gg/api/types/TweenService): **Inherits:** [Instance](./Instance.md)
+- [UIAd](https://developers.brickverse.gg/api/types/UIAd): **Inherits:** [UIField](./UIField.md)
+- [UIAspectRatioRestraint](https://developers.brickverse.gg/api/types/UIAspectRatioRestraint): **Inherits:** [Instance](./Instance.md)
+- [UIButton](https://developers.brickverse.gg/api/types/UIButton): **Inherits:** [UILabel](./UILabel.md)
+- [UIContainer](https://developers.brickverse.gg/api/types/UIContainer): **Inherits:** [UIField](./UIField.md) **Inherited by:** [UIGridLayout](./UIGridLayout.md), [UIHVLayout](./UIHVLayout.md), [UIScrollView](./UIScrollView.md)
+- [UICorner](https://developers.brickverse.gg/api/types/UICorner): **Inherits:** [Instance](./Instance.md)
+- [UIField](https://developers.brickverse.gg/api/types/UIField): **Inherits:** [Instance](./Instance.md) **Inherited by:** [UIAd](./UIAd.md), [UIContainer](./UIContainer.md), [UIImage](./UIImage.md), [UIVideoFrame](./UIVideoFrame.md), [UIView](./UIView.md), [UIViewport](./UIViewport.md)
+- [UIFlowLayout](https://developers.brickverse.gg/api/types/UIFlowLayout): **Inherits:** [UIHVLayout](./UIHVLayout.md) **Inherited by:** [UIHFlow](./UIHFlow.md), [UIVFlow](./UIVFlow.md)
+- [UIGradient](https://developers.brickverse.gg/api/types/UIGradient): **Inherits:** [Instance](./Instance.md)
+- [UIGridLayout](https://developers.brickverse.gg/api/types/UIGridLayout): **Inherits:** [UIContainer](./UIContainer.md)
+- [UIHFlow](https://developers.brickverse.gg/api/types/UIHFlow): **Inherits:** [UIFlowLayout](./UIFlowLayout.md)
+- [UIHLayout](https://developers.brickverse.gg/api/types/UIHLayout): **Inherits:** [UIHVLayout](./UIHVLayout.md)
+- [UIHVLayout](https://developers.brickverse.gg/api/types/UIHVLayout): **Inherits:** [UIContainer](./UIContainer.md) **Inherited by:** [UIFlowLayout](./UIFlowLayout.md), [UIHLayout](./UIHLayout.md), [UIVLayout](./UIVLayout.md)
+- [UIImage](https://developers.brickverse.gg/api/types/UIImage): **Inherits:** [UIField](./UIField.md) **Inherited by:** [EditableImage](./EditableImage.md)
+- [UILabel](https://developers.brickverse.gg/api/types/UILabel): **Inherits:** [UIView](./UIView.md) **Inherited by:** [UIButton](./UIButton.md)
+- [UIScale](https://developers.brickverse.gg/api/types/UIScale): {% hint style="warning" %} **Not instantiable**
+- [UIScrollView](https://developers.brickverse.gg/api/types/UIScrollView): **Inherits:** [UIContainer](./UIContainer.md)
+- [UIShadow](https://developers.brickverse.gg/api/types/UIShadow): **Inherits:** [Instance](./Instance.md)
+- [UIStroke](https://developers.brickverse.gg/api/types/UIStroke): **Inherits:** [Instance](./Instance.md)
+- [UITextInput](https://developers.brickverse.gg/api/types/UITextInput): **Inherits:** [UIView](./UIView.md)
+- [UIVFlow](https://developers.brickverse.gg/api/types/UIVFlow): **Inherits:** [UIFlowLayout](./UIFlowLayout.md)
+- [UIVideoFrame](https://developers.brickverse.gg/api/types/UIVideoFrame): **Inherits:** [UIField](./UIField.md)
+- [UIView](https://developers.brickverse.gg/api/types/UIView): **Inherits:** [UIField](./UIField.md) **Inherited by:** [UILabel](./UILabel.md), [UITextInput](./UITextInput.md)
+- [UIViewport](https://developers.brickverse.gg/api/types/UIViewport): **Inherits:** [UIField](./UIField.md)
+- [UIVLayout](https://developers.brickverse.gg/api/types/UIVLayout): **Inherits:** [UIHVLayout](./UIHVLayout.md)
+- [UnionOperation](https://developers.brickverse.gg/api/types/UnionOperation): **Inherits:** [Entity](./Entity.md)
+- [ValueBase](https://developers.brickverse.gg/api/types/ValueBase): **Inherits:** [Instance](./Instance.md) **Inherited by:** [BoolValue](./BoolValue.md), [ColorValue](./ColorValue.md), [InstanceValue](./InstanceValue.md), [IntValue](./IntValue.md), [NumberValue](./NumberValue.md), [QuaternionValue](./Quate
+- [Vector2Value](https://developers.brickverse.gg/api/types/Vector2Value): **Inherits:** [ValueBase](./ValueBase.md)
+- [Vector3Value](https://developers.brickverse.gg/api/types/Vector3Value): **Inherits:** [ValueBase](./ValueBase.md)
+- [VehicleSeat](https://developers.brickverse.gg/api/types/VehicleSeat): **Inherits:** [Seat](./Seat.md)
+- [VideoAsset](https://developers.brickverse.gg/api/types/VideoAsset): **Inherits:** [ResourceAsset](./ResourceAsset.md) **Inherited by:** [BVVideoAsset](./BVVideoAsset.md)
+- [VoiceBox](https://developers.brickverse.gg/api/types/VoiceBox): **Inherits:** [Part](./Part.md)
+- [VoiceChatService](https://developers.brickverse.gg/api/types/VoiceChatService): **Inherits:** [Instance](./Instance.md)
+- [VoxelVolume](https://developers.brickverse.gg/api/types/VoxelVolume): **Inherits:** [Entity](./Entity.md)
+- [VRService](https://developers.brickverse.gg/api/types/VRService): **Inherits:** [Instance](./Instance.md)
+- [Weld](https://developers.brickverse.gg/api/types/Weld): **Inherits:** [Instance](./Instance.md)
+- [World](https://developers.brickverse.gg/api/types/World): **Inherits:** [Instance](./Instance.md)
+- [WorldsService](https://developers.brickverse.gg/api/types/WorldsService): **Inherits:** [Instance](./Instance.md)
+- [Creating Your First Guild Bot](https://developers.brickverse.gg/classes/creating-your-first-guild-bot): BrickVerse bots use a modern command router system — no `!commands`, no manual parsing.
+- [DRM - Digital Rights Management](https://developers.brickverse.gg/classes/drm-digital-rights-management): Brickverse provides built-in **Digital Rights Management (DRM)** controls to help creators and guilds decide how their assets can be accessed, shared, and used across the platform.
+- [Scripting with Luau](https://developers.brickverse.gg/classes/scripting-with-luau)
+- [Setting Up Developer Webhooks](https://developers.brickverse.gg/classes/setting-up-developer-webhooks): BrickVerse Developer Webhooks allow your services to receive important platform events in real time so you can automate account handling, moderation syncing, and compliance-related workflows.
+- [Universe Configs / ENV Service](https://developers.brickverse.gg/classes/universe-configs-env-service): Universe Configs provide a simple way to store and retrieve configuration values for your experience without hardcoding them into your game. They are ideal for live configuration, feature flags, promo codes, event settings, balancing values
+- [bit32](https://developers.brickverse.gg/game-api/learn-lua/bit32): This library is a back-ported [feature from Lua 5.2](https://www.lua.org/manual/5.2/manual.html#6.7) which provides functions to perform bitwise operations.
+- [Boolean](https://developers.brickverse.gg/game-api/learn-lua/boolean): A **boolean** is a very simple data type with a value of either **true** or **false**. Booleans are most commonly used with [conditional statements](conditional-structures.md), for instance:
+- [Conditional Structures](https://developers.brickverse.gg/game-api/learn-lua/conditional-structures): Conditional structures allow scripts to perform actions when specific conditions are met. These conditions can be checked with the **relational operators** summarized here:
+- [Functions](https://developers.brickverse.gg/game-api/learn-lua/functions): **Functions** are sets of instructions that can be used multiple times in a script. Once defined, a function can be executed through a command or triggered through an event.
+- [Numbers](https://developers.brickverse.gg/game-api/learn-lua/numbers): A **number** in Lua is a double precision floating point number (or just **double**). For instance:
+- [Opeartors](https://developers.brickverse.gg/game-api/learn-lua/opeartors): An **operator** is a special set of symbols used to perform an operation or conditional evaluation.
+- [Learn Lua](https://developers.brickverse.gg/game-api/learn-lua)
+- [Strings](https://developers.brickverse.gg/game-api/learn-lua/strings): Strings are an important component of scripting, as they are used to represent sequences of letters, numbers, and symbols.
+- [Tables](https://developers.brickverse.gg/game-api/learn-lua/tables): A **table** is a Lua data type that can store multiple values including [numbers](numbers.md), [booleans](boolean.md), [strings](strings.md), [functions](functions.md), and more. Tables are constructed with curly braces (`{}`) as shown here
+- [For Godot Developers](https://developers.brickverse.gg/moving-to-brickverse/for-godot-developers): BrickVerse uses Godot technology internally, but BrickVerse games do not directly use the full Godot Engine API. Creators build against the BrickVerse Game API and write gameplay scripts in BrickLua, a fork of Luau.
+- [Auto-translating your Roblox Luau to BrickLua](https://developers.brickverse.gg/moving-to-brickverse/for-roblox-developers/auto-translating-your-roblox-luau-to-bricklua): `RBLXLuau2BrickLua` helps migrate Roblox Luau scripts to BrickLua, the scripting language used by BrickVerse.
+- [Porting your Roblox Place (.rbxl/.rbxlx) to BrickVerse](https://developers.brickverse.gg/moving-to-brickverse/for-roblox-developers/porting-your-roblox-place-.rbxl-.rbxlx-to-brickverse): `RBLX2BRICKWORLD` is a migration tool for converting a Roblox place into a BrickVerse World file. It reads the Roblox place hierarchy, converts supported objects into their closest BrickVerse equivalents, and can optionally pass scripts to 
+- [For Roblox Developers](https://developers.brickverse.gg/moving-to-brickverse/for-roblox-developers): BrickVerse will feel familiar to Roblox developers because both platforms use an instance hierarchy, service-based APIs, Luau-style scripting, and a multiplayer client-server runtime.
+- [For Unity Developers](https://developers.brickverse.gg/moving-to-brickverse/for-unity-developers): BrickVerse is not a general-purpose engine project that you compile and ship yourself. It is a hosted multiplayer game platform with an instance hierarchy, built-in services, integrated publishing, and sandboxed scripting through BrickLua.
+- [For Unreal Engine Developers](https://developers.brickverse.gg/moving-to-brickverse/for-unreal-engine-developers): BrickVerse provides a hosted, authoritative multiplayer runtime with a service-based Game API and scripting through BrickLua, a fork of Luau.
+- [For Web Developers](https://developers.brickverse.gg/moving-to-brickverse/for-web-developers): BrickVerse scripting is approachable for JavaScript and TypeScript developers because BrickLua is dynamic, event-driven, module-friendly, and commonly uses asynchronous service APIs.
+- [Overview](https://developers.brickverse.gg/moving-to-brickverse/overview): BrickVerse is a multiplayer game platform with an instance-based Game API and a scripting language based on a fork of Luau.
+- [Upload Limits and Restrictions](https://developers.brickverse.gg/moving-to-brickverse/upload-limits-and-restrictions): BrickVerse applies creation and upload limits to **Universes, Worlds, Entitlements, and Developer Assets**. These limits help keep the platform reliable, provide reasonable resource availability for creators, and reduce automated or abusive
+- [Cloud API](https://developers.brickverse.gg/open-cloud-api/cloud-api)
+- [OpenID OAuth](https://developers.brickverse.gg/open-cloud-api/openid-oauth): This guide explains how to:
+- [Welcome](https://developers.brickverse.gg/): This is the official developer hub for creating games and interactive experiences on the BrickVerse platform. Whether you're building your first world or scaling a large multiplayer experience, these docs give you the tools and knowledge to
+- [Building a UI](https://developers.brickverse.gg/scripting-with-luau/building-a-ui): BrickVerse interfaces use Instances. The local player's UI hierarchy is available through the global `PlayerGUI`.
+- [Client vs Server](https://developers.brickverse.gg/scripting-with-luau/client-vs-server): BrickVerse multiplayer games run across an authoritative server and individual player clients.
+- [Common Scripting Patterns](https://developers.brickverse.gg/scripting-with-luau/common-scripting-patterns): These patterns help keep BrickLua systems reliable, secure, and maintainable.
+- [Creating NPCs](https://developers.brickverse.gg/scripting-with-luau/creating-npcs): An `NPC` is a physical character controller with health, movement, navigation, appearance, tools, and character state.
+- [Creating Parts](https://developers.brickverse.gg/scripting-with-luau/creating-parts): `Part` is a basic physical building object. It inherits hierarchy, transform, physics, and appearance behavior.
+- [Events](https://developers.brickverse.gg/scripting-with-luau/events): Events allow scripts to react when something happens. They are preferable to repeatedly checking state in a loop.
+- [Functions](https://developers.brickverse.gg/scripting-with-luau/functions): Functions group reusable behavior. They can accept arguments, return values, call other functions, and be passed to events as callbacks.
+- [HTTP Requests](https://developers.brickverse.gg/scripting-with-luau/http-requests): The global `Http` service sends supported web requests from BrickLua.
+- [Inventory Systems](https://developers.brickverse.gg/scripting-with-luau/inventory-systems): An inventory system tracks which items a player owns and how many of each item they have.
+- [Leaderboards](https://developers.brickverse.gg/scripting-with-luau/leaderboards): BrickVerse leaderboard statistics use `Stat` Instances and the global `Stats` service.
+- [Making a Tool](https://developers.brickverse.gg/scripting-with-luau/making-a-tool): A `Tool` is an item that an NPC or Player can hold, equip, activate, deactivate, and drop.
+- [Modules](https://developers.brickverse.gg/scripting-with-luau/modules): A `ModuleScript` contains reusable BrickLua code. Modules reduce duplication and make larger games easier to organize.
+- [NetworkService](https://developers.brickverse.gg/scripting-with-luau/networkservice): BrickVerse client-server communication uses `NetworkEvent` Instances and typed `NetMessage` payloads.
+- [BrickLua Tutorials](https://developers.brickverse.gg/scripting-with-luau): BrickLua is BrickVerse's scripting language. It is based on a fork of Luau and runs inside the BrickVerse sandbox.
+- [Saving Data](https://developers.brickverse.gg/scripting-with-luau/saving-data): Use the global `Datastore` service to save data between sessions. Datastores are available only from server scripts.
+- [Tables](https://developers.brickverse.gg/scripting-with-luau/tables): Tables are BrickLua's main data structure. They can represent arrays, dictionaries, sets, records, configuration, and object-like modules.
+- [Universe Configs](https://developers.brickverse.gg/scripting-with-luau/universe-configs): Universe Configs provide live configuration values for a Universe. They are useful for values that may need to change without publishing a new build.
+- [Using JSON](https://developers.brickverse.gg/scripting-with-luau/using-json): JSON is a text format for structured data. BrickLua's built-in `json` object converts between JSON strings and BrickLua values.
+- [Using Tags](https://developers.brickverse.gg/scripting-with-luau/using-tags): Tags attach searchable labels to Instances. They are useful when objects share a role but are stored in different parts of the hierarchy.
+- [Variables and Types](https://developers.brickverse.gg/scripting-with-luau/variables-and-types): Variables store values that your script can reuse and change. BrickLua supports Luau's gradual type system, so you can write scripts with or without explicit type annotations.
+- [Working with Players](https://developers.brickverse.gg/scripting-with-luau/working-with-players): The global `Players` service manages connected players.
+- [Your First Script](https://developers.brickverse.gg/scripting-with-luau/your-first-script): A script is a piece of BrickLua code that runs inside a World. BrickVerse provides three script types:
