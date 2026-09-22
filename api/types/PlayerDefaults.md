@@ -23,6 +23,12 @@ This object cannot be created using `Instance.New()`.
 
 ## Properties
 
+### PawnTemplate
+
+**Type:** [Pawn](./Pawn.md)
+
+Documentation for this property is not yet available.
+
 ### MaxHealth
 
 **Type:** `number`

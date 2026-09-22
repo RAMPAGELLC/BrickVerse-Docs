@@ -47,6 +47,7 @@
 - [ParticleSimulationSpace](https://developers.brickverse.gg/api/enums/ParticleSimulationSpace): | Value | Description | | --- | --- | | `ParticleSimulationSpace.Local` |  | | `ParticleSimulationSpace.World` |  |
 - [PartMaterial](https://developers.brickverse.gg/api/enums/PartMaterial): | Value | Description | | --- | --- | | `PartMaterial.SmoothPlastic` |  | | `PartMaterial.Brick` |  | | `PartMaterial.Concrete` |  | | `PartMaterial.Dirt` |  | | `PartMaterial.Fabric` |  | | `PartMaterial.Grass` |  | | `PartMaterial.Ice` | 
 - [PartShape](https://developers.brickverse.gg/api/enums/PartShape): | Value | Description | | --- | --- | | `PartShape.Brick` |  | | `PartShape.Sphere` |  | | `PartShape.Cylinder` |  | | `PartShape.Cone` |  | | `PartShape.Wedge` |  | | `PartShape.Corner` |  | | `PartShape.Bevel` |  | | `PartShape.Concave` |
+- [PawnCollisionShape](https://developers.brickverse.gg/api/enums/PawnCollisionShape): | Value | Description | | --- | --- | | `PawnCollisionShape.None` |  | | `PawnCollisionShape.Box` |  | | `PawnCollisionShape.Capsule` |  |
 - [PlayerMovementMode](https://developers.brickverse.gg/api/enums/PlayerMovementMode): | Value | Description | | --- | --- | | `PlayerMovementMode.Default` |  | | `PlayerMovementMode.Scripted` |  |
 - [PlayTestPresentation](https://developers.brickverse.gg/api/enums/PlayTestPresentation): | Value | Description | | --- | --- | | `PlayTestPresentation.Attached` |  | | `PlayTestPresentation.Windowed` |  |
 - [PreferredEditor](https://developers.brickverse.gg/api/enums/PreferredEditor): | Value | Description | | --- | --- | | `PreferredEditor.BuiltIn` |  | | `PreferredEditor.SystemDefault` |  | | `PreferredEditor.VSCode` |  | | `PreferredEditor.Zed` |  |
@@ -118,7 +119,7 @@
 - [Camera](https://developers.brickverse.gg/api/types/Camera): **Inherits:** [Dynamic](./Dynamic.md)
 - [CaptureService](https://developers.brickverse.gg/api/types/CaptureService): **Inherits:** [Instance](./Instance.md)
 - [CaptureSurface](https://developers.brickverse.gg/api/types/CaptureSurface): **Inherits:** [Dynamic](./Dynamic.md)
-- [CharacterModel](https://developers.brickverse.gg/api/types/CharacterModel): **Inherits:** [Dynamic](./Dynamic.md) **Inherited by:** [BrickversianModel](./BrickversianModel.md)
+- [CharacterModel](https://developers.brickverse.gg/api/types/CharacterModel): **Inherits:** [Dynamic](./Dynamic.md) **Inherited by:** [BrickversianModel](./BrickversianModel.md), [Pawn](./Pawn.md)
 - [ChatChannel](https://developers.brickverse.gg/api/types/ChatChannel): **Inherits:** [Instance](./Instance.md)
 - [ChatService](https://developers.brickverse.gg/api/types/ChatService): **Inherits:** [Instance](./Instance.md)
 - [ClickDetector](https://developers.brickverse.gg/api/types/ClickDetector): **Inherits:** [Instance](./Instance.md)
@@ -198,6 +199,8 @@
 - [Lighting](https://developers.brickverse.gg/api/types/Lighting): **Inherits:** [Instance](./Instance.md)
 - [LightingModifier](https://developers.brickverse.gg/api/types/LightingModifier): **Inherits:** [Instance](./Instance.md) **Inherited by:** [AmbientOcclusionEffect](./AmbientOcclusionEffect.md), [BloomEffect](./BloomEffect.md), [ColorAdjustModifier](./ColorAdjustModifier.md), [FogEffect](./FogEffect.md), [TonemapEffect](
 - [LocalizationService](https://developers.brickverse.gg/api/types/LocalizationService): **Inherits:** [Instance](./Instance.md)
+- [LocalNetworkEvent](https://developers.brickverse.gg/api/types/LocalNetworkEvent): **Inherits:** [NetworkEvent](./NetworkEvent.md)
+- [LODGroup](https://developers.brickverse.gg/api/types/LODGroup): **Inherits:** [Dynamic](./Dynamic.md)
 - [Marker3D](https://developers.brickverse.gg/api/types/Marker3D): **Inherits:** [Dynamic](./Dynamic.md)
 - [Mesh](https://developers.brickverse.gg/api/types/Mesh): **Inherits:** [Entity](./Entity.md)
 - [MeshAnimationAsset](https://developers.brickverse.gg/api/types/MeshAnimationAsset): **Inherits:** [ResourceAsset](./ResourceAsset.md) **Inherited by:** [BVMeshAnimationAsset](./BVMeshAnimationAsset.md)
@@ -208,10 +211,11 @@
 - [ModuleScript](https://developers.brickverse.gg/api/types/ModuleScript): **Inherits:** [Script](./Script.md)
 - [MotorConstraint](https://developers.brickverse.gg/api/types/MotorConstraint): **Inherits:** [Constraint](./Constraint.md)
 - [NavigationLink](https://developers.brickverse.gg/api/types/NavigationLink): **Inherits:** [Instance](./Instance.md)
+- [NavigationObstacle](https://developers.brickverse.gg/api/types/NavigationObstacle): **Inherits:** [Dynamic](./Dynamic.md)
 - [NegateOperation](https://developers.brickverse.gg/api/types/NegateOperation): **Inherits:** [Part](./Part.md)
 - [NetMessage](https://developers.brickverse.gg/api/types/NetMessage): {% hint style="warning" %} **Not instantiable**
 - [NetworkedObject](https://developers.brickverse.gg/api/types/NetworkedObject): **Inherited by:** [BaseAsset](./BaseAsset.md), [Instance](./Instance.md)
-- [NetworkEvent](https://developers.brickverse.gg/api/types/NetworkEvent): **Inherits:** [Instance](./Instance.md)
+- [NetworkEvent](https://developers.brickverse.gg/api/types/NetworkEvent): **Inherits:** [Instance](./Instance.md) **Inherited by:** [LocalNetworkEvent](./LocalNetworkEvent.md)
 - [NewServerRequestData](https://developers.brickverse.gg/api/types/NewServerRequestData): {% hint style="warning" %} **Not instantiable**
 - [NPC](https://developers.brickverse.gg/api/types/NPC): **Inherits:** [Physical](./Physical.md) **Inherited by:** [Player](./Player.md)
 - [NumberRange](https://developers.brickverse.gg/api/types/NumberRange): {% hint style="warning" %} **Not instantiable**
@@ -222,6 +226,7 @@
 - [Particles](https://developers.brickverse.gg/api/types/Particles): **Inherits:** [Dynamic](./Dynamic.md)
 - [PathfindingPath](https://developers.brickverse.gg/api/types/PathfindingPath): **Inherits:** [Instance](./Instance.md)
 - [PathfindingService](https://developers.brickverse.gg/api/types/PathfindingService): **Inherits:** [Instance](./Instance.md)
+- [Pawn](https://developers.brickverse.gg/api/types/Pawn): **Inherits:** [CharacterModel](./CharacterModel.md)
 - [PCGSpline](https://developers.brickverse.gg/api/types/PCGSpline): **Inherits:** [Dynamic](./Dynamic.md)
 - [Physical](https://developers.brickverse.gg/api/types/Physical): **Inherits:** [Dynamic](./Dynamic.md) **Inherited by:** [InteractionPrompt](./InteractionPrompt.md), [NPC](./NPC.md), [RigidBody](./RigidBody.md)
 - [Player](https://developers.brickverse.gg/api/types/Player): **Inherits:** [NPC](./NPC.md)
@@ -267,11 +272,13 @@
 - [Stats](https://developers.brickverse.gg/api/types/Stats): **Inherits:** [Instance](./Instance.md)
 - [StreamingService](https://developers.brickverse.gg/api/types/StreamingService): **Inherits:** [Instance](./Instance.md)
 - [StringValue](https://developers.brickverse.gg/api/types/StringValue): **Inherits:** [ValueBase](./ValueBase.md)
+- [StudioService](https://developers.brickverse.gg/api/types/StudioService): **Inherits:** [Instance](./Instance.md)
 - [SunLight](https://developers.brickverse.gg/api/types/SunLight): **Inherits:** [Light](./Light.md)
 - [SurfaceAppearance](https://developers.brickverse.gg/api/types/SurfaceAppearance): **Inherits:** [Instance](./Instance.md)
 - [Team](https://developers.brickverse.gg/api/types/Team): **Inherits:** [Instance](./Instance.md)
 - [Teams](https://developers.brickverse.gg/api/types/Teams): **Inherits:** [Instance](./Instance.md)
 - [Temporary](https://developers.brickverse.gg/api/types/Temporary): **Inherits:** [ServerHidden](./ServerHidden.md)
+- [TemporaryFile](https://developers.brickverse.gg/api/types/TemporaryFile): **Inherits:** [Instance](./Instance.md)
 - [Terrain](https://developers.brickverse.gg/api/types/Terrain): **Inherits:** [Instance](./Instance.md)
 - [TerrainGrass](https://developers.brickverse.gg/api/types/TerrainGrass): **Inherits:** [Instance](./Instance.md)
 - [TerrainMaterial](https://developers.brickverse.gg/api/types/TerrainMaterial): **Inherits:** [Instance](./Instance.md)

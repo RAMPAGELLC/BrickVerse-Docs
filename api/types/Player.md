@@ -31,6 +31,20 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
+### ControlledPawn
+
+**Type:** [Pawn](./Pawn.md)
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
 ### UserID
 
 **Type:** `string`
@@ -415,6 +429,22 @@ Documentation for this property is not yet available.
 
 ## Methods
 
+### Possess(pawn)
+
+#### Parameters
+
+- `pawn`: [Pawn](./Pawn.md)
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
+### Unpossess()
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
 ### Jump()
 
 **Returns:** `nil`
@@ -482,6 +512,26 @@ This event is fired when its associated action occurs.
 This event is fired when its associated action occurs.
 
 ### Respawned(value)
+
+**Type:** [BVSignal](./BVSignal.md)
+
+#### Parameters
+
+- `value`: `any`
+
+This event is fired when its associated action occurs.
+
+### PawnChanged(value)
+
+**Type:** [BVSignal](./BVSignal.md)
+
+#### Parameters
+
+- `value`: `any`
+
+This event is fired when its associated action occurs.
+
+### CharacterChanged(value)
 
 **Type:** [BVSignal](./BVSignal.md)
 

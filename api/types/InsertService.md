@@ -29,11 +29,12 @@ This object cannot be created using `Instance.New()`.
 
 Documentation for this method is not yet available.
 
-### InitializeDefaultNPC(npc)
+### InitializeDefaultNPC(npc, usePawnTemplate?)
 
 #### Parameters
 
 - `npc`: [NPC](./NPC.md)
+- `usePawnTemplate`: `boolean` — optional — default: `True`
 
 **Returns:** `nil`
 

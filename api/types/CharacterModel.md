@@ -6,7 +6,7 @@ description: ""
 # CharacterModel
 
 **Inherits:** [Dynamic](./Dynamic.md)
-**Inherited by:** [BrickversianModel](./BrickversianModel.md)
+**Inherited by:** [BrickversianModel](./BrickversianModel.md), [Pawn](./Pawn.md)
 
 ## Properties
 

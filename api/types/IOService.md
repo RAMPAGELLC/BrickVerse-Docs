@@ -3,6 +3,8 @@ title: "IOService"
 description: ""
 ---
 
+<figure><img src="../../.gitbook/assets/api-icons/IOService.svg" alt="IOService icon" width="72"><figcaption></figcaption></figure>
+
 # IOService
 
 **Inherits:** [Instance](./Instance.md)

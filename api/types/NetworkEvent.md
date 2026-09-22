@@ -8,6 +8,7 @@ description: ""
 # NetworkEvent
 
 **Inherits:** [Instance](./Instance.md)
+**Inherited by:** [LocalNetworkEvent](./LocalNetworkEvent.md)
 
 ## Properties
 

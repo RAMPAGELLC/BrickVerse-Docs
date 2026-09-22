@@ -85,6 +85,26 @@ Documentation for this property is not yet available.
 
 Documentation for this method is not yet available.
 
+### PlayOn(target)
+
+#### Parameters
+
+- `target`: [Dynamic](./Dynamic.md)
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
+### PlayOn(target)
+
+#### Parameters
+
+- `target`: [Instance](./Instance.md)
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
 ### Stop()
 
 **Returns:** `nil`
