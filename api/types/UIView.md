@@ -12,6 +12,12 @@ description: ""
 
 ## Properties
 
+### BorderMode
+
+**Type:** [BorderMode](../enums/BorderMode.md)
+
+Documentation for this property is not yet available.
+
 ### BorderColor
 
 **Type:** [Color](./Color.md)

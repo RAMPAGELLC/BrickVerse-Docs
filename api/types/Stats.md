@@ -23,7 +23,11 @@ This object cannot be created using `Instance.New()`.
 
 ## Methods
 
-### GetStats()
+### GetStats(visableOnly?)
+
+#### Parameters
+
+- `visableOnly`: `boolean` — optional — default: `False`
 
 **Returns:** { [Stat](./Stat.md) }
 

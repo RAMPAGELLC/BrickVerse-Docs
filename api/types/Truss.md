@@ -16,3 +16,9 @@ description: ""
 **Type:** `number`
 
 Documentation for this property is not yet available.
+
+### Climbable
+
+**Type:** `boolean`
+
+Documentation for this property is not yet available.

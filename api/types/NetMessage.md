@@ -90,6 +90,17 @@ Documentation for this method is not yet available.
 
 Documentation for this method is not yet available.
 
+### AddQuaternion(key, value)
+
+#### Parameters
+
+- `key`: `string`
+- `value`: [Quaternion](./Quaternion.md)
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
 ### AddInstance(key, value)
 
 #### Parameters
@@ -179,6 +190,16 @@ Documentation for this method is not yet available.
 - `key`: `string`
 
 **Returns:** [Color](./Color.md)
+
+Documentation for this method is not yet available.
+
+### GetQuaternion(key)
+
+#### Parameters
+
+- `key`: `string`
+
+**Returns:** [Quaternion](./Quaternion.md)
 
 Documentation for this method is not yet available.
 

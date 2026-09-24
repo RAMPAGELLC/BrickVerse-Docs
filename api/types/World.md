@@ -197,6 +197,12 @@ This method may yield the current script until the operation completes.
 
 Documentation for this method is not yet available.
 
+### GetFPS()
+
+**Returns:** `number`
+
+Documentation for this method is not yet available.
+
 ### GetService(className)
 
 #### Parameters

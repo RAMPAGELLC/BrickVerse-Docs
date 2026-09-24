@@ -35,6 +35,54 @@ Documentation for this property is not yet available.
 
 Documentation for this property is not yet available.
 
+### Pan
+
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
+### MaxPolyphony
+
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
+### AttenuationStrength
+
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
+### PanningStrength
+
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
+### DopplerEnabled
+
+**Type:** `boolean`
+
+Documentation for this property is not yet available.
+
+### EmissionAngleEnabled
+
+**Type:** `boolean`
+
+Documentation for this property is not yet available.
+
+### EmissionAngle
+
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
+### EmissionAngleAttenuation
+
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
 ### Autoplay
 
 **Type:** `boolean`
@@ -152,6 +200,12 @@ Documentation for this method is not yet available.
 ### Stop()
 
 **Returns:** `nil`
+
+Documentation for this method is not yet available.
+
+### GetPeakVolume()
+
+**Returns:** `number`
 
 Documentation for this method is not yet available.
 

@@ -45,6 +45,12 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
+### RotationMode
+
+**Type:** [PlayerRotationMode](../enums/PlayerRotationMode.md)
+
+Documentation for this property is not yet available.
+
 ### UserID
 
 **Type:** `string`

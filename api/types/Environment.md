@@ -67,7 +67,7 @@ Documentation for this property is not yet available.
 
 ## Methods
 
-### Raycast(origin, direction, maxDistance?, ignoreList?)
+### Raycast(origin, direction, maxDistance?, ignoreList?, passthroughMask?)
 
 #### Parameters
 
@@ -75,8 +75,23 @@ Documentation for this property is not yet available.
 - `direction`: `Vector3`
 - `maxDistance`: `number` — optional — default: `10000`
 - `ignoreList`: { [Instance](./Instance.md) } — optional
+- `passthroughMask`: `number` — optional — default: `0`
 
 **Returns:** [RayResult](./RayResult.md)
+
+Documentation for this method is not yet available.
+
+### RaycastGather(origin, direction, maxDistance?, ignoreList?, passthroughMask?)
+
+#### Parameters
+
+- `origin`: `Vector3`
+- `direction`: `Vector3`
+- `maxDistance`: `number` — optional — default: `10000`
+- `ignoreList`: { [Instance](./Instance.md) } — optional
+- `passthroughMask`: `number` — optional — default: `0`
+
+**Returns:** { [RayResult](./RayResult.md) }
 
 Documentation for this method is not yet available.
 

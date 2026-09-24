@@ -1,117 +1,65 @@
 ---
-title: "Explosion"
+title: "AudioPlayer"
 description: ""
 ---
 
-# Explosion
+<figure><img src="../../.gitbook/assets/api-icons/AudioPlayer.svg" alt="AudioPlayer icon" width="72"><figcaption></figcaption></figure>
 
-**Inherits:** [Dynamic](./Dynamic.md)
+# AudioPlayer
+
+**Inherits:** [AudioNode](./AudioNode.md)
 
 ## Properties
 
-### Radius
+### Audio
 
-**Type:** `number`
-
-Documentation for this property is not yet available.
-
-### Force
-
-**Type:** `number`
+**Type:** [AudioAsset](./AudioAsset.md)
 
 Documentation for this property is not yet available.
 
-### AffectAnchored
+### AutoLoad
 
 **Type:** `boolean`
 
 Documentation for this property is not yet available.
 
-### Damage
-
-**Type:** `number`
-
-Documentation for this property is not yet available.
-
-### AffectWelds
+### AutoPlay
 
 **Type:** `boolean`
 
 Documentation for this property is not yet available.
 
-### UseEffects
+### Looping
 
 **Type:** `boolean`
 
 Documentation for this property is not yet available.
 
-### BlastPressure
+### Volume
 
 **Type:** `number`
 
 Documentation for this property is not yet available.
 
-### DestroyJointRadiusPercent
+### PlaybackSpeed
 
 **Type:** `number`
 
 Documentation for this property is not yet available.
 
-### Visible
+### LoopRegion
 
-**Type:** `boolean`
-
-Documentation for this property is not yet available.
-
-### EffectScale
-
-**Type:** `number`
+**Type:** [NumberRange](./NumberRange.md)
 
 Documentation for this property is not yet available.
 
-### SoundVolume
+### PlaybackRegion
 
-**Type:** `number`
-
-Documentation for this property is not yet available.
-
-### SoundPitch
-
-**Type:** `number`
+**Type:** [NumberRange](./NumberRange.md)
 
 Documentation for this property is not yet available.
 
-### DamageEnabled
-
-**Type:** `boolean`
-
-Documentation for this property is not yet available.
-
-### PhysicsEnabled
-
-**Type:** `boolean`
-
-Documentation for this property is not yet available.
-
-### DestroyJoints
-
-**Type:** `boolean`
-
-Documentation for this property is not yet available.
-
-### AutoDelete
-
-**Type:** `boolean`
-
-Documentation for this property is not yet available.
-
-### Lifetime
-
-**Type:** `number`
-
-Documentation for this property is not yet available.
-
-### HasExploded
+### IsReady
 
 **Type:** `boolean`
 
@@ -125,15 +73,65 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
-### AffectPredicate
+### IsPlaying
 
-**Type:** `() -> ()`
+**Type:** `boolean`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### TimeLength
+
+**Type:** `number`
+
+**Attributes:** Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### TimePosition
+
+**Type:** `number`
 
 Documentation for this property is not yet available.
 
 ## Methods
 
-### Explode()
+### Play(atTime?)
+
+#### Parameters
+
+- `atTime`: `number` — optional — default: `-1`
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
+### Pause()
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
+### Resume()
+
+**Returns:** `nil`
+
+Documentation for this method is not yet available.
+
+### Stop()
 
 **Returns:** `nil`
 
@@ -141,7 +139,7 @@ Documentation for this method is not yet available.
 
 ## Events
 
-### Hit(value)
+### Ended(value)
 
 **Type:** [BVSignal](./BVSignal.md)
 
@@ -151,17 +149,7 @@ Documentation for this method is not yet available.
 
 This event is fired when its associated action occurs.
 
-### Exploded(value)
-
-**Type:** [BVSignal](./BVSignal.md)
-
-#### Parameters
-
-- `value`: `any`
-
-This event is fired when its associated action occurs.
-
-### Touched(value)
+### Looped(value)
 
 **Type:** [BVSignal](./BVSignal.md)
 

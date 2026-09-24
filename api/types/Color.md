@@ -37,6 +37,146 @@ Documentation for this property is not yet available.
 
 Documentation for this property is not yet available.
 
+### Transparent
+
+**Type:** [Color](./Color.md)
+
+**Attributes:** Static · Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### Black
+
+**Type:** [Color](./Color.md)
+
+**Attributes:** Static · Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### Gray
+
+**Type:** [Color](./Color.md)
+
+**Attributes:** Static · Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### White
+
+**Type:** [Color](./Color.md)
+
+**Attributes:** Static · Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### Red
+
+**Type:** [Color](./Color.md)
+
+**Attributes:** Static · Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### Yellow
+
+**Type:** [Color](./Color.md)
+
+**Attributes:** Static · Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### Green
+
+**Type:** [Color](./Color.md)
+
+**Attributes:** Static · Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### Cyan
+
+**Type:** [Color](./Color.md)
+
+**Attributes:** Static · Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### Blue
+
+**Type:** [Color](./Color.md)
+
+**Attributes:** Static · Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
+### Magenta
+
+**Type:** [Color](./Color.md)
+
+**Attributes:** Static · Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
 ## Methods
 
 ### New()

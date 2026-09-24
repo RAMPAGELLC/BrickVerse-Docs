@@ -23,6 +23,20 @@ This object cannot be created using `Instance.New()`.
 
 ## Properties
 
+### TopInset
+
+**Type:** `number`
+
+**Attributes:** Static · Read-only
+
+{% hint style="warning" %}
+**Read-only**
+
+This property can be read by scripts but cannot be changed.
+{% endhint %}
+
+Documentation for this property is not yet available.
+
 ### CtrlLockCursor
 
 **Type:** [CtrlLockCursor](../enums/CtrlLockCursor.md)

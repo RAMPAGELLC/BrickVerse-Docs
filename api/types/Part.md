@@ -8,7 +8,7 @@ description: ""
 # Part
 
 **Inherits:** [Entity](./Entity.md)
-**Inherited by:** [NegateOperation](./NegateOperation.md), [Seat](./Seat.md), [SpawnLocation](./SpawnLocation.md), [Truss](./Truss.md), [VoiceBox](./VoiceBox.md)
+**Inherited by:** [NegateOperation](./NegateOperation.md), [Seat](./Seat.md), [SpawnLocation](./SpawnLocation.md), [Truss](./Truss.md)
 
 ## Properties
 

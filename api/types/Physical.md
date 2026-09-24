@@ -54,6 +54,12 @@ Documentation for this property is not yet available.
 
 Documentation for this property is not yet available.
 
+### RayPassthrough
+
+**Type:** `number`
+
+Documentation for this property is not yet available.
+
 ## Methods
 
 ### SetNetworkAuthority(plr)

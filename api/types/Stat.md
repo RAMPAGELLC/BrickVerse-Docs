@@ -17,6 +17,12 @@ description: ""
 
 Documentation for this property is not yet available.
 
+### Visible
+
+**Type:** `boolean`
+
+Documentation for this property is not yet available.
+
 ## Methods
 
 ### GetDisplayName()

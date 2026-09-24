@@ -148,6 +148,12 @@ This property can be read by scripts but cannot be changed.
 
 Documentation for this property is not yet available.
 
+### Vertical
+
+**Type:** `Vector3`
+
+Documentation for this property is not yet available.
+
 ### MoveTarget
 
 **Type:** [Dynamic](./Dynamic.md)
@@ -365,6 +371,56 @@ This event is fired when its associated action occurs.
 This event is fired when its associated action occurs.
 
 ### NavFinished(value)
+
+**Type:** [BVSignal](./BVSignal.md)
+
+#### Parameters
+
+- `value`: `any`
+
+This event is fired when its associated action occurs.
+
+### HealthChanged(value)
+
+**Type:** [BVSignal](./BVSignal.md)
+
+#### Parameters
+
+- `value`: `any`
+
+This event is fired when its associated action occurs.
+
+### Jumped(value)
+
+**Type:** [BVSignal](./BVSignal.md)
+
+#### Parameters
+
+- `value`: `any`
+
+This event is fired when its associated action occurs.
+
+### LeftGround(value)
+
+**Type:** [BVSignal](./BVSignal.md)
+
+#### Parameters
+
+- `value`: `any`
+
+This event is fired when its associated action occurs.
+
+### Seated(value)
+
+**Type:** [BVSignal](./BVSignal.md)
+
+#### Parameters
+
+- `value`: `any`
+
+This event is fired when its associated action occurs.
+
+### Unseated(value)
 
 **Type:** [BVSignal](./BVSignal.md)
 

@@ -377,11 +377,12 @@ Documentation for this method is not yet available.
 
 Documentation for this method is not yet available.
 
-### GetMouseWorldPosition(ignoreList?)
+### GetMouseWorldPosition(ignoreList?, passthroughMask?)
 
 #### Parameters
 
 - `ignoreList`: { [Instance](./Instance.md) } — optional
+- `passthroughMask`: `number` — optional — default: `1`
 
 **Returns:** `Vector3`
 

@@ -101,7 +101,7 @@ Documentation for this method is not yet available.
 - `destination`: `Vector3`
 - `time`: `number`
 
-**Returns:** `nil`
+**Returns:** [TweenObject](./TweenObject.md)
 
 Documentation for this method is not yet available.
 
@@ -113,7 +113,7 @@ Documentation for this method is not yet available.
 - `destination`: `Vector3`
 - `time`: `number`
 
-**Returns:** `nil`
+**Returns:** [TweenObject](./TweenObject.md)
 
 Documentation for this method is not yet available.
 
@@ -125,7 +125,7 @@ Documentation for this method is not yet available.
 - `destination`: `Vector3`
 - `time`: `number`
 
-**Returns:** `nil`
+**Returns:** [TweenObject](./TweenObject.md)
 
 Documentation for this method is not yet available.
 
@@ -138,7 +138,7 @@ Documentation for this method is not yet available.
 - `time`: `number`
 - `callback`: `() -> ()`
 
-**Returns:** `nil`
+**Returns:** [TweenObject](./TweenObject.md)
 
 Documentation for this method is not yet available.
 
@@ -151,7 +151,7 @@ Documentation for this method is not yet available.
 - `time`: `number`
 - `callback`: `() -> ()`
 
-**Returns:** `nil`
+**Returns:** [TweenObject](./TweenObject.md)
 
 Documentation for this method is not yet available.
 
@@ -164,7 +164,7 @@ Documentation for this method is not yet available.
 - `time`: `number`
 - `callback`: `() -> ()`
 
-**Returns:** `nil`
+**Returns:** [TweenObject](./TweenObject.md)
 
 Documentation for this method is not yet available.
 
@@ -177,7 +177,7 @@ Documentation for this method is not yet available.
 - `time`: `number`
 - `callback`: `() -> ()`
 
-**Returns:** `nil`
+**Returns:** [TweenObject](./TweenObject.md)
 
 Documentation for this method is not yet available.
 
@@ -190,7 +190,7 @@ Documentation for this method is not yet available.
 - `time`: `number`
 - `callback`: `() -> ()`
 
-**Returns:** `nil`
+**Returns:** [TweenObject](./TweenObject.md)
 
 Documentation for this method is not yet available.
 
@@ -218,7 +218,7 @@ Documentation for this method is not yet available.
 
 - `sec`: `number`
 
-**Returns:** `nil`
+**Returns:** [TweenObject](./TweenObject.md)
 
 Documentation for this method is not yet available.
 

@@ -109,6 +109,12 @@ Documentation for this property is not yet available.
 
 Documentation for this property is not yet available.
 
+### QuaternionOffset
+
+**Type:** [Quaternion](./Quaternion.md)
+
+Documentation for this property is not yet available.
+
 ### RotationOffset
 
 **Type:** `Vector3`
@@ -213,25 +219,27 @@ Documentation for this method is not yet available.
 
 Documentation for this method is not yet available.
 
-### ViewportPointToRay(pos, ignoreList?, maxDistance?)
+### ViewportPointToRay(pos, ignoreList?, maxDistance?, passthroughMask?)
 
 #### Parameters
 
 - `pos`: `Vector2`
 - `ignoreList`: { [Instance](./Instance.md) } — optional
 - `maxDistance`: `number` — optional — default: `10000`
+- `passthroughMask`: `number` — optional — default: `0`
 
 **Returns:** [RayResult](./RayResult.md)
 
 Documentation for this method is not yet available.
 
-### ScreenPointToRay(pos, ignoreList?, maxDistance?)
+### ScreenPointToRay(pos, ignoreList?, maxDistance?, passthroughMask?)
 
 #### Parameters
 
 - `pos`: `Vector2`
 - `ignoreList`: { [Instance](./Instance.md) } — optional
 - `maxDistance`: `number` — optional — default: `10000`
+- `passthroughMask`: `number` — optional — default: `0`
 
 **Returns:** [RayResult](./RayResult.md)
 

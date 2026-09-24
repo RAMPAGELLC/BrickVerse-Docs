@@ -169,6 +169,19 @@ Documentation for this method is not yet available.
 
 Documentation for this method is not yet available.
 
+### Intersection(bounds, other)
+
+**Attributes:** Static · Semi-static
+
+#### Parameters
+
+- `bounds`: [Bounds](./Bounds.md)
+- `other`: [Bounds](./Bounds.md)
+
+**Returns:** [Bounds](./Bounds.md)
+
+Documentation for this method is not yet available.
+
 ### SetMinMax(bounds, min, max)
 
 **Attributes:** Static · Semi-static

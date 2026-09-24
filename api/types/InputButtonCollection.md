@@ -32,3 +32,9 @@ Documentation for this method is not yet available.
 **Returns:** `nil`
 
 Documentation for this method is not yet available.
+
+### GetButtons()
+
+**Returns:** { [InputButton](./InputButton.md) }
+
+Documentation for this method is not yet available.

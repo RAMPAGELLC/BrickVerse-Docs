@@ -6,9 +6,11 @@
 
 - [AddonPermission](https://developers.brickverse.gg/api/enums/AddonPermission): | Value | Description | | --- | --- | | `AddonPermission.IORead` |  | | `AddonPermission.IOWrite` |  |
 - [AlphaMode](https://developers.brickverse.gg/api/enums/AlphaMode): | Value | Description | | --- | --- | | `AlphaMode.Overlay` |  | | `AlphaMode.Transparency` |  |
+- [AmbientReverb](https://developers.brickverse.gg/api/enums/AmbientReverb): | Value | Description | | --- | --- | | `AmbientReverb.Off` |  | | `AmbientReverb.SmallRoom` |  | | `AmbientReverb.MediumRoom` |  | | `AmbientReverb.LargeRoom` |  | | `AmbientReverb.Hall` |  | | `AmbientReverb.Cave` |  | | `AmbientReverb.Ar
 - [AmbientSource](https://developers.brickverse.gg/api/enums/AmbientSource): | Value | Description | | --- | --- | | `AmbientSource.Skybox` |  | | `AmbientSource.Color` |  |
 - [AspectRatioScaleType](https://developers.brickverse.gg/api/enums/AspectRatioScaleType): | Value | Description | | --- | --- | | `AspectRatioScaleType.FitContainer` |  | | `AspectRatioScaleType.FitMaxSize` |  | | `AspectRatioScaleType.NoLimit` |  |
 - [BlendMode](https://developers.brickverse.gg/api/enums/BlendMode): | Value | Description | | --- | --- | | `BlendMode.Mix` |  | | `BlendMode.Add` |  | | `BlendMode.Subtract` |  | | `BlendMode.Multiply` |  |
+- [BorderMode](https://developers.brickverse.gg/api/enums/BorderMode): | Value | Description | | --- | --- | | `BorderMode.Inset` |  | | `BorderMode.Middle` |  | | `BorderMode.Outline` |  |
 - [BuiltInAudioPreset](https://developers.brickverse.gg/api/enums/BuiltInAudioPreset): | Value | Description | | --- | --- | | `BuiltInAudioPreset.Jump` |  | | `BuiltInAudioPreset.Explosion` |  |
 - [CameraMode](https://developers.brickverse.gg/api/enums/CameraMode): | Value | Description | | --- | --- | | `CameraMode.Follow` |  | | `CameraMode.Free` |  | | `CameraMode.Scripted` |  |
 - [CaptureUpdateMode](https://developers.brickverse.gg/api/enums/CaptureUpdateMode): | Value | Description | | --- | --- | | `CaptureUpdateMode.Continuous` |  | | `CaptureUpdateMode.OnDemand` |  |
@@ -21,6 +23,7 @@
 - [CreatorToolMode](https://developers.brickverse.gg/api/enums/CreatorToolMode): | Value | Description | | --- | --- | | `CreatorToolMode.Select` |  | | `CreatorToolMode.Move` |  | | `CreatorToolMode.Rotate` |  | | `CreatorToolMode.Scale` |  | | `CreatorToolMode.Paint` |  | | `CreatorToolMode.Brush` |  |
 - [CtrlLockCursor](https://developers.brickverse.gg/api/enums/CtrlLockCursor): | Value | Description | | --- | --- | | `CtrlLockCursor.None` |  | | `CtrlLockCursor.Chevron` |  | | `CtrlLockCursor.Stereotypical` |  | | `CtrlLockCursor.StereotypicalDot` |  | | `CtrlLockCursor.Tactical` |  | | `CtrlLockCursor.Dot` |  | |
 - [DecalPlacementMode](https://developers.brickverse.gg/api/enums/DecalPlacementMode): | Value | Description | | --- | --- | | `DecalPlacementMode.Free` |  | | `DecalPlacementMode.Face` |  |
+- [DefaultAudioListenerLocation](https://developers.brickverse.gg/api/enums/DefaultAudioListenerLocation): | Value | Description | | --- | --- | | `DefaultAudioListenerLocation.Default` |  | | `DefaultAudioListenerLocation.Camera` |  | | `DefaultAudioListenerLocation.Character` |  | | `DefaultAudioListenerLocation.Disabled` |  |
 - [DominantAxis](https://developers.brickverse.gg/api/enums/DominantAxis): | Value | Description | | --- | --- | | `DominantAxis.Width` |  | | `DominantAxis.Height` |  |
 - [FontPreset](https://developers.brickverse.gg/api/enums/FontPreset): | Value | Description | | --- | --- | | `FontPreset.SourceSans` |  | | `FontPreset.PressStart2P` |  | | `FontPreset.Montserrat` |  | | `FontPreset.RobotoMono` |  | | `FontPreset.Rubik` |  | | `FontPreset.Poppins` |  | | `FontPreset.Domine` 
 - [FontStyle](https://developers.brickverse.gg/api/enums/FontStyle): | Value | Description | | --- | --- | | `FontStyle.Normal` |  | | `FontStyle.Italic` |  |
@@ -49,6 +52,7 @@
 - [PartShape](https://developers.brickverse.gg/api/enums/PartShape): | Value | Description | | --- | --- | | `PartShape.Brick` |  | | `PartShape.Sphere` |  | | `PartShape.Cylinder` |  | | `PartShape.Cone` |  | | `PartShape.Wedge` |  | | `PartShape.Corner` |  | | `PartShape.Bevel` |  | | `PartShape.Concave` |
 - [PawnCollisionShape](https://developers.brickverse.gg/api/enums/PawnCollisionShape): | Value | Description | | --- | --- | | `PawnCollisionShape.None` |  | | `PawnCollisionShape.Box` |  | | `PawnCollisionShape.Capsule` |  |
 - [PlayerMovementMode](https://developers.brickverse.gg/api/enums/PlayerMovementMode): | Value | Description | | --- | --- | | `PlayerMovementMode.Default` |  | | `PlayerMovementMode.Scripted` |  |
+- [PlayerRotationMode](https://developers.brickverse.gg/api/enums/PlayerRotationMode): | Value | Description | | --- | --- | | `PlayerRotationMode.Automatic` |  | | `PlayerRotationMode.CameraLocked` |  | | `PlayerRotationMode.Movement` |  | | `PlayerRotationMode.MovementCtrlLockOnly` |  |
 - [PlayTestPresentation](https://developers.brickverse.gg/api/enums/PlayTestPresentation): | Value | Description | | --- | --- | | `PlayTestPresentation.Attached` |  | | `PlayTestPresentation.Windowed` |  |
 - [PreferredEditor](https://developers.brickverse.gg/api/enums/PreferredEditor): | Value | Description | | --- | --- | | `PreferredEditor.BuiltIn` |  | | `PreferredEditor.SystemDefault` |  | | `PreferredEditor.VSCode` |  | | `PreferredEditor.Zed` |  |
 - [Enums](https://developers.brickverse.gg/api/enums): The **Enums** section contains every enumeration used throughout the BrickVerse engine.
@@ -73,6 +77,7 @@
 - [UIScrollMode](https://developers.brickverse.gg/api/enums/UIScrollMode): | Value | Description | | --- | --- | | `UIScrollMode.Disabled` |  | | `UIScrollMode.Auto` |  | | `UIScrollMode.AlwaysShow` |  | | `UIScrollMode.NeverShow` |  |
 - [UserCFrame](https://developers.brickverse.gg/api/enums/UserCFrame): | Value | Description | | --- | --- | | `UserCFrame.Head` |  | | `UserCFrame.LeftHand` |  | | `UserCFrame.RightHand` |  |
 - [VerticalAlignment](https://developers.brickverse.gg/api/enums/VerticalAlignment): | Value | Description | | --- | --- | | `VerticalAlignment.Top` |  | | `VerticalAlignment.Middle` |  | | `VerticalAlignment.Bottom` |  |
+- [VolumetricAudio](https://developers.brickverse.gg/api/enums/VolumetricAudio): | Value | Description | | --- | --- | | `VolumetricAudio.Automatic` |  | | `VolumetricAudio.Enabled` |  | | `VolumetricAudio.Disabled` |  |
 - [VRControllerModelMode](https://developers.brickverse.gg/api/enums/VRControllerModelMode): | Value | Description | | --- | --- | | `VRControllerModelMode.Off` |  | | `VRControllerModelMode.Transparent` |  | | `VRControllerModelMode.Solid` |  |
 - [VRLaserPointerMode](https://developers.brickverse.gg/api/enums/VRLaserPointerMode): | Value | Description | | --- | --- | | `VRLaserPointerMode.Disabled` |  | | `VRLaserPointerMode.Pointer` |  | | `VRLaserPointerMode.Navigation` |  |
 - [VRScaling](https://developers.brickverse.gg/api/enums/VRScaling): | Value | Description | | --- | --- | | `VRScaling.Off` |  | | `VRScaling.World` |  |
@@ -94,6 +99,17 @@
 - [AssetsService](https://developers.brickverse.gg/api/types/AssetsService): **Inherits:** [Instance](./Instance.md)
 - [Attachment](https://developers.brickverse.gg/api/types/Attachment): **Inherits:** [Dynamic](./Dynamic.md)
 - [AudioAsset](https://developers.brickverse.gg/api/types/AudioAsset): **Inherits:** [ResourceAsset](./ResourceAsset.md) **Inherited by:** [BuiltInAudioAsset](./BuiltInAudioAsset.md), [BVAudioAsset](./BVAudioAsset.md)
+- [AudioDeviceInput](https://developers.brickverse.gg/api/types/AudioDeviceInput): **Inherits:** [AudioNode](./AudioNode.md)
+- [AudioDeviceOutput](https://developers.brickverse.gg/api/types/AudioDeviceOutput): **Inherits:** [AudioNode](./AudioNode.md)
+- [AudioEmitter](https://developers.brickverse.gg/api/types/AudioEmitter): **Inherits:** [Dynamic](./Dynamic.md)
+- [AudioEqualizer](https://developers.brickverse.gg/api/types/AudioEqualizer): **Inherits:** [AudioProcessor](./AudioProcessor.md)
+- [AudioFader](https://developers.brickverse.gg/api/types/AudioFader): **Inherits:** [AudioProcessor](./AudioProcessor.md)
+- [AudioListener](https://developers.brickverse.gg/api/types/AudioListener): **Inherits:** [Dynamic](./Dynamic.md)
+- [AudioNode](https://developers.brickverse.gg/api/types/AudioNode): **Inherits:** [Instance](./Instance.md) **Inherited by:** [AudioDeviceInput](./AudioDeviceInput.md), [AudioDeviceOutput](./AudioDeviceOutput.md), [AudioPlayer](./AudioPlayer.md), [AudioProcessor](./AudioProcessor.md)
+- [AudioPlayer](https://developers.brickverse.gg/api/types/AudioPlayer): **Inherits:** [AudioNode](./AudioNode.md)
+- [AudioProcessor](https://developers.brickverse.gg/api/types/AudioProcessor): **Inherits:** [AudioNode](./AudioNode.md) **Inherited by:** [AudioEqualizer](./AudioEqualizer.md), [AudioFader](./AudioFader.md), [AudioReverb](./AudioReverb.md)
+- [AudioReverb](https://developers.brickverse.gg/api/types/AudioReverb): **Inherits:** [AudioProcessor](./AudioProcessor.md)
+- [AudioWire](https://developers.brickverse.gg/api/types/AudioWire): **Inherits:** [Instance](./Instance.md)
 - [BallSocketConstraint](https://developers.brickverse.gg/api/types/BallSocketConstraint): **Inherits:** [Constraint](./Constraint.md)
 - [BaseAsset](https://developers.brickverse.gg/api/types/BaseAsset): **Inherits:** [NetworkedObject](./NetworkedObject.md) **Inherited by:** [FileLinkAsset](./FileLinkAsset.md), [ResourceAsset](./ResourceAsset.md)
 - [Beam](https://developers.brickverse.gg/api/types/Beam): **Inherits:** [Instance](./Instance.md)
@@ -148,7 +164,7 @@
 - [DebrisService](https://developers.brickverse.gg/api/types/DebrisService): **Inherits:** [Instance](./Instance.md)
 - [Decal](https://developers.brickverse.gg/api/types/Decal): **Inherits:** [Dynamic](./Dynamic.md)
 - [DragDetector](https://developers.brickverse.gg/api/types/DragDetector): **Inherits:** [Grabbable](./Grabbable.md)
-- [Dynamic](https://developers.brickverse.gg/api/types/Dynamic): **Inherits:** [Instance](./Instance.md) **Inherited by:** [Accessory](./Accessory.md), [Attachment](./Attachment.md), [Camera](./Camera.md), [CaptureSurface](./CaptureSurface.md), [CharacterModel](./CharacterModel.md), [Decal](./Decal.md), 
+- [Dynamic](https://developers.brickverse.gg/api/types/Dynamic): **Inherits:** [Instance](./Instance.md) **Inherited by:** [Accessory](./Accessory.md), [Attachment](./Attachment.md), [AudioEmitter](./AudioEmitter.md), [AudioListener](./AudioListener.md), [Camera](./Camera.md), [CaptureSurface](./CaptureS
 - [ector2](https://developers.brickverse.gg/api/types/ector2): {% hint style="warning" %} **Not instantiable**
 - [ector3](https://developers.brickverse.gg/api/types/ector3): {% hint style="warning" %} **Not instantiable**
 - [EditableImage](https://developers.brickverse.gg/api/types/EditableImage): **Inherits:** [UIImage](./UIImage.md)
@@ -222,7 +238,7 @@
 - [NumberSeries](https://developers.brickverse.gg/api/types/NumberSeries): {% hint style="warning" %} **Not instantiable**
 - [NumberValue](https://developers.brickverse.gg/api/types/NumberValue): **Inherits:** [ValueBase](./ValueBase.md)
 - [ObjectPoolService](https://developers.brickverse.gg/api/types/ObjectPoolService): **Inherits:** [Instance](./Instance.md)
-- [Part](https://developers.brickverse.gg/api/types/Part): **Inherits:** [Entity](./Entity.md) **Inherited by:** [NegateOperation](./NegateOperation.md), [Seat](./Seat.md), [SpawnLocation](./SpawnLocation.md), [Truss](./Truss.md), [VoiceBox](./VoiceBox.md)
+- [Part](https://developers.brickverse.gg/api/types/Part): **Inherits:** [Entity](./Entity.md) **Inherited by:** [NegateOperation](./NegateOperation.md), [Seat](./Seat.md), [SpawnLocation](./SpawnLocation.md), [Truss](./Truss.md)
 - [Particles](https://developers.brickverse.gg/api/types/Particles): **Inherits:** [Dynamic](./Dynamic.md)
 - [PathfindingPath](https://developers.brickverse.gg/api/types/PathfindingPath): **Inherits:** [Instance](./Instance.md)
 - [PathfindingService](https://developers.brickverse.gg/api/types/PathfindingService): **Inherits:** [Instance](./Instance.md)
@@ -265,6 +281,7 @@
 - [SocialService](https://developers.brickverse.gg/api/types/SocialService): **Inherits:** [Instance](./Instance.md)
 - [Sound](https://developers.brickverse.gg/api/types/Sound): **Inherits:** [Dynamic](./Dynamic.md)
 - [SoundGroup](https://developers.brickverse.gg/api/types/SoundGroup): **Inherits:** [Instance](./Instance.md)
+- [SoundService](https://developers.brickverse.gg/api/types/SoundService): **Inherits:** [Instance](./Instance.md)
 - [SpawnLocation](https://developers.brickverse.gg/api/types/SpawnLocation): **Inherits:** [Part](./Part.md)
 - [SpotLight](https://developers.brickverse.gg/api/types/SpotLight): **Inherits:** [Light](./Light.md)
 - [SpringConstraint](https://developers.brickverse.gg/api/types/SpringConstraint): **Inherits:** [Constraint](./Constraint.md)
@@ -284,6 +301,7 @@
 - [TerrainMaterial](https://developers.brickverse.gg/api/types/TerrainMaterial): **Inherits:** [Instance](./Instance.md)
 - [TerrainWater](https://developers.brickverse.gg/api/types/TerrainWater): **Inherits:** [Instance](./Instance.md)
 - [Text3D](https://developers.brickverse.gg/api/types/Text3D): **Inherits:** [Dynamic](./Dynamic.md)
+- [TextChatBox](https://developers.brickverse.gg/api/types/TextChatBox): **Inherits:** [Dynamic](./Dynamic.md)
 - [TonemapEffect](https://developers.brickverse.gg/api/types/TonemapEffect): **Inherits:** [LightingModifier](./LightingModifier.md)
 - [Tool](https://developers.brickverse.gg/api/types/Tool): **Inherits:** [RigidBody](./RigidBody.md)
 - [Trail](https://developers.brickverse.gg/api/types/Trail): **Inherits:** [Instance](./Instance.md)
@@ -321,7 +339,6 @@
 - [Vector3Value](https://developers.brickverse.gg/api/types/Vector3Value): **Inherits:** [ValueBase](./ValueBase.md)
 - [VehicleSeat](https://developers.brickverse.gg/api/types/VehicleSeat): **Inherits:** [Seat](./Seat.md)
 - [VideoAsset](https://developers.brickverse.gg/api/types/VideoAsset): **Inherits:** [ResourceAsset](./ResourceAsset.md) **Inherited by:** [BVVideoAsset](./BVVideoAsset.md)
-- [VoiceBox](https://developers.brickverse.gg/api/types/VoiceBox): **Inherits:** [Part](./Part.md)
 - [VoiceChatService](https://developers.brickverse.gg/api/types/VoiceChatService): **Inherits:** [Instance](./Instance.md)
 - [VoxelVolume](https://developers.brickverse.gg/api/types/VoxelVolume): **Inherits:** [Entity](./Entity.md)
 - [VRService](https://developers.brickverse.gg/api/types/VRService): **Inherits:** [Instance](./Instance.md)

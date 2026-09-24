@@ -8,7 +8,7 @@ description: ""
 # Dynamic
 
 **Inherits:** [Instance](./Instance.md)
-**Inherited by:** [Accessory](./Accessory.md), [Attachment](./Attachment.md), [Camera](./Camera.md), [CaptureSurface](./CaptureSurface.md), [CharacterModel](./CharacterModel.md), [Decal](./Decal.md), [Explosion](./Explosion.md), [GUI3D](./GUI3D.md), [Image3D](./Image3D.md), [Light](./Light.md), [LODGroup](./LODGroup.md), [Marker3D](./Marker3D.md), [Model](./Model.md), [NavigationObstacle](./NavigationObstacle.md), [Particles](./Particles.md), [PCGSpline](./PCGSpline.md), [Physical](./Physical.md), [ReflectionCapture](./ReflectionCapture.md), [SceneCapture](./SceneCapture.md), [Sound](./Sound.md), [Text3D](./Text3D.md), [TriggerVolume](./TriggerVolume.md)
+**Inherited by:** [Accessory](./Accessory.md), [Attachment](./Attachment.md), [AudioEmitter](./AudioEmitter.md), [AudioListener](./AudioListener.md), [Camera](./Camera.md), [CaptureSurface](./CaptureSurface.md), [CharacterModel](./CharacterModel.md), [Decal](./Decal.md), [Explosion](./Explosion.md), [GUI3D](./GUI3D.md), [Image3D](./Image3D.md), [Light](./Light.md), [LODGroup](./LODGroup.md), [Marker3D](./Marker3D.md), [Model](./Model.md), [NavigationObstacle](./NavigationObstacle.md), [Particles](./Particles.md), [PCGSpline](./PCGSpline.md), [Physical](./Physical.md), [ReflectionCapture](./ReflectionCapture.md), [SceneCapture](./SceneCapture.md), [Sound](./Sound.md), [Text3D](./Text3D.md), [TextChatBox](./TextChatBox.md), [TriggerVolume](./TriggerVolume.md)
 
 ## Properties
 

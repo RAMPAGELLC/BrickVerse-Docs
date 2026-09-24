@@ -17,6 +17,12 @@ description: ""
 
 Documentation for this property is not yet available.
 
+### AvoidCoreUI
+
+**Type:** `boolean`
+
+Documentation for this property is not yet available.
+
 ### ZIndex
 
 **Type:** `number`
